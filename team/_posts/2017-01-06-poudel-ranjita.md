@@ -10,7 +10,7 @@ image: /assets/images/team/ranjita-poudel.jpg
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=0B543K-QXbp21dkhOcTVaQXF5VGc
 email: rpoud001@fiu.edu
 github: rpoudel1
 orcid:
