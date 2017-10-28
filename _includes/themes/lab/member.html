@@ -50,7 +50,10 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="social cv" href="{{ member.cv }}">
+				{% capture cv_url %}
+					{% include /functions/get_drive_url.html url=member.cv %}
+				{% endcapture %}
+				<a class="social cv" href="{{ cv_url }}">
 					Curriculum Vitae
 				</a>
 			</div>
