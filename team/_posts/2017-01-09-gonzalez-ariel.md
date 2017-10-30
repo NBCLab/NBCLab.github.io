@@ -6,7 +6,7 @@ department: Department of Physics
 handle: agonzalez
 nickname: Ariel
 science_name: Gonzalez A
-image: /assets/images/team/gonzalez-ariel.png
+image: /assets/images/team/ariel-gonzalez.png
 alumni: false
 
 # social
