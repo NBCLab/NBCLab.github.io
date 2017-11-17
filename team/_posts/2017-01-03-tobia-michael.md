@@ -17,7 +17,7 @@ orcid:
 osf:
 publons:
 researchgate:
-scholar:
+scholar: Pe6nV0IAAAAJ
 site:
 twitter:
 ---
