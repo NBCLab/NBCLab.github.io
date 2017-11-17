@@ -6,7 +6,7 @@ department: Department of Psychology
 handle: calvarez
 nickname: Cary
 science_name: Alvarez M
-image: /assets/images/team/Alvarez-Cary.jpg
+image: /assets/images/team/cary-alvarez.jpg
 alumni: false
 
 # social

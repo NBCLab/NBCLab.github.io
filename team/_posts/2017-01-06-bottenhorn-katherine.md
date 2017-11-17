@@ -10,7 +10,7 @@ image: /assets/images/team/katherine-bottenhorn.jpg
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=0B543K-QXbp21SDIyM0dqemlBUFk
 email: kbott006@fiu.edu
 github: 62442katieb
 orcid: 0000-0002-7796-8795
