@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Neuroimaging meta-analytics for addiction: Nodes, networks, and new heuristics"
-contributors: [alaird, msutherland, mriedel, jflannery]
+contributors: [alaird, msutherland, mriedel, jflannery, rpoudel]
 handle: pace
 
 # Optional

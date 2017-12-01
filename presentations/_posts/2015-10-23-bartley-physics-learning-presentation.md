@@ -6,8 +6,8 @@ authors: "Bartley JB"
 year: "2015"
 conference: "BrainHack Global"
 image: /assets/images/talks/2015-10-23-bartley-physics-learning-presentation.png
-projects: []
-tags: [physics-learning]
+projects: [physics-learning]
+tags: []
 
 # Content
 slides:

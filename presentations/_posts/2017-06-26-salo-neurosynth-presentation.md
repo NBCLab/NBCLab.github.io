@@ -6,8 +6,8 @@ authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Tu
 year: "2017"
 conference: "HBM"
 image: /assets/images/talks/2017-06-26-salo-neurosynth-presentation.png
-projects: []
-tags: [athena]
+projects: [athena]
+tags: [meta-analysis]
 
 # Content
 slides: https://www.slideshare.net/secret/jYR30eneeZMhJs
