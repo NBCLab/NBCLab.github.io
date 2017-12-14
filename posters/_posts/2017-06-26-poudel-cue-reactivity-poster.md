@@ -6,7 +6,7 @@ authors: "Poudel R, Riedel MC, Hill LD, Flannery JS, Salo T, Laird AR, Sutherlan
 year: "2017"
 conference: "HBM"
 image: /assets/images/posters/2017-06-26-poudel-cue-reactivity-poster.png
-projects: []
+projects: [pace]
 tags: [meta-analysis]
 
 # Content
@@ -17,7 +17,7 @@ pdf: https://files.aievolution.com/hbm1701/abstracts/37102/1098_Poudel.pdf
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openfmri:
 osf:

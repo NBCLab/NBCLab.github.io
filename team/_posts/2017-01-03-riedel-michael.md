@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Michael Riedel
-position: Research Scientist
+position: Senior Research Scientist
 department: Department of Physics
 handle: mriedel
 nickname: Cody
