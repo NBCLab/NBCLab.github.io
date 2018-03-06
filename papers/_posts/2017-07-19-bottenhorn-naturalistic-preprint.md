@@ -27,7 +27,7 @@ pmid:
 
 # Data and code
 github:
-neurovault:
+neurovault: [3179]
 openfmri:
 osf:
 ---
