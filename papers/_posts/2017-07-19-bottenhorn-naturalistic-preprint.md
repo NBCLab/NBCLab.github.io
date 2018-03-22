@@ -30,6 +30,9 @@ github:
 neurovault: [3179]
 openfmri:
 osf:
+
+# Images
+maps: [57379, 57380, 57381, 57382, 57383, 57384]
 ---
 {% include JB/setup %}
 
@@ -40,3 +43,5 @@ Cognitive processes do not occur by pure insertion and instead depend on the ful
 # Additional information
 
 This is the lab's first preprint!
+
+# Maps

@@ -208,6 +208,16 @@ with gratitude.
 		<div class="post">
 			{{ content }}
 		</div>
+		<hr/>
+		<div class="smallspacer"></div>
+		{% for map in page.maps %}
+			<div class="col-md-2.5 paperbox">
+				{{map}}
+				<div id="NeuroVaultPapayaHolder"><script src="http://neurovault.org/images/{{ map }}/js/embed" type="text/javascript" charset="utf-8"></script></div>
+				<br/>hi<br/>
+			</div>
+		{% endfor %}
+
 		<!-- comment out unless we want the categories and tags
 		{% unless page.categories == empty %}
     <ul class="tag_box inline">

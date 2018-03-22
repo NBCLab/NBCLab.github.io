@@ -182,6 +182,12 @@
 				{% endif %}
 			{% endfor %}
 
+			{% for blog in site.categories.blog %}
+				{% if blog.author contains member.handle %}
+					{% assign blogsq = true %}
+				{% endif %}
+			{% endfor %}
+
 			{% assign lastname = member.title | split: ' ' | last %}
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
@@ -222,6 +228,22 @@
 					{% if project.contributors contains member.handle %}
 					  <div class="pad-left note"><p>
 						<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+					  </p></div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+
+			<!-- Blog posts -->
+			{% if blogsq == true %}
+				<div class="bigspacer"></div>
+				<div class="head">Blog posts</div>
+				<div class="spacer"></div>
+				{% for blog in site.categories.blog %}
+					{% if blog.author contains member.handle %}
+					  <div class="pad-left note"><p>
+						<a href="{{ blog.url }}" class="off">{{ blog.title }}</a>
+						<br/>
+						{{ blog.date | date_to_string }}
 					  </p></div>
 					{% endif %}
 				{% endfor %}
