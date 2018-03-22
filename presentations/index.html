@@ -48,7 +48,21 @@ navorder: 4
 	                </div>
                   <p>
                     <div class="note">
-                      {{ product.authors }},
+                      <!-- This took a while, but it links the name of each author from the lab
+              				to their page and keeps collaborators' names as strings -->
+              				{% assign split_authors = product.authors | split: ", " %}
+              				{% for author in split_authors %}
+              				    {% assign author_in_lab = "false" %}
+              				    {% for member in site.categories.team %}
+              					      {% if author == member.science_name %}
+                  								{% assign author_in_lab = true %}
+              						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+              						    {% endif %}
+              				    {% endfor %}
+              					  {% if author_in_lab != true %}
+              					      {{ author }},
+              					  {% endif %}
+              				{% endfor %}
                       <span class="journal">
                         {{ product.conference }}
                       </span>
