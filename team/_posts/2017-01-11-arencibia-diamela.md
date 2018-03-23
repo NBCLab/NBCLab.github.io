@@ -11,7 +11,7 @@ alumni: false
 
 # social
 cv:
-email:
+email: Darencib@fiu.edu
 github:
 orcid:
 osf:
