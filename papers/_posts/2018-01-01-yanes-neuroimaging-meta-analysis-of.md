@@ -5,9 +5,9 @@ nickname: 2018-01-01-yanes-neuroimaging-meta-analysis-of
 authors: "Yanes JA, Riedel MC, Ray KL, Kirkland AE, Bird RT, Boeving ER, Reid MA, Gonzalez R, Robinson JL, Laird AR, Sutherland MT"
 year: "2018"
 journal: "J Psychopharmacol"
-volume: 
-issue: 
-pages: 269881117744995
+volume: 32
+issue: 3
+pages: 283-295
 is_published: true
 image: /assets/images/papers/j-psychopharmacol.png
 projects: []
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 
