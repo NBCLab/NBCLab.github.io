@@ -3,12 +3,12 @@ layout: paper
 title: "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results"
 nickname: 2017-07-19-bottenhorn-naturalistic-preprint
 authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
-year: "2017"
-journal: "bioRxiv"
-volume:
-issue:
-pages:
-is_published: false
+year: "2018"
+journal: "Network neuroscience"
+volume: 0
+issue: ja
+pages: 1-54
+is_published: true
 image: /assets/images/papers/2017-07-19-bottenhorn-naturalistic-preprint.png
 projects: []
 tags: [preprint, meta-analysis]
@@ -16,13 +16,13 @@ tags: [preprint, meta-analysis]
 # Text
 fulltext:
 pdf:
-pdflink:
+pdflink: https://www.mitpressjournals.org/doi/pdf/10.1162/NETN_a_00050
 pmcid:
 preprint: http://www.biorxiv.org/content/early/2017/07/19/165951
 supplement:
 
 # Links
-doi: "10.1101/165951"
+doi: "10.1162/NETN_a_00050"
 pmid:
 
 # Data and code
@@ -31,8 +31,6 @@ neurovault: [3179]
 openfmri:
 osf:
 
-# Images
-maps: [57379, 57380, 57381, 57382, 57383, 57384]
 ---
 {% include JB/setup %}
 
@@ -42,6 +40,4 @@ Cognitive processes do not occur by pure insertion and instead depend on the ful
 
 # Additional information
 
-This is the lab's first preprint!
-
-# Maps
+This was the lab's first preprint!
