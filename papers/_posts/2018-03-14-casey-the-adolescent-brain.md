@@ -5,19 +5,19 @@ nickname: 2018-03-14-casey-the-adolescent-brain
 authors: "Casey BJ, Cannonier T, Conley MI, Cohen AO, Barch DM, Heitzeg MM, Soules ME, Teslovich T, Dellarco DV, Garavan H, Orr CA, Wager TD, Banich MT, Speer NK, Sutherland MT, Riedel MC, Dick AS, Bjork JM, Thomas KM, Chaarani B, Mejia MH, Hagler DJ Jr., Daniela Cornejo M, Sicat CS, Harms MP, Dosenbach NUF, Rosenberg M, Earl E, Bartsch H, Watts R, Polimeni JR, Kuperman JM, Fair DA, Dale AM"
 year: "2018"
 journal: "Dev Cogn Neurosci"
-volume: 
-issue: 
-pages: 
+volume:
+issue:
+pages:
 is_published: true
 image: /assets/images/papers/dev-cogn-neurosci.png
-projects: []
+projects: [abcd]
 tags: []
 
 # Text
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 
