@@ -1,4 +1,3 @@
-<!-- http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/ -->
 {% assign temp = include.url | split: 'open?id=' %}
 {% assign temp2 = temp[1] %}
 {% assign out_url = 'https://drive.google.com/uc?export=&confirm=no_antivirus&id='| append: temp2 %}
