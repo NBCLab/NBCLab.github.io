@@ -2,7 +2,7 @@
 layout: member
 title: Jennifer Foreman
 position: Research Assistant
-department: Department of Physics
+department:
 handle: jforeman
 nickname: Jenn
 science_name: Foreman J

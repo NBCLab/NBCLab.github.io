@@ -2,7 +2,7 @@
 layout: member
 title: Michael Tobia
 position: Senior Research Scientist
-department: Department of Psychology
+department:
 handle: mtobia
 nickname: Michael
 science_name: Tobia MJ

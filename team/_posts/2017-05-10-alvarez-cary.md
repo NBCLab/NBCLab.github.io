@@ -2,7 +2,7 @@
 layout: member
 title: Cary Alvarez
 position: Research Assistant
-department: Department of Psychology
+department:
 handle: calvarez
 nickname: Cary
 science_name: Alvarez M
