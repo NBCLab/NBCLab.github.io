@@ -2,7 +2,7 @@
 layout: member
 title: Ariel Gonzalez
 position: Research Assistant
-department: Department of Physics
+department:
 handle: agonzalez
 nickname: Ariel
 science_name: Gonzalez A
