@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Verónica Del Prete
+title: Veronica Del Prete
 position: Postdoctoral Researcher
-department: Department of Psychology
+department:
 handle: vdelprete
 nickname: Veronica
 science_name: Del Prete V
