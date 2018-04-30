@@ -17,9 +17,9 @@ video:
 doi:
 
 # Data and code
-github: []
-neurovault: []
-openfmri: []
+github:
+neurovault:
+openfmri:
 osf:
 ---
 {% include JB/setup %}
