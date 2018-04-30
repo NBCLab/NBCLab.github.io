@@ -190,14 +190,14 @@
 
 			{% assign lastname = member.title | split: ' ' | last %}
 			{% for paper in site.categories.papers %}
-				{% if paper.authors contains lastname %}
+				{% if paper.authors contains member.science_name %}
 					{% assign papersq = true %}
 				{% endif %}
 			{% endfor %}
 
 			{% for pres in site.categories.presentations %}
 				{% assign split_authors = pres.authors | split: ", " %}
-				{% if split_authors[0] contains lastname %}
+				{% if split_authors[0] contains member.science_name %}
 					{% assign presentationsq = true %}
 				{% endif %}
 			{% endfor %}
@@ -209,7 +209,7 @@
 					{% assign postersq = true %}
 				{% endif %}
 			-->
-				{% if poster.authors contains lastname %}
+				{% if poster.authors contains member.science_name %}
 					{% assign postersq = true %}
 				{% endif %}
 			{% endfor %}
@@ -255,7 +255,7 @@
 				<div class="head">Papers</div>
 				<div class="spacer"></div>
 				{% for paper in site.categories.papers %}
-					{% if paper.authors contains lastname %}
+					{% if paper.authors contains member.science_name %}
 					  <div class="pad-left note"><p>
 							{% if paper.embargo %}
 							  {{ paper.title }}
@@ -283,7 +283,7 @@
 				<div class="spacer"></div>
 				{% for pres in site.categories.presentations %}
 				  {% assign split_authors = pres.authors | split: ", " %}
-					{% if split_authors[0] contains lastname %}
+					{% if split_authors[0] contains member.science_name %}
 					  <div class="pad-left note"><p>
 						<a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
 					  </p></div>
@@ -297,7 +297,7 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% if poster.authors contains lastname %}
+					{% if poster.authors contains member.science_name %}
 					  <div class="pad-left note"><p>
 						<a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 						</p></div>
