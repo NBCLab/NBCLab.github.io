@@ -1,13 +1,13 @@
 ---
 layout: paper
 title: "Ten simple rules for neuroimaging meta-analysis."
-nickname: 2017-11-24-muller-ten-simple-rules
+nickname: 2018-01-09-muller-ten-simple-rules
 authors: "Muller VI, Cieslik EC, Laird AR, Fox PT, Radua J, Mataix-Cols D, Tench CR, Yarkoni T, Nichols TE, Turkeltaub PE, Wager TD, Eickhoff SB"
-year: "2017"
+year: "2018"
 journal: "Neurosci Biobehav Rev"
-volume: 
+volume: 84
 issue: 
-pages: 
+pages: 151-161
 is_published: true
 image: /assets/images/papers/neurosci-biobehav-rev.png
 projects: []
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid: PMC5918306
 preprint:
 supplement:
 
