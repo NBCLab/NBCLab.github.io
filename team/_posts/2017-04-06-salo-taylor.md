@@ -10,7 +10,7 @@ image: /assets/images/team/taylor-salo.jpg
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=0B543K-QXbp21OG5COUdTWTF0cGc
 email: tsalo006@fiu.edu
 github: tsalo
 orcid: 0000-0001-9813-3167
