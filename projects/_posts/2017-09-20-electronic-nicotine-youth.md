@@ -2,12 +2,12 @@
 layout: project
 title: "Antecedents and consequences of electronic nicotine delivery systems in underrepresented youth"
 contributors: [msutherland, jflannery, nhidmi, bmadan]
-handle: electronic-nicotine-youth
+handle: ace
 
 # Optional
 grant:
 grant_url:
-image:
+image: /assets/images/projects/ace/ace_logo.png
 tagline: How does electronic cigarette use affect youths during development?
 tags: [fmri]
 
