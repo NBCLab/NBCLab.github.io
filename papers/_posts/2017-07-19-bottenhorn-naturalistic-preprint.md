@@ -26,7 +26,7 @@ doi: "10.1162/NETN_a_00050"
 pmid:
 
 # Data and code
-github:
+github: ["https://github.com/62442katieb/meta-analytic-kmeans"]
 neurovault: [3179]
 openfmri:
 osf:
