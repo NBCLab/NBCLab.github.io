@@ -6,7 +6,7 @@ authors: "Salo T"
 year: "2018"
 conference: "BrainHack Global"
 image: /assets/images/talks/2018-06-01-salo-brainhack-nimare.png
-projects: [athena]
+projects: [athena, oss]
 tags: []
 
 # Content
