@@ -1,23 +1,38 @@
 ---
 layout: default
-title: "Research"
-description: "Research projects in the lab"
+title: "Software"
+description: "Open source software developed by the lab"
 group: navigation
-navorder: 2
+navorder: 6
 ---
 {% include JB/setup %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Our Projects</div>
+<div class="bigtitle text-center">Lab Software</div>
 <div class="smallspacer"></div>
 <hr/>
 
+<p>
+  In the Neuroinformatics and Brain Connectivity lab, we place a lot of emphasis
+  on contributing to open source software. Some projects that lab members have
+  contributed to include
+  <a href="https://github.com/nipy/nipype">Nipype</a>,
+  <a href="https://github.com/nistats/nistats">Nistats</a>,
+  <a href="https://github.com/neurosynth/neurosynth">Neurosynth</a>,
+  <a href="https://github.com/INCF/pybids">PyBIDS</a>, and
+  <a href="https://github.com/ME-ICA/tedana">tedana</a>.
+</p>
+
+<p>
+  If you are interested in contributing to any of the packages below, please consult the contributing guidelines and code of conduct provided in the package's GitHub repository.
+<hr/>
+
 <table align="center"; width=1250px>
-  {% tablerow product in site.categories.projects cols:2 %}
+  {% tablerow product in site.categories.software cols:2 %}
     {% if product.image %}
       {% assign image = product.image %}
     {% else %}
-      {% assign image = "/assets/images/placeholder.png" %}
+      {% assign image = "/assets/images/software/foss.png" %}
     {% endif %}
 
     <div class="col-md-2.5 paperbox" style="min-width: 575px">
