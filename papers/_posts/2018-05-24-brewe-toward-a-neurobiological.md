@@ -2,8 +2,7 @@
 layout: paper
 title: "Toward a Neurobiological Basis for Understanding Learning in University Modeling Instruction Physics Courses"
 nickname: 2018-05-24-brewe-toward-a-neurobiological
-authors: "Brewe E, Bartley JE, Riedel MC, Sawtelle V, Salo T, Boeving ER, Bravo EI, Odean R, Nazareth A,
-Bottenhorn KL, Laird RW, Sutherland MT, Pruden SM, Laird AR"
+authors: "Brewe E, Bartley JE, Riedel MC, Sawtelle V, Salo T, Boeving ER, Bravo EI, Odean R, Nazareth A, Bottenhorn KL, Laird RW, Sutherland MT, Pruden SM, Laird AR"
 year: "2018"
 journal: "Front ICT"
 volume: 5
