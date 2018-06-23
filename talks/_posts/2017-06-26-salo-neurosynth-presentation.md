@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "A quantitative evaluation of Neurosynth's annotation methods"
 nickname: 2017-06-26-salo-neurosynth-presentation
 authors: "Salo T, Riedel MC, Bartley JE, Bottenhorn KL, Yarkoni T, Turner MD, Turner JA, Sutherland MT, Laird AR"

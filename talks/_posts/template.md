@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title:
 nickname:
 authors:

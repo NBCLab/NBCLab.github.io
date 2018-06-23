@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Common and distinct brain networks contributing to drug and natural cue-reactivity: A meta-analysis of functional MRI studies"
 nickname: 2017-11-15-hill-colloquium-presentation
 authors: "Hill LD"

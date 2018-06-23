@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Nicotine reduces regional homogeneity of the thalamus, cerebellum, and superior temporal gyrus of abstinent cigarette smokers"
 nickname: 2018-06-01-hill-brainhack-reho
 authors: "Hill LD"

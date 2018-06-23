@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Exploring the Neural Mechanisms of Physics Learning"
 nickname: 2015-10-23-bartley-physics-learning-presentation
 authors: "Bartley JE"
