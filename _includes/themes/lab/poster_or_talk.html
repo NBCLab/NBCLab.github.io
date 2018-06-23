@@ -140,10 +140,10 @@ with gratitude.
 			<div class="smallhead">
 				{% assign split_authors = page.authors | split: ", " %}
 				{% for author in split_authors %}
-				    {% assign author_in_lab = "false" %}
+				    {% assign author_in_lab = false %}
 				    {% for member in site.categories.team %}
 					      {% if author == member.science_name %}
-    								{% assign author_in_lab = "true" %}
+    								{% assign author_in_lab = true %}
 						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
 						    {% endif %}
 				    {% endfor %}
@@ -153,7 +153,7 @@ with gratitude.
                     <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
                 {% endif %}
             {% endfor %}
-					  {% if author_in_lab != "true" %}
+					  {% if author_in_lab == false %}
 					      {{ author }},
 					  {% endif %}
 				{% endfor %}
