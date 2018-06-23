@@ -19,7 +19,7 @@ doi:
 # Data and code
 github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

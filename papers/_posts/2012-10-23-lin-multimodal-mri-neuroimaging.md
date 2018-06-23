@@ -6,7 +6,7 @@ authors: "Lin AL, Laird AR, Fox PT, Gao JH"
 year: "2012"
 journal: "Neurol Res Int"
 volume: 2012
-issue: 
+issue:
 pages: 907409
 is_published: true
 image: /assets/images/papers/neurol-res-int.png
@@ -28,7 +28,7 @@ pmid: 21949904
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

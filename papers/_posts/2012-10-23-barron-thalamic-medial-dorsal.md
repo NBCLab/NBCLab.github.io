@@ -6,7 +6,7 @@ authors: "Barron DS, Fox PM, Laird AR, Robinson JL, Fox PT"
 year: "2012"
 journal: "Neuroimage Clin"
 volume: 2
-issue: 
+issue:
 pages: 25-32
 is_published: true
 image: /assets/images/papers/neuroimage-clin.png
@@ -28,7 +28,7 @@ pmid: 24179755
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}
