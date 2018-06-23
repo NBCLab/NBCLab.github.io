@@ -52,7 +52,7 @@ navorder: 4
               				to their page and keeps collaborators' names as strings -->
               				{% assign split_authors = product.authors | split: ", " %}
               				{% for author in split_authors %}
-              				    {% assign author_in_lab = "false" %}
+              				    {% assign author_in_lab = false %}
               				    {% for member in site.categories.team %}
               					      {% if author == member.science_name %}
                   								{% assign author_in_lab = true %}
@@ -65,7 +65,7 @@ navorder: 4
                                   <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
                               {% endif %}
                           {% endfor %}
-              					  {% if author_in_lab != true %}
+              					  {% if author_in_lab == false %}
               					      {{ author }},
               					  {% endif %}
               				{% endfor %}
