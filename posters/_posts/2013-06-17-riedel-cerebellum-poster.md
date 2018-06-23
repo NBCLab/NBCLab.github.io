@@ -19,7 +19,7 @@ doi:
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf: https://osf.io/hfs8p/
 ---
 {% include JB/setup %}

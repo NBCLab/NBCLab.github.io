@@ -6,7 +6,7 @@ authors: "Kellermann TS, Caspers S, Fox PT, Zilles K, Roski C, Laird AR, Turetsk
 year: "2013"
 journal: "Neuroimage"
 volume: 72
-issue: 
+issue:
 pages: 69-82
 is_published: true
 image: /assets/images/papers/neuroimage.png
@@ -28,7 +28,7 @@ pmid: 23370055
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

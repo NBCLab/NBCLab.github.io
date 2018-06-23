@@ -28,7 +28,7 @@ pmid: 27039344
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

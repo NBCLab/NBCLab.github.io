@@ -6,7 +6,7 @@ authors: "Sutherland MT, Carroll AJ, Salmeron BJ, Ross TJ, Hong LE, Stein EA"
 year: "2013"
 journal: "Neuroimage"
 volume: 66
-issue: 
+issue:
 pages: 585-93
 is_published: true
 image: /assets/images/papers/neuroimage.png
@@ -28,7 +28,7 @@ pmid: 23110878
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

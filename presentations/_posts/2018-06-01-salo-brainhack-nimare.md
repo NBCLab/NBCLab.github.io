@@ -19,12 +19,12 @@ doi:
 # Data and code
 github: ["https://github.com/neurostuff/NiMARE", "https://github.com/NBCLab/nimare-incf-2018"]
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}
 
-Taylor gave this data blitz about the [NiMARE](https://github.com/neurostuff/NiMARE) toolbox (in development at the time of the talk) at the Miami BrainHack Global event.
+Taylor gave this data blitz about the [NiMARE](https://github.com/neurostuff/NiMARE) library (in development at the time of the talk) at the Miami BrainHack Global event.
 
 The slides for this presentation are available
 [here](https://www.slideshare.net/TaylorSalo/nimarebrainhackglobalmiami),
