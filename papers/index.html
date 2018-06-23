@@ -75,6 +75,12 @@ navorder: 3
                             <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
                         {% endif %}
                     {% endfor %}
+                    {% for collab in site.data.collaborators %}
+                        {% if author == collab.science_name %}
+                            {% assign author_in_lab = true %}
+                            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
+                        {% endif %}
+                    {% endfor %}
                     {% if author_in_lab != true %}
                         {{ author }},
                     {% endif %}
@@ -147,6 +153,12 @@ navorder: 3
                         {% if author == member.science_name %}
                             {% assign author_in_lab = true %}
                             <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+                        {% endif %}
+                    {% endfor %}
+                    {% for collab in site.data.collaborators %}
+                        {% if author == collab.science_name %}
+                            {% assign author_in_lab = true %}
+                            <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
                         {% endif %}
                     {% endfor %}
                     {% if author_in_lab != true %}
@@ -231,6 +243,12 @@ navorder: 3
                           {% if author == member.science_name %}
                               {% assign author_in_lab = true %}
                               <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+                          {% endif %}
+                      {% endfor %}
+                      {% for collab in site.data.collaborators %}
+                          {% if author == collab.science_name %}
+                              {% assign author_in_lab = true %}
+                              <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
                           {% endif %}
                       {% endfor %}
                       {% if author_in_lab != true %}
