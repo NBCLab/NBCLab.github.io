@@ -59,6 +59,12 @@ navorder: 4
               						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
               						    {% endif %}
               				    {% endfor %}
+                          {% for collab in site.data.collaborators %}
+                              {% if author == collab.science_name %}
+                                  {% assign author_in_lab = true %}
+                                  <a class="off" href="{{ collab.url }}">{{ collab.science_name }}</a>,
+                              {% endif %}
+                          {% endfor %}
               					  {% if author_in_lab != true %}
               					      {{ author }},
               					  {% endif %}
