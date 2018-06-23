@@ -19,7 +19,7 @@ doi:
 # Data and code
 github: ["https://github.com/akeshavan/brainspell-neo-frontend", "https://github.com/OpenNeuroLab/brainspell-neo"]
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

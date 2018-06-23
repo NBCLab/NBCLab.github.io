@@ -28,7 +28,7 @@ pmid:
 # Data and code
 github: ["https://github.com/62442katieb/meta-analytic-kmeans"]
 neurovault: [3179]
-openfmri:
+openneuro:
 osf:
 
 ---

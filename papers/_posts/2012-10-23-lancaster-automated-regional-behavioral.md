@@ -6,7 +6,7 @@ authors: "Lancaster JL, Laird AR, Eickhoff SB, Martinez MJ, Fox PM, Fox PT"
 year: "2012"
 journal: "Front Neuroinform"
 volume: 6
-issue: 
+issue:
 pages: 23
 is_published: true
 image: /assets/images/papers/front-neuroinform.png
@@ -28,7 +28,7 @@ pmid: 22973224
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf:
 ---
 {% include JB/setup %}

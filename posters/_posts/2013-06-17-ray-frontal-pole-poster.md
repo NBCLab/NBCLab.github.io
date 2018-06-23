@@ -19,7 +19,7 @@ doi:
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf: https://osf.io/ynwm4/
 ---
 {% include JB/setup %}

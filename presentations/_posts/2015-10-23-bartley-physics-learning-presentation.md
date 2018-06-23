@@ -2,7 +2,7 @@
 layout: presentation
 title: "Exploring the Neural Mechanisms of Physics Learning"
 nickname: 2015-10-23-bartley-physics-learning-presentation
-authors: "Bartley JB"
+authors: "Bartley JE"
 year: "2015"
 conference: "BrainHack Global"
 image: /assets/images/talks/2015-10-23-bartley-physics-learning-presentation.png
@@ -19,7 +19,7 @@ doi:
 # Data and code
 github:
 neurovault:
-openfmri:
+openneuro:
 osf: https://osf.io/xc6uq/
 ---
 {% include JB/setup %}
