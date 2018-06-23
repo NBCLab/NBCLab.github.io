@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Functional connectivity of the human striatum during smoking abstinence and pharmacological administration"
 nickname: 2018-06-01-poudel-brainhack-striatum
 authors: "Poudel R"

@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Social Neuroimaging Meta-Analysis through the RDoC Lens Yields Distinct Context-Driven Cliques"
 nickname: 2017-06-28-boeving-rdoc-presentation
 authors: "Boeving ER, Toma A, Riedel MC, Bartley JE, Bottenhorn KL, Bzdok D, Eickhoff SB, Sutherland MT, Glahn D, Laird AR"

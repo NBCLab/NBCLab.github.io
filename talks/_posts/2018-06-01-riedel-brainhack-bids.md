@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "The Brain Imaging Data Structure"
 nickname: 2018-06-01-riedel-brainhack-bids
 authors: "Riedel MC"

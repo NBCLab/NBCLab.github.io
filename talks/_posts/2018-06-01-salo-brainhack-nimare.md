@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "NiMARE: A Neuroimaging Meta-Analysis Research Environment"
 nickname: 2018-06-01-salo-brainhack-nimare
 authors: "Salo T"

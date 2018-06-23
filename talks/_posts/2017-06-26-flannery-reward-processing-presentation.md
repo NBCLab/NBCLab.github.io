@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Meta-analytic clustering dissociates activation and behavior profiles across reward processing data"
 nickname: 2017-06-26-flannery-reward-processing-presentation
 authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Laird AR, Sutherland MT"
@@ -17,7 +17,7 @@ video: https://www.pathlms.com/ohbm/courses/5158/sections/7815/video_presentatio
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf:

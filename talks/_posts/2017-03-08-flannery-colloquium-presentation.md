@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Brain activity following positive and negative performance feedback among abstinent smokers"
 nickname: 2017-03-08-flannery-colloquium-presentation
 authors: "Flannery JS"
@@ -17,7 +17,7 @@ video:
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf:

@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Brainspell: An open, human-curated classification of neuroimaging literature"
 nickname: 2018-06-01-bottenhorn-brainhack-brainspell
 authors: "Bottenhorn KL"

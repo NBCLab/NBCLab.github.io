@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Functional connectivity of the human striatum during smoking abstinence and pharmacologic administration"
 nickname: 2017-02-07-poudel-colloquium-presentation
 authors: "Poudel R"
@@ -17,7 +17,7 @@ video:
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf:
