@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Meta-analytic evidence for a core problem solving network across multiple representational domains"
-nickname: 2018-06-24-bartley-meta-analytic-evidence
+nickname: 2018-06-23-bartley-meta-analytic-evidence
 authors: "Bartley JE, Boeving ER, Riedel MC, Bottenhorn KL, Salo T, Eickhoff SB, Brewe E, Sutherland MT, Laird AR"
 year: "2018"
 journal: "Neurosci Biobehav Rev"
@@ -19,10 +19,10 @@ pdf:
 pdflink:
 pmcid:
 preprint:
-supplement:
+supplement: "https://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0149763417304773/1-s2.0-S0149763417304773-mmc1.docx/271127/html/S0149763417304773/949964dfffca767a6d4546d26b9959bd/mmc1.docx"
 
 # Links
-doi:
+doi: "10.1016/j.neubiorev.2018.06.009"
 pmid:
 
 # Data and code
