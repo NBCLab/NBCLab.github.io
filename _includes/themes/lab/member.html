@@ -175,7 +175,7 @@
 				{{ content }}
 			</div>
 
-			<!-- Show projects, then papers, then presentations, then posters -->
+			<!-- Show projects, then papers, then talks, then posters -->
 			{% for project in site.categories.projects %}
 				{% if project.contributors contains member.handle %}
 					{% assign projectsq = true %}
@@ -201,10 +201,10 @@
 				{% endif %}
 			{% endfor %}
 
-			{% for pres in site.categories.presentations %}
+			{% for pres in site.categories.talks %}
 				{% assign split_authors = pres.authors | split: ", " %}
 				{% if split_authors[0] contains member.science_name %}
-					{% assign presentationsq = true %}
+					{% assign talksq = true %}
 				{% endif %}
 			{% endfor %}
 
@@ -221,7 +221,7 @@
 			{% endfor %}
 
 			<!-- Add section divider -->
-			{% if projectsq or papersq or presentationsq or postersq %}
+			{% if projectsq or papersq or talksq or postersq %}
 			  <hr/>
 			{% endif %}
 
@@ -289,13 +289,13 @@
 				{% endfor %}
 			{% endif %}
 
-			<!-- Only show presentations on first author's page -->
+			<!-- Only show talks on first author's page -->
 			<!-- Disabling for now -->
-			{% if presentationsq == true %}
+			{% if talksq == true %}
 				<div class="bigspacer"></div>
-				<div class="head">Presentations</div>
+				<div class="head">Talks</div>
 				<div class="spacer"></div>
-				{% for pres in site.categories.presentations %}
+				{% for pres in site.categories.talks %}
 				  {% assign split_authors = pres.authors | split: ", " %}
 					{% if split_authors[0] contains member.science_name %}
 					  <div class="pad-left note"><p>

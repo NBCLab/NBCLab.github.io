@@ -66,11 +66,103 @@ categories:
 <div class="row">
 	<div class="col-md-4">
 		<div class="head">
+			<a class="off" href="/papers/">Recent Papers</a>
+		</div>
+		<div class="bigspacer"></div>
+    <div class="feedbox">
+			{% for product in site.categories.papers limit: 3 %}
+				<div class="note-title">
+					<i class="fa fa-file-text-o fa-fw"></i>
+          {% if product.tags contains "preprint" and product.is_published == false %}
+              <a href="{{ product.url }}" class="off">[PREPRINT] {{ product.title }}</a>
+          {% elsif product.tags contains "chapter" %}
+              <a href="{{ product.url }}" class="off">[CHAPTER] {{ product.title }}</a>
+          {% elsif product.tags contains "correspondence" %}
+              <a href="{{ product.url }}" class="off">[CORRESPONDENCE] {{ product.title }}</a>
+          {% else %}
+              <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+          {% endif %}
+					<br/>
+          <div class="note">
+            <!-- This took a while, but it links the name of each author from the lab
+            to their page and keeps collaborators' names as strings -->
+            {% assign split_authors = product.authors | split: ", " %}
+            {% for author in split_authors %}
+                {% assign author_in_lab = "false" %}
+                {% for member in site.categories.team %}
+                    {% if author == member.science_name %}
+                        {% assign author_in_lab = true %}
+                        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
+                    {% endif %}
+                {% endfor %}
+                {% for collab in site.data.collaborators %}
+                    {% if author == collab.science_name %}
+                        {% assign author_in_lab = true %}
+                        <a href="{{ collab.url }}">{{ collab.science_name }}</a>,
+                    {% endif %}
+                {% endfor %}
+                {% if author_in_lab != true %}
+                    {{ author }},
+                {% endif %}
+            {% endfor %}
+            <span class="journal">
+              {{ product.journal }}
+            </span>
+            {% if product.volume %}
+              {{ product.volume }}
+            {% endif %}
+            {% if product.issue %}
+              ({{ product.issue }})
+            {% endif %}
+            {% if product.pages %}
+              :{{ product.pages }}
+            {% endif %}
+            ({{ product.year }}).
+          </div>
+				</div>
+				<div class="smallspacer"></div>
+				<div class="smallnote">
+					Published
+					{{ product.date | date_to_string }}
+				</div>
+				<div class="spacer"></div>
+				<div class="spacer"></div>
+			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>
+	</div>
+
+  <div class="col-md-4">
+    <div class="head">
+      <a class="off" href="/projects/">Projects</a>
+    </div>
+    <div class="bigspacer"></div>
+    <div class="feedbox">
+      {% for project in site.categories.projects limit: 6 %}
+        <div class="note-title">
+          <i class="fa fa-database fa-fw"></i>
+          <a class="off" href="{{ project.url }}">{{ project.title }}</a>
+          <br/>
+        </div>
+        {{ project.tagline }}
+        <br/>
+        <div class="smallspacer"></div>
+        <div class="smallnote">
+					{{ project.excerpt }}
+				</div>
+        <div class="spacer"></div>
+      {% endfor %}
+    </div>
+    <div class="bigspacer"></div>
+  </div>
+
+	<div class="col-md-4">
+		<div class="head">
 			<a class="off" href="/news/">News</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox">
-			{% for news in site.categories.news limit:4 %}
+    <div class="feedbox">
+			{% for news in site.categories.news limit:5 %}
 
 				{% for member in site.categories.team %}
 					{% if member.handle == news.author %}
@@ -90,78 +182,6 @@ categories:
 				<div class="smallnote">
 					Posted
 					{{ news.date | date_to_string }}
-				</div>
-				<div class="spacer"></div>
-				<div class="spacer"></div>
-			{% endfor %}
-		</div>
-		<div class="bigspacer"></div>
-	</div>
-
-  <div class="col-md-4">
-    <div class="head">
-      <a class="off" href="/projects/">Projects</a>
-    </div>
-    <div class="bigspacer"></div>
-    <div class="feedbox">
-      {% for project in site.categories.projects limit: 8 %}
-        <div class="note-title">
-          <i class="fa fa-database fa-fw"></i>
-          <a class="off" href="{{ project.url }}">{{ project.title }}</a>
-          <br/>
-        </div>
-        <div class="smallspacer"></div>
-        <div class="smallnote">
-					{{ project.excerpt }}
-				</div>
-        <div class="spacer"></div>
-      {% endfor %}
-    </div>
-    <div class="bigspacer"></div>
-  </div>
-
-	<div class="col-md-4">
-		<div class="head">
-			<a class="off" href="/papers/">Papers</a>
-		</div>
-		<div class="bigspacer"></div>
-		<div class="feedbox">
-			{% for paper in site.categories.papers limit: 4 %}
-				<div class="note-title">
-					<i class="fa fa-file-text-o fa-fw"></i>
-          {% if paper.tags contains "preprint" and paper.is_published == false %}
-              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
-          {% elsif paper.tags contains "chapter" %}
-              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
-          {% elsif paper.tags contains "correspondence" %}
-              <a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
-          {% else %}
-              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-          {% endif %}
-					<br/>
-          <div class="note">
-            <!-- This took a while, but it links the name of each author from the lab
-            to their page and keeps collaborators' names as strings -->
-            {{ paper.authors }},
-            <span class="journal">
-              {{ paper.journal }}
-            </span>
-            {% if paper.volume %}
-              {{ paper.volume }}
-            {% endif %}
-            {% if paper.issue %}
-              ({{ paper.issue }})
-            {% endif %}
-            {% if paper.pages %}
-              :{{ paper.pages }}
-            {% endif %}
-            ({{ paper.year }}).
-          </div>
-				</div>
-				<div class="smallspacer"></div>
-				<div class="smallnote">
-					Published
-					{{ paper.date | date_to_string }}
 				</div>
 				<div class="spacer"></div>
 				<div class="spacer"></div>

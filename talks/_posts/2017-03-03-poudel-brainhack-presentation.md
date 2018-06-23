@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Brain activity following positive and negative performance feedback among abstinent smokers"
 nickname: 2017-03-03-poudel-brainhack-presentation
 authors: "Poudel R"

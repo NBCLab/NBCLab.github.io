@@ -99,16 +99,16 @@
       {{ content }}
     </div>
 
-		<!-- Show papers, then presentations, then posters -->
+		<!-- Show papers, then talks, then posters -->
     {% for paper in site.categories.papers %}
       {% if paper.projects contains page.handle %}
         {% assign papersq = true %}
       {% endif %}
     {% endfor %}
 
-    {% for pres in site.categories.presentations %}
+    {% for pres in site.categories.talks %}
       {% if pres.projects contains page.handle %}
-        {% assign presentationsq = true %}
+        {% assign talksq = true %}
       {% endif %}
     {% endfor %}
 
@@ -119,7 +119,7 @@
     {% endfor %}
 
 		<!-- Add section divider -->
-		{% if papersq or presentationsq or postersq %}
+		{% if papersq or talksq or postersq %}
 			<hr/>
 		{% endif %}
 
@@ -140,11 +140,11 @@
     {% endif %}
 
 		<!-- Talks -->
-    {% if presentationsq == true %}
+    {% if talksq == true %}
       <div class="bigspacer"></div>
-      <div class="head">Presentations</div>
+      <div class="head">Talks</div>
       <div class="spacer"></div>
-      {% for pres in site.categories.presentations %}
+      {% for pres in site.categories.talks %}
         {% if pres.projects contains page.handle %}
           <p><a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
         {% endif %}

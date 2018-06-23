@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Open Science Tools: GitHub, BIDS, & Preregistration"
 nickname: 2017-03-03-salo-renfro-open-science
 authors: "Salo T, Renfro AG"
@@ -17,7 +17,7 @@ video:
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf: https://osf.io/557vf/

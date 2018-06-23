@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Employing Standardized Neuroimaging Pipelines on the FIU HPC: What, Why, and How"
 nickname: 2018-04-03-salo-colloquium-presentation-2
 authors: "Salo T"

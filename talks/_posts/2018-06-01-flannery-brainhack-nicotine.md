@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Nicotinic modulation of brain activity to positive and negative feedback among abstinent smokers"
 nickname: 2018-06-01-flannery-brainhack-nicotine
 authors: "Flannery JS"

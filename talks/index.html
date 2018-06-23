@@ -13,7 +13,7 @@ navorder: 4
 <hr/>
 
 {% assign years = "" | split: "" %}
-{% for product in site.categories.presentations %}
+{% for product in site.categories.talks %}
   {% assign years = years | push: product.year %}
 {% endfor %}
 {% assign years = years | uniq %}
@@ -22,7 +22,7 @@ navorder: 4
 	<div class="title text-center">{{ year }}</div>
 	<div class="bigspacer"></div>
 	{% assign year_products = "" | split: "" %}
-	{% for product in site.categories.presentations %}
+	{% for product in site.categories.talks %}
 		{% if product.year == year %}
 		  {% assign year_products = year_products | push: product %}
 		{% endif %}

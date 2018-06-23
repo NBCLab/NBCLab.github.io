@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: talk
 title: "Common and distinct brain networks associated with risky and ambiguous decision making"
 nickname: 2018-02-13-poudel-colloquium-presentation-2
 authors: "Poudel R"
