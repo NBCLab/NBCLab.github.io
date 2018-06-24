@@ -20,6 +20,8 @@ osf:
 {% include JB/setup %}
 
 # <img src="/assets/images/software/metacurious-banner.png" width="40%">
-Bringing together human cleverness and big data, metaCurious is a tool to help you curate and annotate version-controlled collections of neuroimaging articles for meta-analyses. This tool facilitates collaboration and reproducibility by building sharable collections as GitHub repositories, providing a front end to [Brainspell-neo](https://brainspell.herokuapp.com), which started from Roberto Toro's Brainspell, itself based on Tal Yarkoni's [NeuroSynth](http://neurosynth.org): standing on the shoulders of Giants! The primary developer within the lab for metaCurious is [Katie Bottenhorn](/team/bottenhorn-katherine).
+Bringing together human cleverness and big data, metaCurious is a tool to help you curate and annotate version-controlled collections of neuroimaging articles for meta-analyses. This tool facilitates collaboration and reproducibility by building sharable collections as GitHub repositories, providing a front end to [Brainspell-neo](https://brainspell.herokuapp.com), which started from Roberto Toro's Brainspell, itself based on Tal Yarkoni's [NeuroSynth](http://neurosynth.org): standing on the shoulders of Giants!
+
+MetaCurious is developed in conjunction with a number of external collaborators, including the project leader, Anisha Keshavan, as well as JB Poline, Greg Kiar, and Elizabeth DuPre. The primary developer within the lab for metaCurious is [Katie Bottenhorn](/team/bottenhorn-katherine).
 
 Check out the metaCurious [website](https://metacurious.org/) or see the source code on [GitHub](https://github.com/akeshavan/brainspell-neo-frontend).
