@@ -11,7 +11,7 @@ pages: 283-295
 is_published: true
 image: /assets/images/papers/j-psychopharmacol.png
 projects: []
-tags: []
+tags: [meta-analysis]
 
 # Text
 fulltext:

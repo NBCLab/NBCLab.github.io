@@ -6,28 +6,19 @@ group: navigation
 navorder: 6
 ---
 {% include JB/setup %}
+{% for page in site.categories.misc %}
+  {% if page.software %}
+  	{% assign softwarepage = page %}
+  {% endif %}
+{% endfor %}
 
 <div class="bigspacer"></div>
 <div class="bigtitle text-center">Lab Software</div>
 <div class="smallspacer"></div>
 <hr/>
 
-<p>
-  In the Neuroinformatics and Brain Connectivity lab, we place a lot of emphasis
-  on contributing to open source software. Some projects that lab members have
-  contributed to include
-  <a href="https://github.com/nipy/nipype">Nipype</a>,
-  <a href="https://github.com/nistats/nistats">Nistats</a>,
-  <a href="https://github.com/neurosynth/neurosynth">Neurosynth</a>,
-  <a href="https://github.com/INCF/pybids">PyBIDS</a>, and
-  <a href="https://github.com/ME-ICA/tedana">tedana</a>.
-</p>
+{{ softwarepage.content }}
 
-<p>
-  We are also involved in a number of other packages, whether as project leaders
-  or as major contributors. If you are interested in contributing to any of the
-  packages below, please consult the contributing guidelines and code of conduct
-  provided in the package's GitHub repository.
 <hr/>
 
 <table align="center"; width=1250px>
