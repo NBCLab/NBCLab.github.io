@@ -11,7 +11,7 @@ pages:
 is_published: true
 image: /assets/images/papers/neurosci-biobehav-rev.png
 projects: [physics-learning]
-tags: []
+tags: [meta-analysis]
 
 # Text
 fulltext:
@@ -27,7 +27,7 @@ pmid: 29944961
 
 # Data and code
 github:
-neurovault:
+neurovault: [3957]
 openneuro:
 osf:
 ---

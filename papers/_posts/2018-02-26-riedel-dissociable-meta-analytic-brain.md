@@ -5,19 +5,19 @@ nickname: 2018-02-26-riedel-dissociable-meta-analytic-brain
 authors: "Riedel MC, Yanes JA, Ray KL, Eickhoff SB, Fox PT, Sutherland MT, Laird AR"
 year: "2018"
 journal: "Hum Brain Mapp"
-volume: 
-issue: 
-pages: 
+volume:
+issue:
+pages:
 is_published: true
 image: /assets/images/papers/hum-brain-mapp.png
 projects: []
-tags: []
+tags: [meta-analysis]
 
 # Text
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 
