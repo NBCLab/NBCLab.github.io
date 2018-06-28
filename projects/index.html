@@ -6,9 +6,21 @@ group: navigation
 navorder: 2
 ---
 {% include JB/setup %}
+{% for page in site.categories.misc %}
+  {% if page.research %}
+  	{% assign researchpage = page %}
+  {% endif %}
+{% endfor %}
 
 <div class="bigspacer"></div>
-<div class="bigtitle text-center">Our Projects</div>
+<div class="bigtitle text-center">Our Research</div>
+<div class="smallspacer"></div>
+<hr/>
+
+{{ researchpage.content }}
+
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">Projects</div>
 <div class="smallspacer"></div>
 <hr/>
 
