@@ -131,9 +131,13 @@
       {% for paper in site.categories.papers %}
         {% if paper.projects contains page.handle %}
           {% if paper.embargo %}
-            <p>{{ paper.title }}
+						<div class="pad-left note"><p>
+            {{ paper.title }}
+						</p></div>
           {% else %}
-            <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+						<div class="pad-left note"><p>
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+						</p></div>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -146,7 +150,9 @@
       <div class="spacer"></div>
       {% for pres in site.categories.talks %}
         {% if pres.projects contains page.handle %}
-          <p><a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+					<div class="pad-left note"><p>
+          <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+					</p></div>
         {% endif %}
       {% endfor %}
     {% endif %}
@@ -158,7 +164,9 @@
       <div class="spacer"></div>
       {% for poster in site.categories.posters %}
         {% if poster.projects contains page.handle %}
-          <p><a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+					<div class="pad-left note"><p>
+          <a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+					</p></div>
         {% endif %}
       {% endfor %}
     {% endif %}
