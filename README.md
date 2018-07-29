@@ -57,4 +57,11 @@ The markdown files for the homepage, the "About the site" page, and the "Contact
 
 ## License
 
-The Drummond Lab template is released under an [MIT](http://opensource.org/licenses/MIT) license owned by [D. Allan Drummond](https://github.com/dad), who created the template (while incorporating elements from the Bedford lab [website](https://github.com/blab/blotter)) and who also has one of the better GitHub usernames out there (and it's just his initials!).
+The [code for this site][0] was forked from Dr. Allan Drummond's lab website, which in turn took a great deal of inspiration from Dr. Travis Bedford's [lab website][1]. We have modified a lot of the code and added some fun features, but the core codebase is still largely taken from the Drummond lab's original repository. The code was openly shared on [GitHub][2] under the MIT license, so please feel free to adapt it for your own purposes. However, if you do use any of the code, please remember to cite the code to Dr. Drummond and to link back to his [site][3].
+
+[0]: https://github.com/NBCLab/NBCLab.github.io
+[1]: http://bedford.io
+[2]: https://github.com/drummondlab/drummondlab.github.io
+[3]: http://drummondlab.org/about.html
+
+

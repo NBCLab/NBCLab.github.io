@@ -7,7 +7,7 @@ handle: calvarez
 nickname: Cary
 science_name: Alvarez M
 image: /assets/images/team/cary-alvarez.jpg
-alumni: false
+alumni: true
 
 # social
 cv:

@@ -241,7 +241,7 @@
 				{% for software in site.categories.software %}
 					{% if software.contributors contains member.handle %}
 					  <div class="pad-left note"><p>
-						<a href="{{ software.url }}" class="off">{{ software.title }}</a>
+						<a href="{{ software.url }}" class="off">{{ software.title }} [SOFTWARE]</a>
 					  </p></div>
 					{% endif %}
 				{% endfor %}
