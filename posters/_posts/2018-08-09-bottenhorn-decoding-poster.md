@@ -10,16 +10,16 @@ projects: []
 tags: []
 
 # Content
-pdf:
+pdf: https://osf.io/xhzpf/
 
 # Links
 doi:
 
 # Data and code
-github:
+github: ["https://github.com/62442katieb/ns-v-bm-decoding"]
 neurovault:
 openneuro:
-osf:
+osf: https://osf.io/q42be/
 ---
 {% include JB/setup %}
 
