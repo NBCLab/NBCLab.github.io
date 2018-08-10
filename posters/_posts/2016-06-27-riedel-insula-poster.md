@@ -17,10 +17,11 @@ pdf: https://osf.io/386dy/
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf: https://osf.io/pqvqy/
+f1000:
 ---
 {% include JB/setup %}
 

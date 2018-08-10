@@ -10,16 +10,17 @@ projects: []
 tags: []
 
 # Content
-pdf: https://osf.io/xhzpf/
+pdf: https://f1000research.com/posters/7-1222
 
 # Links
-doi:
+doi: "10.7490/f1000research.1115906.1"
 
 # Data and code
 github: ["https://github.com/62442katieb/ns-v-bm-decoding"]
 neurovault:
 openneuro:
-osf: https://osf.io/q42be/
+osf:
+f1000: "https://f1000research.com/posters/7-1222"
 ---
 {% include JB/setup %}
 

@@ -21,6 +21,7 @@ github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
 neurovault:
 openneuro:
 osf:
+f1000:
 ---
 {% include JB/setup %}
 
