@@ -6,7 +6,7 @@ authors: "Bottenhorn KL, Salo T, Sutherland MT, Laird AR"
 year: "2018"
 conference: "INCF Neuroinformatics"
 image: /assets/images/posters/2018-08-09-bottenhorn-decoding-poster.png
-projects: []
+projects: [athena]
 tags: []
 
 # Content

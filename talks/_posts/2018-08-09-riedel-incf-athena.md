@@ -5,7 +5,7 @@ nickname: 2018-08-09-riedel-incf-athena
 authors: "Riedel MC, Salo T, Hays J, Turner MD, Sutherland MT, Turner JA, Laird AR"
 year: "2018"
 conference: "INCF Neuroinformatics"
-image: /assets/images/talks/2018-08-09-riedel-incf-athena.png
+image:
 projects: [athena]
 tags: []
 
