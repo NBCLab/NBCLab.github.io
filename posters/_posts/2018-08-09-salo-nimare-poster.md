@@ -10,7 +10,8 @@ projects: [nimare]
 tags: []
 
 # Content
-pdf: "https://f1000research.com/posters/7-1221"
+fulltext: "https://f1000research.com/posters/7-1221"
+pdf:
 
 # Links
 doi: "10.7490/f1000research.1115905.1"

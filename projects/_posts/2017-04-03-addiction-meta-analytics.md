@@ -5,6 +5,7 @@ contributors: [alaird, msutherland, mriedel, jflannery, rpoudel]
 handle: pace
 
 # Optional
+website:
 grant: R01DA041353
 grant_url: https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=R01DA041353&arg_ProgOfficeCode=114
 image:

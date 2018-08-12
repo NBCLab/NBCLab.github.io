@@ -5,6 +5,7 @@ contributors: [msutherland, jflannery, nhidmi, bmadan]
 handle: ace
 
 # Optional
+website:
 grant:
 grant_url:
 image: /assets/images/projects/ace/ace_logo.png

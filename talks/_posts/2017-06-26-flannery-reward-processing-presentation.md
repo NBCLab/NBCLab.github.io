@@ -10,7 +10,7 @@ projects: []
 tags: [meta-analysis]
 
 # Content
-slides:
+slides: https://drive.google.com/open?id=0B543K-QXbp21cUNPeFQxcWNjY2c
 video: https://www.pathlms.com/ohbm/courses/5158/sections/7815/video_presentations/78438
 
 # Links

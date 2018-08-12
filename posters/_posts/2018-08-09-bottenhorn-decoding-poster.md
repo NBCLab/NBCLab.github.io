@@ -10,7 +10,8 @@ projects: [athena]
 tags: []
 
 # Content
-pdf: https://f1000research.com/posters/7-1222
+fulltext: "https://f1000research.com/posters/7-1222"
+pdf:
 
 # Links
 doi: "10.7490/f1000research.1115906.1"

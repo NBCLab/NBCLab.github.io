@@ -5,6 +5,7 @@ contributors: [kbottenhorn]
 handle: metacurious
 
 # Optional
+website: "https://metacurious.org"
 grant:
 grant_url:
 image: /assets/images/software/metacurious-logo.png
