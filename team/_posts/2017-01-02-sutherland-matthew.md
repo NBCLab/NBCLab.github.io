@@ -12,7 +12,7 @@ alumni: false
 cv:
 email: msutherland@fiu.edu
 github: masuther
-orcid:
+orcid: 0000-0002-6091-4037
 osf: xnuzb
 publons: 433968
 researchgate: Matthew_Sutherland2

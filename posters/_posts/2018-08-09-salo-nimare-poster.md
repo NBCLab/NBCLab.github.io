@@ -10,16 +10,18 @@ projects: [nimare]
 tags: []
 
 # Content
-pdf: https://osf.io/9a5n6/
+fulltext: "https://f1000research.com/posters/7-1221"
+pdf:
 
 # Links
-doi:
+doi: "10.7490/f1000research.1115905.1"
 
 # Data and code
 github: ["https://github.com/neurostuff/NiMARE", "https://github.com/NBCLab/nimare-incf-2018"]
 neurovault:
 openneuro:
-osf: https://osf.io/7nzkc
+osf:
+f1000: "https://f1000research.com/posters/7-1221"
 ---
 {% include JB/setup %}
 

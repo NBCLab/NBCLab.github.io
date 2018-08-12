@@ -21,6 +21,7 @@ github:
 neurovault:
 openneuro:
 osf: https://osf.io/tajkx/
+f1000:
 ---
 {% include JB/setup %}
 

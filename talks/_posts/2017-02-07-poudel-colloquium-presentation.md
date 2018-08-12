@@ -10,7 +10,7 @@ projects: []
 tags: []
 
 # Content
-slides:
+slides: https://drive.google.com/open?id=0B543K-QXbp21c0d6dVdDalZEdWc
 video:
 
 # Links
@@ -21,6 +21,7 @@ github:
 neurovault:
 openneuro:
 osf:
+f1000:
 ---
 {% include JB/setup %}
 

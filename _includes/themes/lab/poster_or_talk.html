@@ -107,15 +107,27 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
-      {% if page.osf %}
+      {% if page.osf or page.f1000 %}
         <div class="smallhead subtle">
           Additional Resources
         </div>
-        <div class="pad-left note">
+        {% if page.osf %}
+          <div class="pad-left note">
+            <div class="smallspacer"></div>
+            <i class="ai ai-osf ai-fw"></i>
+            <a class="off" href="{{ page.osf }}">Open Science Framework</a>
+          </div>
+        {% endif %}
+        {% if page.osf and page.f1000 %}
           <div class="smallspacer"></div>
-          <i class="ai ai-osf ai-fw"></i>
-          <a class="off" href="{{ page.osf }}">Open Science Framework</a>
-        </div>
+        {% endif %}
+        {% if page.f1000 %}
+          <div class="pad-left note">
+            <div class="smallspacer"></div>
+            <i class="fa fa-folder-open-o fa-fw"></i>
+            <a class="off" href="{{ page.f1000 }}">F1000</a>
+          </div>
+        {% endif %}
         <div class="bigspacer"></div>
       {% endif %}
 

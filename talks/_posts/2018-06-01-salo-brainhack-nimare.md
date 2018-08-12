@@ -21,6 +21,7 @@ github: ["https://github.com/neurostuff/NiMARE", "https://github.com/NBCLab/nima
 neurovault:
 openneuro:
 osf:
+f1000:
 ---
 {% include JB/setup %}
 

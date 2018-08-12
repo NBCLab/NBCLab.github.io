@@ -13,7 +13,7 @@ alumni: false
 cv:
 email: miriedel@fiu.edu
 github: mriedel56
-orcid:
+orcid: 0000-0002-1860-4449
 osf: jx85k
 publons:
 researchgate: Michael_Riedel6

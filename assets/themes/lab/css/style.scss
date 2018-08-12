@@ -369,6 +369,14 @@ strong {
 	font-size: 19px;
 	font-weight: $font-weight-base;
 	line-height: 23px;
+
+	a {
+		border-bottom: thin dotted;
+		&:hover {
+			text-decoration: none;
+			border-bottom: thin solid;
+		}
+	}
 }
 
 .subtle {
@@ -379,7 +387,11 @@ strong {
 	font-weight: 600;
 	a {
 		color: black;
-		border-bottom: none;
+		border-bottom: thin dotted;
+		&:hover {
+			text-decoration: none;
+			border-bottom: thin solid;
+		}
 	}
 
 	h1 {
@@ -394,9 +406,10 @@ strong {
 	a {
 		color: black;
 		border-bottom: thin dotted;
-		/*&:hover {
+		&:hover {
+			text-decoration: none;
 			border-bottom: thin solid;
-		}*/
+		}
 	}
 
 	h1 {

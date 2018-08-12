@@ -5,6 +5,7 @@ contributors: [msutherland, jflannery]
 handle: hiv_cannabis
 
 # Optional
+website:
 grant: NIH-5K01DA037819-03
 grant_url: https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=5K01DA037819-03
 image: /assets/images/projects/hiv_cannabis/hiv_cannabis_logo.jpg
