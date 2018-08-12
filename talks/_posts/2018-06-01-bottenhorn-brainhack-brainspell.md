@@ -21,6 +21,7 @@ github: ["https://github.com/akeshavan/brainspell-neo-frontend", "https://github
 neurovault:
 openneuro:
 osf:
+f1000:
 ---
 {% include JB/setup %}
 

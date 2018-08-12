@@ -5,6 +5,7 @@ contributors: [tsalo, kbottenhorn]
 handle: brainconn
 
 # Optional
+website: "https://brainconn.readthedocs.io"
 grant:
 grant_url:
 image:

@@ -17,10 +17,11 @@ pdf: /assets/pdfs/posters/2017-06-28-boeving-rdoc-poster.pdf
 doi:
 
 # Data and code
-github: 
+github:
 neurovault:
 openneuro:
 osf:
+f1000:
 ---
 {% include JB/setup %}
 

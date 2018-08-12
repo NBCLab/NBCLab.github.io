@@ -18,12 +18,19 @@
     </div>
     <div class="bigspacer"></div>
 
-    {% if page.grant %}
+		{% if page.website %}
       <div class="smallhead">
+        <a class="off" href="{{ page.website }}">Project Website</a>
+      </div>
+      <div class="bigspacer"></div>
+    {% endif %}
+
+    {% if page.grant %}
+      <div class="smallhead subtle">
         Funding
       </div>
       <div class="pad-left note">
-      <a class="off" href="{{ page.grant_url }}">{{ page.grant }}</a>
+      	<a class="off" href="{{ page.grant_url }}">{{ page.grant }}</a>
       </div>
       <div class="bigspacer"></div>
     {% endif %}
@@ -77,7 +84,7 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
-    <div class="smallhead">
+    <div class="smallhead subtle">
       Contributors
     </div>
     <div class="smallspacer"></div>
