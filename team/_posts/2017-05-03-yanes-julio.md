@@ -13,7 +13,7 @@ alumni: true
 cv:
 email:
 github:
-orcid:
+orcid: 0000-0002-6620-4351
 osf:
 publons:
 researchgate: Julio_Yanes
