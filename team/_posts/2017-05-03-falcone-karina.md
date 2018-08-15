@@ -11,7 +11,7 @@ alumni: true
 cv:
 email:
 github:
-orcid:
+orcid: 0000-0003-2271-2159
 osf:
 publons:
 researchgate: Karina_Falcone

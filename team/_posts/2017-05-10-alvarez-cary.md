@@ -11,7 +11,7 @@ alumni: true
 
 # social
 cv:
-email: malva331@fiu.edu
+email:
 github: caryalvrz
 orcid:
 osf:
