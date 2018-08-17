@@ -5,9 +5,9 @@ contributors: [msutherland, jflannery, nhidmi, bmadan]
 handle: ace
 
 # Optional
-website:
-grant:
-grant_url:
+website: https://rcmi.fiu.edu/ace-project/
+grant: U54-MD012393-01-5378
+grant_url: http://grantome.com/grant/NIH/U54-MD012393-01-5378
 image: /assets/images/projects/ace/ace_logo.png
 tagline: How does electronic cigarette use affect youths during development?
 tags: [fmri]
@@ -20,7 +20,7 @@ osf:
 ---
 {% include JB/setup %}
 
-This project is one component of FIU's larger grant "[FIU center for reducing health disparities in substance abuse & HIV in South Florida](https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=U54MD012393&arg_ProgOfficeCode=56)." It is a prospective longitudinal study designed to identify antecedents and consequences of electronic cigarette use at multiple assessment levels including personality, personal beliefs, social factors, and neurobiological characteristics assessed with MRI.
+This project is one component of FIU's larger grant "[FIU center for reducing health disparities in substance abuse & HIV in South Florida](http://grantome.com/grant/NIH/U54-MD012393-01)." It is a longitudinal study designed to identify antecedents and consequences of electronic cigarette use at multiple assessment levels including personality, personal beliefs, social factors, and neurobiological characteristics assessed with MRI.
 
 ## Participate
 
