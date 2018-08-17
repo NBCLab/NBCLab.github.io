@@ -6,11 +6,11 @@ authors: "Sutherland MT, Fishbein DH"
 year: "2017"
 journal: "Front Behav Neurosci"
 volume: 11
-issue: 
+issue:
 pages: 245
 is_published: true
 image: /assets/images/papers/front-behav-neurosci.png
-projects: []
+projects: [ace]
 tags: []
 
 # Text
