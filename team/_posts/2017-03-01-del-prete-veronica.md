@@ -12,7 +12,7 @@ alumni: false
 # social
 cv:
 email: vdelpret@fiu.edu
-github:
+github: veronicadelprete
 orcid:
 osf:
 publons:
@@ -21,4 +21,4 @@ scholar:
 site:
 twitter: pediaimagen
 ---
-Dr. Del Prete is a  internationally trained pediatric radiologist at the FIU Center for Imaging Science, with experience in using fetal MRI to study cerebellar abnormalities and tuberous sclerosis complex. Dr. Del Prete is working to develop and implement fetal MRI protocols at FIU to study healthy structural and functional brain development in utero, as well as examine how this development may be disrupted due to maternal substance use, pediatric psychiatric disorders, or environmental influences.
+Dr. Del Prete is an internationally trained pediatric radiologist at the FIU Center for Imaging Science, with experience in using fetal MRI to study cerebellar abnormalities and tuberous sclerosis complex. Dr. Del Prete is working to develop and implement fetal MRI protocols at FIU to study healthy structural and functional brain development in utero, as well as examine how this development may be disrupted due to maternal substance use, pediatric psychiatric disorders, or environmental influences.
