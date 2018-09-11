@@ -12,7 +12,7 @@ alumni: false
 # social
 cv:
 email: rpintosl@fiu.edu
-github:
+github: rpintosl
 orcid:
 osf:
 publons:
