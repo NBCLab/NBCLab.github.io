@@ -13,7 +13,7 @@ tagline: How does learning physics affect brains?
 tags: [fmri]
 
 # Data and code
-github:
+github: ["https://github.com/NBCLab/PhysicsLearning"]
 neurovault:
 openneuro:
 osf:
