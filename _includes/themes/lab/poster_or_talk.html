@@ -107,6 +107,31 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
+      {% if page.projects %}
+        <div class="smallhead subtle">
+          Projects
+        </div>
+        {% for project in site.categories.projects %}
+          {% if page.projects contains project.handle %}
+            <div class="pad-left note">
+              <div class="smallspacer"></div>
+              <i class="fa fa-cube fa-fw"></i>
+              <a href="{{ project.url }}" class="off">{{ project.handle }}</a>
+            </div>
+          {% endif %}
+        {% endfor %}
+        {% for project in site.categories.software %}
+          {% if page.projects contains project.handle %}
+            <div class="pad-left note">
+              <div class="smallspacer"></div>
+              <i class="fa fa-cube fa-fw"></i>
+              <a href="{{ project.url }}" class="off">{{ project.handle }}</a>
+            </div>
+          {% endif %}
+        {% endfor %}
+        <div class="bigspacer"></div>
+      {% endif %}
+
       {% if page.osf or page.f1000 %}
         <div class="smallhead subtle">
           Additional Resources
