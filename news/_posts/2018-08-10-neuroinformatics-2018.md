@@ -3,7 +3,7 @@ layout: news
 title: Lab members attend Neuroinformatics 2018
 tags: [conferences]
 image: /assets/images/news/neuroinformatics_2018.png
-excerpt: Dr. Laird, Dr. Riedel, Katie, and Taylor attend Neuroinformatics 2018 in Montreal
+excerpt: Dr. Laird, Dr. Riedel, Katie, and Taylor attend Neuroinformatics 2018 in Montreal.
 ---
 [Dr. Laird](/team/laird-angela), [Dr. Riedel](/team/riedel-michael), [Katie](/team/bottenhorn-katherine), and [Taylor](/team/salo-taylor) attended the INCF Neuroinformatics 2018 conference in Montreal on August 9-10. Before the conference, Katie and Taylor also participated in the conference's associated hackathon, working on a new metric to measure currently undervalued researcher contributions like code, service, and data sharing.
 
