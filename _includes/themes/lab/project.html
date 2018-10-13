@@ -85,12 +85,12 @@
 		{% endif %}
 
     <div class="smallhead subtle">
-      Contributors
+      Lab Contributors
     </div>
     <div class="smallspacer"></div>
     {% for contributor in page.contributors %}
       {% for member in site.categories.team %}
-        {% if contributor == member.handle %}
+        {% if contributor == member.handle and member.alumni != true %}
           <div class="pad-left note">
           <a class="off" href="{{ member.url }}">{{ member.title }}</a>
           <div class="smallspacer"></div>
