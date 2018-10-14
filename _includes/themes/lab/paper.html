@@ -100,7 +100,7 @@ with gratitude.
 				<div class="bigspacer"></div>
 			{% endif %}
 
-			{% if page.openneuro or page.neurovault %}
+			{% if page.openneuro or page.neurovault or page.figshare %}
 				<div class="smallhead subtle">
 					Data
 				</div>
@@ -116,6 +116,12 @@ with gratitude.
 					{% for coll in page.neurovault %}
 						<i class="fa fa-database fa-fw"></i>
 						<a class="off" href="https://neurovault.org/collections/{{ coll }}">NeuroVault: {{ coll }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+
+					{% for coll in page.figshare %}
+						<i class="ai ai-figshare ai-fw"></i>
+						<a class="off" href="{{ coll }}">figshare</a>
 						<div class="smallspacer"></div>
 					{% endfor %}
 				</div>

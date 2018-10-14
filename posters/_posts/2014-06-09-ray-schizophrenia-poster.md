@@ -20,6 +20,8 @@ doi:
 github:
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf: https://osf.io/sf7q3/
 f1000:
 ---

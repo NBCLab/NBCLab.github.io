@@ -20,6 +20,8 @@ doi:
 github: https://github.com/NBCLab
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 f1000:
 ---

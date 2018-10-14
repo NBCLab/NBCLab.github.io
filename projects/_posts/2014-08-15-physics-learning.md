@@ -16,6 +16,8 @@ tags: [fmri]
 github: ["https://github.com/NBCLab/PhysicsLearning"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 ---
 {% include JB/setup %}

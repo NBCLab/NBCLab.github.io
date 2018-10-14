@@ -16,6 +16,8 @@ tags: []
 github:
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 ---
 {% include JB/setup %}
