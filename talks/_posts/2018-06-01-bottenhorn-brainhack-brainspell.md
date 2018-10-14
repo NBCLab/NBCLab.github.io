@@ -20,6 +20,8 @@ doi:
 github: ["https://github.com/akeshavan/brainspell-neo-frontend", "https://github.com/OpenNeuroLab/brainspell-neo"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 f1000:
 ---

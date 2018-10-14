@@ -20,6 +20,8 @@ doi: "10.7490/f1000research.1115905.1"
 github: ["https://github.com/neurostuff/NiMARE", "https://github.com/NBCLab/nimare-incf-2018"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 f1000: "https://f1000research.com/posters/7-1221"
 ---

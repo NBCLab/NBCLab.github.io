@@ -50,7 +50,7 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
-		{% if page.openneuro or page.neurovault %}
+		{% if page.openneuro or page.neurovault or page.figshare %}
 			<div class="smallhead subtle">
 				Data
 			</div>
@@ -66,6 +66,13 @@
 				{% for coll in page.neurovault %}
 					<i class="fa fa-database fa-fw"></i>
 					<a class="off" href="https://neurovault.org/collections/{{ coll }}">NeuroVault: {{ coll }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+
+				{% assign n = page.figshare | size %}
+				{% for coll in (0..n-1) %}
+					<i class="ai ai-figshare ai-fw"></i>
+					<a class="off" href="{{ page.figshare[coll] }}">{{ page.figshare_names[coll] }}</a>
 					<div class="smallspacer"></div>
 				{% endfor %}
 			</div>
@@ -85,12 +92,12 @@
 		{% endif %}
 
     <div class="smallhead subtle">
-      Contributors
+      Lab Contributors
     </div>
     <div class="smallspacer"></div>
     {% for contributor in page.contributors %}
       {% for member in site.categories.team %}
-        {% if contributor == member.handle %}
+        {% if contributor == member.handle and member.alumni != true %}
           <div class="pad-left note">
           <a class="off" href="{{ member.url }}">{{ member.title }}</a>
           <div class="smallspacer"></div>
