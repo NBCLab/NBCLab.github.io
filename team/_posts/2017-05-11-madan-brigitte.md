@@ -16,7 +16,7 @@ github:
 orcid:
 osf:
 publons:
-researchgate:
+researchgate: Brigitte_Madan
 scholar:
 site:
 twitter:

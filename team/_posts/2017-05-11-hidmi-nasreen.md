@@ -16,7 +16,7 @@ github:
 orcid:
 osf:
 publons:
-researchgate:
+researchgate: Nasreen_Hidmi
 scholar:
 site:
 twitter:

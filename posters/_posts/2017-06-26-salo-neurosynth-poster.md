@@ -20,6 +20,8 @@ doi:
 github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 f1000:
 ---

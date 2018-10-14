@@ -5,6 +5,7 @@ contributors: []
 handle:
 
 # Optional
+website:
 grant:
 grant_url:
 image:
@@ -15,6 +16,8 @@ tags: []
 github:
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 ---
 {% include JB/setup %}

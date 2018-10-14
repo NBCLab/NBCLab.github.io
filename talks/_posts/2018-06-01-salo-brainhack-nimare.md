@@ -20,6 +20,8 @@ doi:
 github: ["https://github.com/neurostuff/NiMARE", "https://github.com/NBCLab/nimare-incf-2018"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 f1000:
 ---

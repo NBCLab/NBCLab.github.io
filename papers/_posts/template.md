@@ -30,6 +30,7 @@ github: []
 neurovault: []
 openneuro: []
 osf:
+figshare: []
 ---
 {% include JB/setup %}
 

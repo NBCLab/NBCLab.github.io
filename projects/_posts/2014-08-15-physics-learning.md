@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Exploring the Neural Mechanisms of Physics Learning
-contributors: [alaird, jbartley, eboeving, agonzalez, jforeman, calvarez]
+contributors: [alaird, jbartley, agonzalez, jforeman, calvarez]
 handle: physics-learning
 
 # Optional
@@ -16,6 +16,8 @@ tags: [fmri]
 github: ["https://github.com/NBCLab/PhysicsLearning"]
 neurovault:
 openneuro:
+figshare:
+figshare_names:
 osf:
 ---
 {% include JB/setup %}
