@@ -18,12 +18,9 @@ osf: fq7db
 publons:
 researchgate: Katherine_Bottenhorn
 scholar: ZXxr85IAAAAJ
-site:
+site: katiebottenhorn.com
 twitter: 62442katieb
 ---
 
-<<<<<<< HEAD:team/_posts/2017-01-06-katherine-bottenhorn.md
-Katie is a third-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. She graduated from Auburn University (Auburn, AL) with Bachelor of Arts degrees in Chemistry and Psychology. Katie is interested in the relationship between the anatomical structure of the brain and its functional networks, currently investigating the functional connectivity of the habenula throughout the brain. Additionally, she is assisting with the NIH-funded Adolescent Brain and Cognitive Development (ABCD) Study, which will track biological and behavioral development in participants though adolescence.
-=======
-Katie is a fourth-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. She graduated from Auburn University (Auburn, AL) with dual Bachelor of Arts degrees in Chemistry and Psychology. Katie is interested in the relationship between the anatomical structure of the brain and its functional networks, currently investigating the functional connectivity of the habenula throughout the brain. Additionally, she is assisting with the NIH-funded Adolescent Brain and Cognitive Development (ABCD) Study, which will track biological and behavioral development in participants though adolescence.
->>>>>>> upstream/master:team/_posts/2017-04-06-bottenhorn-katherine.md
+
+Katie is a fourth-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. She graduated from Auburn University (Auburn, AL) with dual Bachelor of Arts degrees in Chemistry and Psychology. Katie is interested in how individual differences in large-scale brain network topology are related to biological, behavioral, and environmental differences in children and adults. Additionally, she is assisting with the NIH-funded Adolescent Brain and Cognitive Development (ABCD) Study, which will track biological and behavioral development in participants though adolescence.
