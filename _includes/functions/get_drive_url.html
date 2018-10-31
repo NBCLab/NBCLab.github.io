@@ -1,0 +1,4 @@
+{% assign temp = include.url | split: 'open?id=' %}
+{% assign temp2 = temp[1] %}
+{% assign out_url = 'https://drive.google.com/uc?export=&confirm=no_antivirus&id='| append: temp2 %}
+{{ out_url }}

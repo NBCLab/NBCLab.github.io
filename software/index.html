@@ -1,0 +1,53 @@
+---
+layout: default
+title: "Software"
+description: "Open source software developed by the lab"
+group: navigation
+navorder: 6
+---
+{% include JB/setup %}
+{% for page in site.categories.misc %}
+  {% if page.software %}
+  	{% assign softwarepage = page %}
+  {% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+<div class="bigtitle text-center">Lab Software</div>
+<div class="smallspacer"></div>
+<hr/>
+
+{{ softwarepage.content }}
+
+<hr/>
+
+<table align="center"; width=1250px>
+  {% tablerow product in site.categories.software cols:2 %}
+    {% if product.image %}
+      {% assign image = product.image %}
+    {% else %}
+      {% assign image = "/assets/images/software/foss.png" %}
+    {% endif %}
+
+    <div class="col-md-2.5 paperbox" style="min-width: 575px">
+      <div class="media" style="width:525px; height:150px">
+        <div class="media">
+            <a class="pull-left" href="{{ product.url }}">
+            <img width=100 class="media-object" src="{{ image }}" style="border:1px solid #021a40;">
+            </a>
+            <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                </div>
+                <div class="media-body">
+                  {{ product.tagline }}
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="smallspacer"></div>
+  {% endtablerow %}
+</table>
+
+<div class="bigspacer"></div>

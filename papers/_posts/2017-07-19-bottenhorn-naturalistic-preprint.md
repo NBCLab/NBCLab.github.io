@@ -1,34 +1,36 @@
 ---
 layout: paper
 title: "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results"
-year: "2017"
-shortref: "Bottenhorn <i>et al. bioRxiv</i> 2017"
-nickname: bottenhorn-naturalistic-preprint
-journal: "bioRxiv"
-volume:
-issue:
-pages:
+nickname: 2017-07-19-bottenhorn-naturalistic-preprint
 authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
-image: /assets/images/papers/bottenhorn-naturalistic-preprint.png
-redirect_from:
-fulltext: http://www.biorxiv.org/content/early/2017/07/19/165951
-pdf:
-pdflink: http://www.biorxiv.org/content/biorxiv/early/2017/07/19/165951.full.pdf
-github:
-pmid:
-pmcid:
-f1000:
-doi: "10.1101/165951"
-dryad_doi:
-figshare_doi:
-altmetric_id:
-category: papers
-published: true
-embargo: false
-peerreview: false
-review: false
+year: "2018"
+journal: "Network neuroscience"
+volume: 0
+issue: ja
+pages: 1-54
+is_published: true
+image: /assets/images/papers/2017-07-19-bottenhorn-naturalistic-preprint.png
 projects: []
 tags: [preprint, meta-analysis]
+
+# Text
+fulltext:
+pdf:
+pdflink: https://www.mitpressjournals.org/doi/pdf/10.1162/NETN_a_00050
+pmcid:
+preprint: http://www.biorxiv.org/content/early/2017/07/19/165951
+supplement:
+
+# Links
+doi: "10.1162/NETN_a_00050"
+pmid:
+
+# Data and code
+github: ["https://github.com/62442katieb/meta-analytic-kmeans"]
+neurovault: [3179]
+openneuro:
+osf:
+
 ---
 {% include JB/setup %}
 
@@ -38,4 +40,4 @@ Cognitive processes do not occur by pure insertion and instead depend on the ful
 
 # Additional information
 
-This is the lab's first preprint!
+This was the lab's first preprint!

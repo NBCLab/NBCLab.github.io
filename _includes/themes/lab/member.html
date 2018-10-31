@@ -12,7 +12,7 @@
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			<img class="pull-left pad-right big-member-photo" src="{{ image }}">
+			<img class="pull-left pad-right big-member-photo" src="{{ image }}" style="width:250px; height:auto; padding:1px; border:1px solid #021a40;">
 		</div>
 		<div class="bigspacer"></div>
 
@@ -36,7 +36,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-user fa-fw"></i>
-				<a class="off" href="{{ member.site }}">{{ member.site | remove: 'http://' | remove: 'https://' }}</a>
+				<a class="social site" href="{{ member.site }}">
+					{{ member.site | remove: 'http://' | remove: 'https://' }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -48,7 +50,12 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
-				<a class="off" href="{{ member.cv }}">{{ member.cv | split: '/' | last }}</a>
+				{% capture cv_url %}
+					{% include /functions/get_drive_url.html url=member.cv %}
+				{% endcapture %}
+				<a class="social cv" href="{{ cv_url }}">
+					Curriculum Vitae
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -60,7 +67,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-github-alt fa-fw"></i>
-				<a class="off" href="https://github.com/{{ member.github }}">{{ member.github }}</a>
+				<a class="social github" href="https://github.com/{{ member.github }}">
+					{{ member.github }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -72,7 +81,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-twitter fa-fw"></i>
-				<a class="off" href="https://twitter.com/{{ member.twitter }}">{{ member.twitter }}</a>
+				<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
+					{{ member.twitter }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -84,7 +95,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-google-scholar"></i>
-				<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
+				<a class="social scholar" href="https://scholar.google.com/citations?user={{ member.scholar }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -96,7 +109,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-osf"></i>
-				<a class="off" href="http://osf.io/{{ member.osf }}">{{ member.title }}</a>
+				<a class="social osf" href="https://osf.io/{{ member.osf }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -107,8 +122,10 @@
 			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="ai ai-researchgate"></i>
-				<a class="off" href="https://www.researchgate.net/profile/{{ member.researchgate }}">{{ member.researchgate }}</a>
+					<i class="ai ai-researchgate"></i>
+					<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+						{{ member.researchgate }}
+					</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -120,7 +137,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-orcid"></i>
-				<a class="off" href="http://orcid.org/{{ member.orcid }}">{{ member.orcid }}</a>
+				<a class="social orcid" href="https://orcid.org/{{ member.orcid }}">
+					{{ member.orcid }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -132,7 +151,9 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="ai ai-publons"></i>
-				<a class="off" href="https://publons.com/author/{{ member.publons }}">{{ member.title }}</a>
+				<a class="social publons" href="https://publons.com/author/{{ member.publons }}">
+					{{ member.title }}
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
@@ -154,48 +175,89 @@
 				{{ content }}
 			</div>
 
-			<!-- Show projects, then papers, then presentations, then posters -->
-			{% for project in site.categories.project %}
+			<!-- Show projects, then papers, then talks, then posters -->
+			{% for project in site.categories.projects %}
 				{% if project.contributors contains member.handle %}
 					{% assign projectsq = true %}
 				{% endif %}
 			{% endfor %}
 
+			{% for software in site.categories.software %}
+				{% if software.contributors contains member.handle %}
+					{% assign projectsq = true %}
+				{% endif %}
+			{% endfor %}
+
+			{% for blog in site.categories.blog %}
+				{% if blog.author contains member.handle %}
+					{% assign blogsq = true %}
+				{% endif %}
+			{% endfor %}
+
 			{% assign lastname = member.title | split: ' ' | last %}
 			{% for paper in site.categories.papers %}
-				{% if paper.authors contains lastname %}
+				{% if paper.authors contains member.science_name %}
 					{% assign papersq = true %}
 				{% endif %}
 			{% endfor %}
 
-			{% for pres in site.categories.presentations %}
+			{% for pres in site.categories.talks %}
 				{% assign split_authors = pres.authors | split: ", " %}
-				{% if split_authors[0] contains lastname %}
-					{% assign presentationsq = true %}
+				{% if split_authors[0] contains member.science_name %}
+					{% assign talksq = true %}
 				{% endif %}
 			{% endfor %}
 
 			{% for poster in site.categories.posters %}
+			<!-- Disabling first-author check for now
 				{% assign split_authors = poster.authors | split: ", " %}
 				{% if split_authors[0] contains lastname %}
+					{% assign postersq = true %}
+				{% endif %}
+			-->
+				{% if poster.authors contains member.science_name %}
 					{% assign postersq = true %}
 				{% endif %}
 			{% endfor %}
 
 			<!-- Add section divider -->
-			{% if projectsq or papersq or presentationsq or postersq %}
+			{% if projectsq or papersq or talksq or postersq %}
 			  <hr/>
 			{% endif %}
 
 			<!-- Projects -->
 			{% if projectsq == true %}
 				<div class="bigspacer"></div>
-				<div class="head">Projects</div>
+				<div class="head">Research</div>
 				<div class="spacer"></div>
 				{% for project in site.categories.projects %}
 					{% if project.contributors contains member.handle %}
 					  <div class="pad-left note"><p>
 						<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+					  </p></div>
+					{% endif %}
+				{% endfor %}
+
+				{% for software in site.categories.software %}
+					{% if software.contributors contains member.handle %}
+					  <div class="pad-left note"><p>
+						<a href="{{ software.url }}" class="off">{{ software.title }} [SOFTWARE]</a>
+					  </p></div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+
+			<!-- Blog posts -->
+			{% if blogsq == true %}
+				<div class="bigspacer"></div>
+				<div class="head">Blog posts</div>
+				<div class="spacer"></div>
+				{% for blog in site.categories.blog %}
+					{% if blog.author contains member.handle %}
+					  <div class="pad-left note"><p>
+						<a href="{{ blog.url }}" class="off">{{ blog.title }}</a>
+						<br/>
+						{{ blog.date | date_to_string }}
 					  </p></div>
 					{% endif %}
 				{% endfor %}
@@ -207,15 +269,17 @@
 				<div class="head">Papers</div>
 				<div class="spacer"></div>
 				{% for paper in site.categories.papers %}
-					{% if paper.authors contains lastname %}
+					{% if paper.authors contains member.science_name %}
 					  <div class="pad-left note"><p>
 							{% if paper.embargo %}
 							  {{ paper.title }}
 							{% else %}
-							  {% if paper.tags contains "preprint" %}
+							  {% if paper.tags contains "preprint" and paper.is_published == false %}
 		              <a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
 		            {% elsif paper.tags contains "chapter" %}
 		              <a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+								{% elsif paper.tags contains "correspondence" %}
+			              <a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
 		            {% else %}
 		              <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
 		            {% endif %}
@@ -225,14 +289,15 @@
 				{% endfor %}
 			{% endif %}
 
-			<!-- Only show presentations on first author's page -->
-			{% if presentationsq == true %}
+			<!-- Only show talks on first author's page -->
+			<!-- Disabling for now -->
+			{% if talksq == true %}
 				<div class="bigspacer"></div>
-				<div class="head">Presentations</div>
+				<div class="head">Talks</div>
 				<div class="spacer"></div>
-				{% for pres in site.categories.presentations %}
-					{% assign split_authors = pres.authors | split: ", " %}
-					{% if split_authors[0] contains lastname %}
+				{% for pres in site.categories.talks %}
+				  {% assign split_authors = pres.authors | split: ", " %}
+					{% if split_authors[0] contains member.science_name %}
 					  <div class="pad-left note"><p>
 						<a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
 					  </p></div>
@@ -246,8 +311,7 @@
 				<div class="head">Posters</div>
 				<div class="spacer"></div>
 				{% for poster in site.categories.posters %}
-					{% assign split_authors = poster.authors | split: ", " %}
-					{% if split_authors[0] contains lastname %}
+					{% if poster.authors contains member.science_name %}
 					  <div class="pad-left note"><p>
 						<a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
 						</p></div>

@@ -14,25 +14,90 @@
 <div class="row">
 	<div class="col-md-3">
     <div class="media">
-      <img class="pull-left pad-right media-object paper-image" src="{{ image }}">
+      <img class="pull-left pad-right media-object paper-image" src="{{ image }}" style="border:1px solid #021a40;">
     </div>
     <div class="bigspacer"></div>
-    {% if page.grant %}
+
+		{% if page.website %}
       <div class="smallhead">
-        Funding
-      </div>
-      <div class="pad-left note">
-      <a class="off" href="{{ page.grant_url }}">{{ page.grant }}</a>
+        <a class="off" href="{{ page.website }}">Project Website</a>
       </div>
       <div class="bigspacer"></div>
     {% endif %}
-    <div class="smallhead">
-      Contributors
+
+    {% if page.grant %}
+      <div class="smallhead subtle">
+        Funding
+      </div>
+      <div class="pad-left note">
+      	<a class="off" href="{{ page.grant_url }}">{{ page.grant }}</a>
+      </div>
+      <div class="bigspacer"></div>
+    {% endif %}
+
+		{% if page.github %}
+			<div class="smallhead subtle">
+				Source Code
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				{% for repo in page.github %}
+					<i class="fa fa-github-alt fa-fw"></i>
+					<a class="off" href="{{ repo }}">{{ repo | remove: 'https://github.com/' }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if page.openneuro or page.neurovault or page.figshare %}
+			<div class="smallhead subtle">
+				Data
+			</div>
+
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				{% for dset in page.openneuro %}
+					<i class="fa fa-database fa-fw"></i>
+					<a class="off" href="https://openneuro.org/datasets/{{ dset }}">OpenNeuro: {{ dset }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+
+				{% for coll in page.neurovault %}
+					<i class="fa fa-database fa-fw"></i>
+					<a class="off" href="https://neurovault.org/collections/{{ coll }}">NeuroVault: {{ coll }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+
+				{% assign n = page.figshare | size %}
+				{% for coll in (0..n-1) %}
+					<i class="ai ai-figshare ai-fw"></i>
+					<a class="off" href="{{ page.figshare[coll] }}">{{ page.figshare_names[coll] }}</a>
+					<div class="smallspacer"></div>
+				{% endfor %}
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
+		{% if page.osf %}
+			<div class="smallhead subtle">
+				Additional Resources
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="ai ai-osf ai-fw"></i>
+				<a class="off" href="{{ page.osf }}">Open Science Framework</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
+    <div class="smallhead subtle">
+      Lab Contributors
     </div>
     <div class="smallspacer"></div>
     {% for contributor in page.contributors %}
       {% for member in site.categories.team %}
-        {% if contributor == member.handle %}
+        {% if contributor == member.handle and member.alumni != true %}
           <div class="pad-left note">
           <a class="off" href="{{ member.url }}">{{ member.title }}</a>
           <div class="smallspacer"></div>
@@ -41,22 +106,23 @@
       {% endfor %}
     {% endfor %}
     <div class="bigspacer"></div>
-    </div>
+  </div>
+
   <div class="col-md-9">
     <div class="content">
       {{ content }}
     </div>
 
-		<!-- Show papers, then presentations, then posters -->
+		<!-- Show papers, then talks, then posters -->
     {% for paper in site.categories.papers %}
       {% if paper.projects contains page.handle %}
         {% assign papersq = true %}
       {% endif %}
     {% endfor %}
 
-    {% for pres in site.categories.presentations %}
+    {% for pres in site.categories.talks %}
       {% if pres.projects contains page.handle %}
-        {% assign presentationsq = true %}
+        {% assign talksq = true %}
       {% endif %}
     {% endfor %}
 
@@ -67,7 +133,7 @@
     {% endfor %}
 
 		<!-- Add section divider -->
-		{% if papersq or presentationsq or postersq %}
+		{% if papersq or talksq or postersq %}
 			<hr/>
 		{% endif %}
 
@@ -79,22 +145,28 @@
       {% for paper in site.categories.papers %}
         {% if paper.projects contains page.handle %}
           {% if paper.embargo %}
-            <p>{{ paper.title }}
+						<div class="pad-left note"><p>
+            {{ paper.title }}
+						</p></div>
           {% else %}
-            <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+						<div class="pad-left note"><p>
+            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+						</p></div>
           {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
 
 		<!-- Talks -->
-    {% if presentationsq == true %}
+    {% if talksq == true %}
       <div class="bigspacer"></div>
-      <div class="head">Presentations</div>
+      <div class="head">Talks</div>
       <div class="spacer"></div>
-      {% for pres in site.categories.presentations %}
+      {% for pres in site.categories.talks %}
         {% if pres.projects contains page.handle %}
-          <p><a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+					<div class="pad-left note"><p>
+          <a href="{{ pres.url }}" class="off">{{ pres.title }}</a>
+					</p></div>
         {% endif %}
       {% endfor %}
     {% endif %}
@@ -106,11 +178,13 @@
       <div class="spacer"></div>
       {% for poster in site.categories.posters %}
         {% if poster.projects contains page.handle %}
-          <p><a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+					<div class="pad-left note"><p>
+          <a href="{{ poster.url }}" class="off">{{ poster.title }}</a>
+					</p></div>
         {% endif %}
       {% endfor %}
     {% endif %}
-		
+
 		<!-- comment out unless we want the categories and tags
     {% unless page.categories == empty %}
     <ul class="tag_box inline">
