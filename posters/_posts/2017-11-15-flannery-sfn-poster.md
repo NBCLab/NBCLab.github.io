@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: http://www.abstractsonline.com/pp8/#!/4376/presentation/27912
-pdf: /assets/pdfs/posters/2017-11-15-flannery-sfn-poster.pdf
+pdf: https://drive.google.com/open?id=1EfSLGMWuh4zH3mTnzokJG8vrsnPelXGi
 
 # Links
 doi:
