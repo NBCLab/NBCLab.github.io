@@ -11,7 +11,7 @@ tags: [fmri]
 
 # Content
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3733
-pdf: /assets/pdfs/posters/2017-06-28-boeving-rdoc-poster.pdf
+pdf: https://drive.google.com/open?id=1EQjTm0APXBavE-j9p_gLDYzYiDDTp2qv
 
 # Links
 doi:

@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: http://www.abstractsonline.com/pp8/#!/4376/presentation/15968
-pdf: /assets/pdfs/posters/2017-11-12-riedel-sfn-poster.pdf
+pdf: https://drive.google.com/open?id=1E-8jlvUW2ySSbfyYCxBCyRIfjdQxIm81
 
 # Links
 doi:
