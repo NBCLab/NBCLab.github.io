@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext:
-pdf: /assets/pdfs/posters/2016-06-27-flannery-habenula-poster.pdf
+pdf: https://drive.google.com/open?id=1EIuztRhthwsNazcYF0-RVOtgavXMMWzY
 
 # Links
 doi:

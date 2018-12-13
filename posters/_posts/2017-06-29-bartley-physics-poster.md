@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3266
-pdf: /assets/pdfs/posters/2017-06-29-bartley-physics-learning-poster.pdf
+pdf: https://drive.google.com/open?id=0B543K-QXbp21bXQtcnlqYmprM0k
 
 # Links
 doi:

@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=4059
-pdf: /assets/pdfs/posters/2017-06-26-bottenhorn-habenula-poster.pdf
+pdf: https://drive.google.com/open?id=0B543K-QXbp21eFNMWjJoSFR4b2s
 
 # Links
 doi:

@@ -11,7 +11,7 @@ tags: [meta-analysis]
 
 # Content
 fulltext:
-pdf: /assets/pdfs/posters/2016-06-27-falcone-mindfulness-poster.pdf
+pdf: https://drive.google.com/open?id=1EPs729eyqrMxTCqCqow6Y2laIDNHn8rP
 
 # Links
 doi:
