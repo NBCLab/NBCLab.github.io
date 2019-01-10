@@ -3,7 +3,7 @@ layout: news
 title: Lab member graduates
 author: jessicabartley
 category: news
-image: jb_angie_graduation
+image: /assets/images/news/jb_angie_graduation.jpg
 tags: []
 
 excerpt: Dr. Jessica Bartley graduates!
