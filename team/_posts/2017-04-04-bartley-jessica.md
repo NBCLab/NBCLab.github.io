@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jessica Bartley
-position: PhD Student
+position: Postdoctoral Associate
 department: Department of Physics
 handle: jbartley
 nickname: JB
@@ -22,4 +22,4 @@ site:
 twitter: jessicabartley
 ---
 
-Jessica is a fifth-year graduate student in the Department of Physics at Florida International University. She previously earned a Masters in Physics from FIU and Bachelor of Arts degrees in Physics and Math at the University of Colorado (Boulder, CO) where she completed a thesis in physics education research. Her research focuses on understanding the neural mechanisms involved in student physics learning. This NSF-funded project uses functional magnetic resonance imaging to identify brain networks engaged during physics reasoning. Jessica is ultimately interested in applying this interdisciplinary neuroimaging and education research towards developing a better understanding of how learning environments impact the neural development of students’ brain networks.
+Dr. Jessica Bartley earned her Ph.D. in Physics from Florida International University in Miami, FL. Her dissertation, entitled Exploring the Neural Mechanisms of Physics Learning, focused on characterizing the neural mechanisms involved in student physics learning and problem solving. She is currently a Postdoctoral Fellow in the Department of Physics at Florida International University, where she specializes in interdisciplinary neuroimaging and education research that aims to develop a better understanding of how learning environments impact the neural development of students’ brain networks.
