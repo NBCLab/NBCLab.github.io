@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: agonzalez
 nickname: Ariel
-science_name: Gonzalez A
+science_name: Gonzalez AA
 image: /assets/images/team/ariel-gonzalez.png
 alumni: false
 
