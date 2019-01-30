@@ -130,6 +130,20 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+		{% if member.impactstory %}
+			<div class="smallhead">
+				ImpactStory
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="ai ai-impactstory"></i>
+				<a class="social impactstory" href="https://profiles.impactstory.org/u/{{ member.impactstory }}">
+					{{ member.title }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
 		{% if member.orcid %}
 			<div class="smallhead">
 				ORCID
