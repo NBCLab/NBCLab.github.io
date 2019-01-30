@@ -143,17 +143,23 @@
       <div class="head">Papers</div>
       <div class="spacer"></div>
       {% for paper in site.categories.papers %}
-        {% if paper.projects contains page.handle %}
-          {% if paper.embargo %}
-						<div class="pad-left note"><p>
-            {{ paper.title }}
-						</p></div>
-          {% else %}
-						<div class="pad-left note"><p>
-            <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-						</p></div>
-          {% endif %}
-        {% endif %}
+			  {% if paper.projects contains page.handle %}
+					<div class="pad-left note"><p>
+						{% if paper.embargo %}
+							{{ paper.title }}
+						{% else %}
+							{% if paper.tags contains "preprint" and paper.is_published == false %}
+								<a href="{{ paper.url }}" class="off">[PREPRINT] {{ paper.title }}</a>
+							{% elsif paper.tags contains "chapter" %}
+								<a href="{{ paper.url }}" class="off">[CHAPTER] {{ paper.title }}</a>
+							{% elsif paper.tags contains "correspondence" %}
+									<a href="{{ paper.url }}" class="off">[CORRESPONDENCE] {{ paper.title }}</a>
+							{% else %}
+								<a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+							{% endif %}
+						{% endif %}
+					</p></div>
+				{% endif %}
       {% endfor %}
     {% endif %}
 
