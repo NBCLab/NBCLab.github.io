@@ -209,12 +209,6 @@
 			{% endfor %}
 
 			{% for poster in site.categories.posters %}
-			<!-- Disabling first-author check for now
-				{% assign split_authors = poster.authors | split: ", " %}
-				{% if split_authors[0] contains lastname %}
-					{% assign postersq = true %}
-				{% endif %}
-			-->
 				{% if poster.authors contains member.science_name %}
 					{% assign postersq = true %}
 				{% endif %}
