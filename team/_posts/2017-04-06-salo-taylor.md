@@ -17,6 +17,7 @@ orcid: 0000-0001-9813-3167
 osf: iwpvm
 publons:
 researchgate: Taylor_Salo
+impactstory: 0000-0001-9813-3167
 scholar: YbH1akIAAAAJ
 site: "https://tsalo.github.io"
 twitter: taylor_salo
