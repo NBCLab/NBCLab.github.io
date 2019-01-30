@@ -83,6 +83,12 @@ navorder: 1
           			</a>
           		{% endif %}
 
+              {% if member.impactstory %}
+          			<a class="social impactstory" href="https://profiles.impactstory.org/u/{{ member.impactstory }}">
+          				<i class="ai ai-impactstory-square ai-lg"></i>
+          			</a>
+          		{% endif %}
+
           		{% if member.orcid %}
           			<a class="social orcid" href="https://orcid.org/{{ member.orcid }}">
           				<i class="ai ai-orcid-square ai-lg"></i>
