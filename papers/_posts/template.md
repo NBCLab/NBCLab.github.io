@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: true
 image:
-projects: []
+projects:
 tags: []
 
 # Text
