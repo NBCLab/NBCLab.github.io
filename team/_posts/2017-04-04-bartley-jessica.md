@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jessica Bartley
-position: Postdoctoral Associate
+position: Postdoctoral Researcher
 department: Department of Physics
 handle: jbartley
 nickname: JB
