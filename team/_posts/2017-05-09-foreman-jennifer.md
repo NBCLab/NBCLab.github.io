@@ -7,7 +7,7 @@ handle: jforeman
 nickname: Jenn
 science_name: Foreman J
 image: /assets/images/team/jennifer-foreman.png
-alumni: false
+alumni: true
 
 # social
 cv:
