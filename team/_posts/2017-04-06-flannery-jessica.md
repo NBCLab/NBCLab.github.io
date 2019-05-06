@@ -10,7 +10,7 @@ image: /assets/images/team/jessica-flannery.jpg
 alumni: false
 
 # social
-cv: https://drive.google.com/open?id=1N1UdJJXJtuBTwbHZ4PM4msU_GvMbjbEh
+cv: https://drive.google.com/open?id=1K2dlxq0NqrNJ959JIEoYXmxTPF2cv8N7
 email: jflan008@fiu.edu
 github: Flanneryg3
 orcid: 0000-0003-3274-1578
