@@ -14,7 +14,7 @@ cv:
 email: mtobia@fiu.edu
 github: tobiamj
 orcid: 0000-0002-5013-0597
-osf:
+osf: zehfw
 publons: 1535708
 researchgate:
 scholar: Pe6nV0IAAAAJ
