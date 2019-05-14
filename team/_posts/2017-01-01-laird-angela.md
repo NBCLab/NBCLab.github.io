@@ -4,7 +4,7 @@ title: Angela Laird
 position: Lab Director
 handle: alaird
 nickname: Angie
-science_name: Laird AR
+science_names: [Laird AR]
 image: /assets/images/team/angela-laird.jpg
 alumni: false
 

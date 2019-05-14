@@ -5,7 +5,7 @@ position: Research Assistant
 department: Psychology
 handle: bsutherland
 nickname: Benji
-science_name: Sutherland B
+science_names: [Sutherland B]
 image: /assets/images/team/benjelene-sutherland.jpg
 alumni: false
 

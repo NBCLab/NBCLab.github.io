@@ -5,7 +5,7 @@ position: Senior Research Scientist
 department:
 handle: mtobia
 nickname: Michael
-science_name: Tobia MJ
+science_names: [Tobia MJ]
 image:
 alumni: false
 

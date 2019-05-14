@@ -5,7 +5,7 @@ position: Postdoctoral Researcher
 department: Department of Physics
 handle: jbartley
 nickname: JB
-science_name: Bartley JE
+science_names: [Bartley JE]
 image: /assets/images/team/jessica-bartley.jpg
 alumni: false
 

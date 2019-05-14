@@ -54,10 +54,12 @@ navorder: 5
               				{% for author in split_authors %}
               				    {% assign author_in_lab = false %}
               				    {% for member in site.categories.team %}
-              					      {% if author == member.science_name %}
-                  								{% assign author_in_lab = true %}
-              						        <a class="off" href="{{ member.url }}">{{ member.science_name }}</a>,
-              						    {% endif %}
+                              {% for science_name in member.science_names %}
+                  					      {% if author == science_name %}
+                      								{% assign author_in_lab = true %}
+                  						        <a class="off" href="{{ member.url }}">{{ science_name }}</a>,
+                  						    {% endif %}
+                              {% endfor %}
               				    {% endfor %}
                           {% for collab in site.data.collaborators %}
                               {% if author == collab.science_name %}

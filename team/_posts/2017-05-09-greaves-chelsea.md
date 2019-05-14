@@ -5,7 +5,7 @@ position: Research Coordinator
 department:
 handle: cgreaves
 nickname: Chelsea
-science_name: Greaves C
+science_names: [Greaves C]
 image: /assets/images/team/chelsea-greaves.png
 alumni: false
 

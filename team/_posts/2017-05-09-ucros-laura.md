@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: lucros
 nickname: Laura
-science_name: Ucros L
+science_names: [Ucros L]
 image: /assets/images/team/laura-ucros.jpg
 alumni: false
 

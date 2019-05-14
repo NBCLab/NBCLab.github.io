@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: jforeman
 nickname: Jenn
-science_name: Foreman J
+science_names: [Foreman J]
 image: /assets/images/team/jennifer-foreman.png
 alumni: true
 

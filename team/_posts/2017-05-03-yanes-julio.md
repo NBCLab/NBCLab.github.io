@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: jyanes
 nickname: Julio
-science_name: Yanes JA
+science_names: [Yanes JA]
 image: /assets/images/team/julio-yanes.jpg
 alumni: true
 

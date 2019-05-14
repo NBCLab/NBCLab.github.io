@@ -5,7 +5,7 @@ position: PhD Student
 department:
 handle: kray
 nickname: Kim
-science_name: Ray KL
+science_names: [Ray KL]
 image: /assets/images/team/kimberly-ray.jpg
 alumni: true
 

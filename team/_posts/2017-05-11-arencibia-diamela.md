@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: darencibia
 nickname: Diamela
-science_name: Arenacibia D
+science_names: [Arenacibia D]
 image: /assets/images/team/diamela-arencibia.png
 alumni: false
 

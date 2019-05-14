@@ -5,7 +5,7 @@ position:
 department:
 handle:
 nickname:
-science_name:
+science_names:
 image:
 alumni:
 

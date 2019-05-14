@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: bmadan
 nickname: Brigitte
-science_name: Madan B
+science_names: [Madan B]
 image: /assets/images/team/brigitte-madan.png
 alumni: false
 
