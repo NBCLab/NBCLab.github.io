@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Psychology
 handle: jflannery
 nickname: Flannery
-science_name: Flannery JS
+science_names: [Flannery JS]
 image: /assets/images/team/jessica-flannery.jpg
 alumni: false
 

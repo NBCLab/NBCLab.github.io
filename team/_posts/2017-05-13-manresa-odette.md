@@ -5,7 +5,7 @@ position: Intake Specialist
 department: Psychology
 handle: omanresa
 nickname: Odette
-science_name: Manresa O
+science_names: [Manresa O]
 image: /assets/images/team/odette-manresa.jpg
 alumni: false
 

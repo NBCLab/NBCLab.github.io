@@ -5,7 +5,7 @@ position: Senior Research Scientist
 department:
 handle: mriedel
 nickname: Cody
-science_name: Riedel MC
+science_names: [Riedel MC]
 image: /assets/images/team/michael-riedel.jpg
 alumni: false
 

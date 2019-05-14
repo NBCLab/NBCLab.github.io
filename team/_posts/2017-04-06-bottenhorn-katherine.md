@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Psychology
 handle: kbottenhorn
 nickname: Katie
-science_name: Bottenhorn KL
+science_names: [Bottenhorn KL]
 image: /assets/images/team/katherine-bottenhorn.jpg
 alumni: false
 

@@ -5,7 +5,7 @@ position: Program Coordinator
 department:
 handle: nhidmi
 nickname: Nazz
-science_name: Hidmi N
+science_names: [Hidmi N]
 image: /assets/images/team/nasreen-hidmi.jpg
 alumni: false
 

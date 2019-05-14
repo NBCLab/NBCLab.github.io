@@ -4,7 +4,7 @@ title: Matthew Sutherland
 position: Lab Co-Director
 handle: msutherland
 nickname: Matt
-science_name: Sutherland MT
+science_names: [Sutherland MT]
 image: /assets/images/team/matthew-sutherland.jpg
 alumni: false
 

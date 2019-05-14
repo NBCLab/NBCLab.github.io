@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Psychology
 handle: tsalo
 nickname: Taylor
-science_name: Salo T
+science_names: [Salo T, Salo TP]
 image: /assets/images/team/taylor-salo.jpg
 alumni: false
 

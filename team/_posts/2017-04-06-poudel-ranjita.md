@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Psychology
 handle: rpoudel
 nickname: Ranjita
-science_name: Poudel R
+science_names: [Poudel R]
 image: /assets/images/team/ranjita-poudel.jpg
 alumni: false
 

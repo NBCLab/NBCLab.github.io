@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: calvarez
 nickname: Cary
-science_name: Alvarez M
+science_names: [Alvarez M]
 image: /assets/images/team/cary-alvarez.jpg
 alumni: true
 

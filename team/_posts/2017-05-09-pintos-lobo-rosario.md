@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: rpintos
 nickname: Rosario
-science_name: Pintos Lobo R
+science_names: [Pintos Lobo R]
 image: /assets/images/team/rosario-pintos-lobo.jpg
 alumni: true
 

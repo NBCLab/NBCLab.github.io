@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: amoor
 nickname: Alex
-science_name: Moor A
+science_names: [Moor A]
 image: /assets/images/team/alexandra-moor.jpg
 alumni: false
 
