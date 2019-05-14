@@ -10,7 +10,7 @@ grant:
 grant_url:
 image:
 tagline: A new, independently developed fork of the bctpy library.
-tags: [neuroinformatics]
+tags: [neuroinformatics, software]
 
 # Data and code
 github: ["https://github.com/FIU-Neuro/brainconn"]

@@ -196,12 +196,6 @@
 				{% endif %}
 			{% endfor %}
 
-			{% for software in site.categories.software %}
-				{% if software.contributors contains member.handle %}
-					{% assign projectsq = true %}
-				{% endif %}
-			{% endfor %}
-
 			{% for blog in site.categories.blog %}
 				{% if blog.author contains member.handle %}
 					{% assign blogsq = true %}
@@ -252,17 +246,13 @@
 				<div class="spacer"></div>
 				{% for project in site.categories.projects %}
 					{% if project.contributors contains member.handle %}
-					  <div class="pad-left note"><p>
-						<a href="{{ project.url }}" class="off">{{ project.title }}</a>
-					  </p></div>
-					{% endif %}
-				{% endfor %}
-
-				{% for software in site.categories.software %}
-					{% if software.contributors contains member.handle %}
-					  <div class="pad-left note"><p>
-						<a href="{{ software.url }}" class="off">{{ software.title }} [SOFTWARE]</a>
-					  </p></div>
+						  <div class="pad-left note"><p>
+							{% if project.tags contains "software" %}
+								<a href="{{ project.url }}" class="off">[SOFTWARE] {{ project.title }}</a>
+							{% else %}
+								<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+							{% endif %}
+						  </p></div>
 					{% endif %}
 				{% endfor %}
 			{% endif %}
