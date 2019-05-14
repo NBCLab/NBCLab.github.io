@@ -10,7 +10,7 @@ grant:
 grant_url:
 image: /assets/images/software/metacurious-logo.png
 tagline: A new frontend for Brainspell and a resource to facilitate neuroimaging meta-analysis.
-tags: [neuroinformatics]
+tags: [neuroinformatics, software]
 
 # Data and code
 github: ["https://github.com/akeshavan/brainspell-neo-frontend", "https://github.com/OpenNeuroLab/brainspell-neo"]

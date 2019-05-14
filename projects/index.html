@@ -28,6 +28,8 @@ navorder: 2
   {% tablerow product in site.categories.projects cols:2 %}
     {% if product.image %}
       {% assign image = product.image %}
+    {% elsif product.tags contains "software" %}
+      {% assign image = "/assets/images/software/foss.png" %}
     {% else %}
       {% assign image = "/assets/images/placeholder.png" %}
     {% endif %}
@@ -40,7 +42,11 @@ navorder: 2
             </a>
             <div class="media-body">
                 <div class="smallhead media-heading">
-                    <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                    {% if product.tags contains "software" %}
+                        <a href="{{ product.url }}" class="off">[SOFTWARE] {{ product.title }}</a>
+                    {% else %}
+                        <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                    {% endif %}
                 </div>
                 <div class="media-body">
                   {{ product.tagline }}
