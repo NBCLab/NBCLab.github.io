@@ -10,7 +10,7 @@ issue: Suppl 1 Proceedings of the Bio-Ontologies Spec Interest G
 pages: S2
 is_published: true
 image: /assets/images/papers/j-biomed-semantics.png
-projects: []
+projects: ["athena"]
 tags: []
 
 # Text

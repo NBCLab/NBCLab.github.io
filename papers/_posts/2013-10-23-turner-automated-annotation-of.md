@@ -6,11 +6,11 @@ authors: "Turner MD, Chakrabarti C, Jones TB, Xu JF, Fox PT, Luger GF, Laird AR,
 year: "2013"
 journal: "Front Neurosci"
 volume: 7
-issue: 
+issue:
 pages: 240
 is_published: true
 image: /assets/images/papers/front-neurosci.png
-projects: []
+projects: ["athena"]
 tags: []
 
 # Text
