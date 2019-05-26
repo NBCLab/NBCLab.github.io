@@ -1,13 +1,13 @@
 ---
 layout: paper
-title: "The heterogeneity of the left dorsal premotor cortex evidenced by multimodal connectivity-based parcellation and functional characterization."
+title: "The heterogeneity of the left dorsal premotor cortex evidenced by multimodal connectivity-based parcellation and functional characterization"
 nickname: 2017-02-14-genon-the-heterogeneity-of
 authors: "Genon S, Reid A, Li H, Fan L, Muller VI, Cieslik EC, Hoffstaedter F, Langner R, Grefkes C, Laird AR, Fox PT, Jiang T, Amunts K, Eickhoff SB"
 year: "2017"
 journal: "Neuroimage"
-volume: 
-issue: 
-pages: 
+volume:
+issue:
+pages:
 is_published: true
 image: /assets/images/papers/neuroimage.png
 projects: []

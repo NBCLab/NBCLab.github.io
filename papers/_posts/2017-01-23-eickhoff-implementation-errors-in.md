@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Implementation errors in the GingerALE Software: Description and recommendations."
+title: "Implementation errors in the GingerALE Software: Description and recommendations"
 nickname: 2017-01-23-eickhoff-implementation-errors-in
 authors: "Eickhoff SB, Laird AR, Fox PM, Lancaster JL, Fox PT"
 year: "2017"

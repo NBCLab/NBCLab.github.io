@@ -1,13 +1,13 @@
 ---
 layout: paper
-title: "Meta-analytic Evidence for Neural Dysactivity Underlying Sexual Dysfunction."
+title: "Meta-analytic Evidence for Neural Dysactivity Underlying Sexual Dysfunction"
 nickname: 2019-03-26-poeppl-meta-analytic-evidence-for
 authors: "Poeppl TB, Langguth B, Laird AR, Eickhoff SB"
 year: "2019"
 journal: "J Sex Med"
-volume: 
-issue: 
-pages: 
+volume:
+issue:
+pages:
 is_published: true
 image: /assets/images/papers/j-sex-med.png
 projects:
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 

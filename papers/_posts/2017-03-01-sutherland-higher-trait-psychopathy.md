@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Higher Trait Psychopathy Is Associated with Increased Risky Decision-Making and Less Coincident Insula and Striatal Activity."
+title: "Higher Trait Psychopathy Is Associated with Increased Risky Decision-Making and Less Coincident Insula and Striatal Activity"
 nickname: 2017-03-01-sutherland-higher-trait-psychopathy
 authors: "Sutherland MT, Fishbein DH"
 year: "2017"

@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "A seed-based cross-modal comparison of brain connectivity measures."
+title: "A seed-based cross-modal comparison of brain connectivity measures"
 nickname: 2017-04-23-reid-a-seed-based-cross-modal
 authors: "Reid AT, Hoffstaedter F, Gong G, Laird AR, Fox P, Evans AC, Amunts K, Eickhoff SB"
 year: "2017"

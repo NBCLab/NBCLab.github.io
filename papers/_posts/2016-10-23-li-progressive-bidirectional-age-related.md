@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: "Progressive Bidirectional Age-Related Changes in Default Mode Network Effective Connectivity across Six Decades."
+title: "Progressive Bidirectional Age-Related Changes in Default Mode Network Effective Connectivity across Six Decades"
 nickname: 2016-10-23-li-progressive-bidirectional-age-related
 authors: "Li K, Laird AR, Price LR, McKay DR, Blangero J, Glahn DC, Fox PT"
 year: "2016"
 journal: "Front Aging Neurosci"
 volume: 8
-issue: 
+issue:
 pages: 137
 is_published: true
 image: /assets/images/papers/front-aging-neurosci.png

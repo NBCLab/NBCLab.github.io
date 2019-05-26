@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Functional Neurocircuits and Neuroimaging Biomarkers of Tobacco Use Disorder."
+title: "Functional Neurocircuits and Neuroimaging Biomarkers of Tobacco Use Disorder"
 nickname: 2018-02-01-sutherland-functional-neurocircuits-and
 authors: "Sutherland MT, Stein EA"
 year: "2018"
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 

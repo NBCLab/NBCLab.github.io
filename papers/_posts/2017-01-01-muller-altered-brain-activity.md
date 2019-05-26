@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Altered Brain Activity in Unipolar Depression Revisited: Meta-analyses of Neuroimaging Studies."
+title: "Altered Brain Activity in Unipolar Depression Revisited: Meta-analyses of Neuroimaging Studies"
 nickname: 2017-01-01-muller-altered-brain-activity
 authors: "Muller VI, Cieslik EC, Serbanescu I, Laird AR, Fox PT, Eickhoff SB"
 year: "2017"

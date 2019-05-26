@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Neuroimaging meta-analysis of cannabis use studies reveals convergent functional alterations in brain regions supporting cognitive control and reward processing."
+title: "Neuroimaging meta-analysis of cannabis use studies reveals convergent functional alterations in brain regions supporting cognitive control and reward processing"
 nickname: 2018-01-01-yanes-neuroimaging-meta-analysis-of
 authors: "Yanes JA, Riedel MC, Ray KL, Kirkland AE, Bird RT, Boeving ER, Reid MA, Gonzalez R, Robinson JL, Laird AR, Sutherland MT"
 year: "2018"

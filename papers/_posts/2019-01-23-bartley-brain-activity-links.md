@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: Brain activity links performance in science reasoning with conceptual approach
+title: "Brain activity links performance in science reasoning with conceptual approach"
 nickname: 2019-01-23-bartley-brain-activity-links
 authors: "Bartley JE, Riedel MC, Salo T, Boeving ER, Bottenhorn KL, Bravo EI, Odean R, Nazareth A, Laird RW, Sutherland MT, Pruden SM, Brewe E, Laird AR"
 year: 2019

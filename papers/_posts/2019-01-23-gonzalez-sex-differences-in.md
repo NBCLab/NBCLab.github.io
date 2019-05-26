@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: Sex differences in brain correlates of STEM anxiety
+title: "Sex differences in brain correlates of STEM anxiety"
 nickname: 2019-01-23-gonzalez-sex-differences-in
 authors: "Gonzalez AA, Bottenhorn KL, Bartley JE, Hayes T, Riedel MC, Salo T, Bravo EI, Odean R, Nazareth A, Laird RW, Sutherland MT, Brewe E, Pruden SM, Laird AR"
 year: 2019

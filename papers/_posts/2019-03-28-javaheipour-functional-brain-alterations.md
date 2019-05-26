@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: "Functional brain alterations in acute sleep deprivation: An activation likelihood estimation meta-analysis."
+title: "Functional brain alterations in acute sleep deprivation: An activation likelihood estimation meta-analysis"
 nickname: 2019-03-28-javaheipour-functional-brain-alterations
 authors: "Javaheipour N, Shahdipour N, Noori K, Zarei M, Camilleri JA, Laird AR, Fox PT, Eickhoff SB, Eickhoff CR, Rosenzweig I, Khazaie H, Tahmasian M"
 year: "2019"
 journal: "Sleep Med Rev"
 volume: 46
-issue: 
+issue:
 pages: 64-73
 is_published: true
 image: /assets/images/papers/sleep-med-rev.png
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 

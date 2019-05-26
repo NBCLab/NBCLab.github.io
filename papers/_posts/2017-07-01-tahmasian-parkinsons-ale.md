@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Resting-state functional reorganization in Parkinson's disease: An activation likelihood estimation meta-analysis."
+title: "Resting-state functional reorganization in Parkinson's disease: An activation likelihood estimation meta-analysis"
 nickname: 2017-04-01-reid-connectivity-comparison
 authors: "Tahmasian M, Eickhoff SB, Giehl K, Schwartz F, Herz DM, Drzezga A, van Eimeren T, Laird AR, Fox PT, Khazaie H, Zarei M, Eggers C, Eickhoff CR"
 year: "2017"

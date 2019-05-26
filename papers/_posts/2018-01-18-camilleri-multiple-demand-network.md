@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Definition and characterization of an extended multiple-demand network."
+title: "Definition and characterization of an extended multiple-demand network"
 nickname: 2018-01-18-camilleri-multiple-demand-network
 authors: "Camilleri JA, Müller VI, Fox P, Laird AR, Hoffstaedter F, Kalenscher T, Eickhoff SB"
 year: "2018"
