@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Functional Decoding and Meta-analytic Connectivity Modeling in Adult Attention-Deficit/Hyperactivity Disorder."
+title: "Functional Decoding and Meta-analytic Connectivity Modeling in Adult Attention-Deficit/Hyperactivity Disorder"
 nickname: 2016-12-15-cortese-functional-decoding-and
 authors: "Cortese S, Castellanos FX, Eickhoff CR, D'Acunto G, Masi G, Fox PT, Laird AR, Eickhoff SB"
 year: "2016"

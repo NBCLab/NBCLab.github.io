@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results."
+title: "Cooperating yet distinct brain networks engaged during naturalistic paradigms: A meta-analysis of functional MRI results"
 nickname: 2019-03-02-bottenhorn-cooperating-yet-distinct
 authors: "Bottenhorn KL, Flannery JS, Boeving ER, Riedel MC, Eickhoff SB, Sutherland MT, Laird AR"
 year: "2019"

@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: "Convergence Analysis of Micro-Lesions (CAML): An approach to mapping of diffuse lesions from carotid revascularization."
+title: "Convergence Analysis of Micro-Lesions (CAML): An approach to mapping of diffuse lesions from carotid revascularization"
 nickname: 2018-06-17-rosen-convergence-analysis-of
 authors: "Rosen AC, Soman S, Bhat J, Laird AR, Stephens J, Eickhoff SB, Fox PM, Long B, Dinishak D, Ortega M, Lane B, Wintermark M, Hitchner E, Zhou W"
 year: "2018"
 journal: "Neuroimage Clin"
 volume: 18
-issue: 
+issue:
 pages: 553-559
 is_published: true
 image: /assets/images/papers/neuroimage-clin.png

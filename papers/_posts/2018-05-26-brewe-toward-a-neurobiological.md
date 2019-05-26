@@ -17,13 +17,13 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid:
+pmcid: PMC6519462
 preprint:
 supplement: "https://www.frontiersin.org/articles/10.3389/fict.2018.00010/full#supplementary-material"
 
 # Links
 doi: "10.3389/fict.2018.00010"
-pmid:
+pmid: 31106219
 
 # Data and code
 github:

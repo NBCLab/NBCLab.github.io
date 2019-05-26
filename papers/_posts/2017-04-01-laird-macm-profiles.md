@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Heterogeneous fractionation profiles of meta-analytic coactivation networks."
+title: "Heterogeneous fractionation profiles of meta-analytic coactivation networks"
 nickname: 2017-04-01-laird-macm-profiles
 authors: "Laird AR, Riedel MC, Okoe M, Jianu R, Ray KL, Eickhoff SB, Smith SM, Fox PT, Sutherland MT"
 year: "2017"

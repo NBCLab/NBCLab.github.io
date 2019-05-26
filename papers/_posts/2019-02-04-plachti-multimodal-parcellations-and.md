@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Multimodal Parcellations and Extensive Behavioral Profiling Tackling the Hippocampus Gradient."
+title: "Multimodal Parcellations and Extensive Behavioral Profiling Tackling the Hippocampus Gradient"
 nickname: 2019-02-04-plachti-multimodal-parcellations-and
 authors: "Plachti A, Eickhoff SB, Hoffstaedter F, Patil KR, Laird AR, Fox PT, Amunts K, Genon S"
 year: "2019"

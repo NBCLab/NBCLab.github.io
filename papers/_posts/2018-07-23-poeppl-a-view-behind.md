@@ -1,13 +1,13 @@
 ---
 layout: paper
-title: "A view behind the mask of sanity: meta-analysis of aberrant brain activity in psychopaths."
+title: "A view behind the mask of sanity: meta-analysis of aberrant brain activity in psychopaths"
 nickname: 2018-07-23-poeppl-a-view-behind
 authors: "Poeppl TB, Donges MR, Mokros A, Rupprecht R, Fox PT, Laird AR, Bzdok D, Langguth B, Eickhoff SB"
 year: "2018"
 journal: "Mol Psychiatry"
-volume: 
-issue: 
-pages: 
+volume:
+issue:
+pages:
 is_published: true
 image: /assets/images/papers/mol-psychiatry.png
 projects: []
@@ -17,7 +17,7 @@ tags: []
 fulltext:
 pdf:
 pdflink:
-pmcid: 
+pmcid:
 preprint:
 supplement:
 

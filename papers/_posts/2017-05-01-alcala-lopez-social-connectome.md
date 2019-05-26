@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Computing the Social Brain Connectome Across Systems and States."
+title: "Computing the Social Brain Connectome Across Systems and States"
 nickname: 2017-05-01-alcala-lopez-social-connectome
 authors: "Alcalá-López D, Smallwood J, Jefferies E, Van Overwalle F, Vogeley K, Mars RB, Turetsky BI, Laird AR, Fox PT, Eickhoff SB, Bzdok D"
 year: "2017"

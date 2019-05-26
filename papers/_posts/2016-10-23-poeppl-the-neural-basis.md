@@ -1,12 +1,12 @@
 ---
 layout: paper
-title: "The neural basis of sex differences in sexual behavior: A quantitative meta-analysis."
+title: "The neural basis of sex differences in sexual behavior: A quantitative meta-analysis"
 nickname: 2016-10-23-poeppl-the-neural-basis
 authors: "Poeppl TB, Langguth B, Rupprecht R, Safron A, Bzdok D, Laird AR, Eickhoff SB"
 year: "2016"
 journal: "Front Neuroendocrinol"
 volume: 43
-issue: 
+issue:
 pages: 28-43
 is_published: true
 image: /assets/images/papers/front-neuroendocrinol.png

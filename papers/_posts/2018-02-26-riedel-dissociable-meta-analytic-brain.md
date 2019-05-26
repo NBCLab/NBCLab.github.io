@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Dissociable meta-analytic brain networks contribute to coordinated emotional processing."
+title: "Dissociable meta-analytic brain networks contribute to coordinated emotional processing"
 nickname: 2018-02-26-riedel-dissociable-meta-analytic-brain
 authors: "Riedel MC, Yanes JA, Ray KL, Eickhoff SB, Fox PT, Sutherland MT, Laird AR"
 year: "2018"
