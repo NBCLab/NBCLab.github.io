@@ -16,8 +16,8 @@ github: Flanneryg3
 orcid: 0000-0003-3274-1578
 osf: fq7db
 publons:
-researchgate:
-scholar:
+researchgate: Jessica_Flannery2
+scholar: NWN1jMkAAAAJ
 site:
 twitter: JessFlannery2
 ---
