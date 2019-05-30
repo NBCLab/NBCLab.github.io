@@ -1,11 +1,11 @@
 ---
 layout: poster
 title: "NiMARE: A Neuroimaging Meta-Analysis Research Environment"
-nickname: 2019-06-09-salo-nimare-ohbm
+nickname: 2019-06-12-salo-nimare-ohbm
 authors: "Salo T, Yarkoni T, Kent JD, Gorgolewski KJ, Glerean E, Bottenhorn KL, Bilgel M, Wright J, Reeders P, Nielson DN, Nichols TE, Riedel MC, Sutherland MT, Laird AR"
 year: "2019"
 conference: "HBM"
-image: /assets/images/posters/2019-06-09-salo-nimare-ohbm.png
+image: /assets/images/posters/2019-06-12-salo-nimare-ohbm.png
 projects: [nimare]
 tags: []
 
