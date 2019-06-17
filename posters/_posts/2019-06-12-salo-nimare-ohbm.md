@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&abs=4138"
-pdf:
+pdf: "https://files.aievolution.com/hbm1901/abstracts/52011/W602_Salo.pdf"
 
 # Links
 doi:

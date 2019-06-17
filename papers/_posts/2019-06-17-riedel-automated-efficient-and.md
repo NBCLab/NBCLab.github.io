@@ -17,13 +17,13 @@ tags: []
 fulltext: https://www.frontiersin.org/articles/10.3389/fnins.2019.00494/full#h10
 pdf:
 pdflink:
-pmcid:
+pmcid: PMC6530419
 preprint:
 supplement: https://www.frontiersin.org/articles/10.3389/fnins.2019.00494/full#supplementary-material
 
 # Links
 doi: "10.3389/fnins.2019.00494"
-pmid:
+pmid: 31156374
 
 # Data and code
 github: ["https://github.com/NBCLab/athena"]

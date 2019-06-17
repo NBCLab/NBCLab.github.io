@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&subView=1&abs=4450"
-pdf:
+pdf: "https://drive.google.com/file/d/1GsdJYoK-uvY6d0H5iUJgt1WXi-P6Hjgt/view?usp=sharing"
 
 # Links
 doi:
