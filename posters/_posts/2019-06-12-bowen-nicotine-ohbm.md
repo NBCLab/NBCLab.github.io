@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&subView=1&abs=4228"
-pdf:
+pdf: "https://files.aievolution.com/hbm1901/abstracts/52009/W037_HillBowen.pdf"
 
 # Links
 doi:
