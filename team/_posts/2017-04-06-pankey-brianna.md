@@ -10,9 +10,9 @@ image: /assets/images/team/brianna-pankey.png
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=1JtdGOkRAO4NktCgc1vbTCI5BrEqWRscG
 email: bpank001@fiu.edu
-github: bpank001
+github: bpank
 orcid:
 osf: 54nt3
 publons:
