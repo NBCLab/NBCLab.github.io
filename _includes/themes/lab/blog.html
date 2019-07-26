@@ -1,8 +1,12 @@
 <div class="page-header">
   <h1>{{ page.title }}</h1>
-  <div class="date">
-    <span>{{ page.date | date_to_long_string }}</span>
-  </div>
+  {{ page.date | date_to_string }}
+  by
+  {% for member in site.categories.team %}
+      {% if page.author == member.handle %}
+          <a class="off" href="{{ member.url }}">{{ member.title }}</a>
+      {% endif %}
+  {% endfor %}
 </div>
 
 <div class="row post-full">
