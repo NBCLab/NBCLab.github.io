@@ -1,6 +1,6 @@
 ---
 layout: news
-title: Michael Tobia awarded FIU-RCMI Pilot Grant investigating health disparities in olfactory disfunction
+title: Dr. Tobia awarded FIU-RCMI Pilot Grant investigating health disparities in olfactory dysfunction
 author: Michael Riedel
 category: news
 tags: [awards]
