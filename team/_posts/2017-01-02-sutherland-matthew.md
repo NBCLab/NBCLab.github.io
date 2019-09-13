@@ -9,7 +9,7 @@ image: /assets/images/team/matthew-sutherland.jpg
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/open?id=1-Njc_PEUWn2ubS732pTZEDW1c5OiVhKU
 email: msutherland@fiu.edu
 github: masuther
 orcid: 0000-0002-6091-4037
