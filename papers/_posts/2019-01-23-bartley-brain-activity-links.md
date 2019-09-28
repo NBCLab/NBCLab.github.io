@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 is_published: false
-image: /assets/images/papers/2019-01-23-bartley-brain-activity-links.png
+image: /assets/images/papers/biorxiv.png
 projects: [physics-learning]
 tags: [preprint]
 
