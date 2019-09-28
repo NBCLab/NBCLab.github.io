@@ -17,12 +17,8 @@
 		<div class="bigspacer"></div>
 
 		{% if member.email %}
-			{% assign emailarray = member.email | split: '@' %}
 			<div class="smallhead">
-				Email
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
+				{% assign emailarray = member.email | split: '@' %}
 				<i class="fa fa-inbox fa-fw"></i>
 				{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
 			</div>
@@ -31,13 +27,9 @@
 
 		{% if member.site %}
 			<div class="smallhead">
-				Personal Site
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="fa fa-user fa-fw"></i>
 				<a class="social site" href="{{ member.site }}">
-					{{ member.site | remove: 'http://' | remove: 'https://' }}
+					Personal Site
 				</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -45,11 +37,7 @@
 
 		{% if member.cv %}
 			<div class="smallhead">
-				CV
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-file-text-o fa-fw"></i>
+				<i class="ai ai-cv"></i>
 				{% capture cv_url %}
 					{% include /functions/get_drive_url.html url=member.cv %}
 				{% endcapture %}
@@ -60,12 +48,18 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+		{% if member.orcid %}
+			<div class="smallhead">
+				<i class="ai ai-orcid"></i>
+				<a class="social orcid" href="https://orcid.org/{{ member.orcid }}">
+					{{ member.orcid }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
 		{% if member.github %}
 			<div class="smallhead">
-				GitHub
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="fa fa-github-alt fa-fw"></i>
 				<a class="social github" href="https://github.com/{{ member.github }}">
 					{{ member.github }}
@@ -76,13 +70,9 @@
 
 		{% if member.twitter %}
 			<div class="smallhead">
-				Twitter
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="fa fa-twitter fa-fw"></i>
 				<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
-					{{ member.twitter }}
+					@{{ member.twitter }}
 				</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -90,13 +80,9 @@
 
 		{% if member.scholar %}
 			<div class="smallhead">
-				Google Scholar
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="ai ai-google-scholar"></i>
 				<a class="social scholar" href="https://scholar.google.com/citations?user={{ member.scholar }}">
-					{{ member.title }}
+					Google Scholar
 				</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -104,13 +90,9 @@
 
 		{% if member.osf %}
 			<div class="smallhead">
-				Open Science Framework
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="ai ai-osf"></i>
 				<a class="social osf" href="https://osf.io/{{ member.osf }}">
-					{{ member.title }}
+					Open Science Framework
 				</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -118,41 +100,19 @@
 
 		{% if member.researchgate %}
 			<div class="smallhead">
-				ResearchGate
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-					<i class="ai ai-researchgate"></i>
-					<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
-						{{ member.researchgate }}
-					</a>
+				<i class="ai ai-researchgate"></i>
+				<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+					ResearchGate
+				</a>
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}
 
 		{% if member.impactstory %}
 			<div class="smallhead">
-				ImpactStory
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="ai ai-impactstory"></i>
 				<a class="social impactstory" href="https://profiles.impactstory.org/u/{{ member.impactstory }}">
-					{{ member.title }}
-				</a>
-			</div>
-			<div class="bigspacer"></div>
-		{% endif %}
-
-		{% if member.orcid %}
-			<div class="smallhead">
-				ORCID
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="ai ai-orcid"></i>
-				<a class="social orcid" href="https://orcid.org/{{ member.orcid }}">
-					{{ member.orcid }}
+					ImpactStory
 				</a>
 			</div>
 			<div class="bigspacer"></div>
@@ -160,13 +120,9 @@
 
 		{% if member.publons %}
 			<div class="smallhead">
-				Publons
-			</div>
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
 				<i class="ai ai-publons"></i>
 				<a class="social publons" href="https://publons.com/author/{{ member.publons }}">
-					{{ member.title }}
+					Publons
 				</a>
 			</div>
 			<div class="bigspacer"></div>
