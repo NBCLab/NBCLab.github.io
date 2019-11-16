@@ -1,13 +1,13 @@
 ---
 layout: paper
 title: "Sex differences in brain correlates of STEM anxiety"
-nickname: 2019-11-01-gonzalez-sex-differences-in
+nickname: 2019-11-16-gonzalez-sex-differences-in
 authors: "Gonzalez AA, Bottenhorn KL, Bartley JE, Hayes T, Riedel MC, Salo T, Bravo EI, Odean R, Nazareth A, Laird RW, Sutherland MT, Brewe E, Pruden SM, Laird AR"
 year: "2019"
-journal: NPJ Science of Learning
+journal: "NPJ Sci Learn"
 volume: 4
-issue: 18
-pages:
+issue:
+pages: 18
 is_published: true
 image: /assets/images/papers/npj-sci-learn.png
 projects: [physics-learning]
@@ -17,13 +17,13 @@ tags: [preprint]
 fulltext:
 pdf:
 pdflink:
-pmcid:
+pmcid: PMC6825125
 preprint: https://www.biorxiv.org/content/10.1101/528075v1
 supplement:
 
 # Links
-doi: 10.1038/s41539-019-0058-9
-pmid:
+doi: "10.1038/s41539-019-0058-9"
+pmid: 31700677
 
 # Data and code
 github: ["https://github.com/NBCLab/PhysicsLearning"]
