@@ -1,13 +1,13 @@
 ---
 layout: paper
 title: "Habenular and striatal activity during performance feedback are differentially linked with state-like and trait-like aspects of tobacco use disorder"
-nickname: 2019-10-09-flannery-habenular-and-striatal
+nickname: 2019-10-22-flannery-habenular-and-striatal
 authors: "Flannery JS, Riedel MC, Poudel R, Laird AR, Ross TJ, Salmeron BJ, Stein EA, Sutherland MT"
 year: "2019"
-journal: Science Advances
+journal: "Sci Adv"
 volume: 5
 issue: 10
-pages:
+pages: eaax2084
 is_published: true
 image: /assets/images/papers/sci-adv.png
 projects:
@@ -17,13 +17,13 @@ tags: [preprint]
 fulltext:
 pdf:
 pdflink: "https://advances.sciencemag.org/content/5/10/eaax2084.full.pdf"
-pmcid:
+pmcid: PMC6785263
 preprint: https://www.biorxiv.org/content/10.1101/771915v1
 supplement: http://advances.sciencemag.org/cgi/content/full/5/10/eaax2084/DC1
 
 # Links
 doi: "10.1126/sciadv.aax2084"
-pmid:
+pmid: 31633021
 
 # Data and code
 github:
