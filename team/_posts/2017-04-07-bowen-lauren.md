@@ -6,7 +6,7 @@ department: Department of Psychology
 handle: lhill
 nickname: Lauren
 science_names: [Hill LD, Hill-Bowen LD, Bowen LD]
-image: /assets/images/team/lauren-hill.png
+image: /assets/images/team/lauren-bowen.png
 alumni: false
 
 # social

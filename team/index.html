@@ -53,6 +53,12 @@ navorder: 1
                 </a>
           		{% endif %}
 
+              {% if member.cv %}
+                <a class="social cv" href="{{ member.cv }}">
+                  <i class="ai ai-cv-square ai-lg"></i>
+                </a>
+              {% endif %}
+
           		{% if member.github %}
           			<a class="social github" href="https://github.com/{{ member.github }}">
                   <i class="fa fa-github-square fa-lg"></i>
