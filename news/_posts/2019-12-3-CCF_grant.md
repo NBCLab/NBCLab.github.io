@@ -1,4 +1,4 @@
-predict---
+---
 layout: news
 title: NBC Graduate Students Awarded CCF Seed Funds for New Pilot Research
 author: Jessica Flannery
