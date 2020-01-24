@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Paraventricular Thalamus Activity during Motivational Conflict Highlights the Nucleus as a Potential Constituent in the Neurocircuitry of Addiction"
-nickname: 2020-1-22-Hill-jneuro-club
+nickname: 2020-1-22-Hill-jneuro-cluub
 authors: "Hill-Bowen LD, Flannery JS, Poudel R"
 year: "2020"
 journal: "Journal of Neuroscience Journal Club"
