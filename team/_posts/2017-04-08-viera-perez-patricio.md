@@ -3,14 +3,14 @@ layout: member
 title: Patricio Viera Perez
 position: PhD Student
 department: Department of Psychology
-handle: pvierape
+handle: pviera
 nickname: Patricio
 science_names: [Viera Perez PM]
 image: /assets/images/team/patricio-viera-perez.jpg
 alumni: false
 
 # social
-cv: https://drive.google.com/file/d/1AP7Eob5iH0oBAP-kGSgkO5_-vqFJpepa/view?usp=sharing
+cv: https://drive.google.com/open?id=1AP7Eob5iH0oBAP-kGSgkO5_-vqFJpepa
 email: pvier002@fiu.edu
 github: PatoViera
 orcid: 0000-0001-7980-5001
