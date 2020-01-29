@@ -3,7 +3,8 @@ layout: member
 title: Patricio Viera Perez
 position: PhD Student
 department: Department of Psychology
-handle: pviera
+
+handle: pvieraperez
 nickname: Patricio
 science_names: [Viera Perez PM]
 image: /assets/images/team/patricio-viera-perez.jpg
