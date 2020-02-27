@@ -11,7 +11,7 @@ pages: 726-728
 is_published: true
 image: /assets/images/papers/jneuro.jpg
 projects:
-tags:
+tags: [correspondence]
 
 # Text
 fulltext: https://www.jneurosci.org/content/40/4/726
