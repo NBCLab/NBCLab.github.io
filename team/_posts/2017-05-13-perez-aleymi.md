@@ -5,7 +5,7 @@ position: Research Assistant
 department:
 handle: aperez
 nickname: Aleymi
-science_names: [Perez A]
+science_names: [Perez AJ]
 image: /assets/images/team/aleymi-perez.jpg
 alumni: false
 
