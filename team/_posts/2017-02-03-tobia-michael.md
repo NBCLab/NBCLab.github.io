@@ -7,7 +7,7 @@ handle: mtobia
 nickname: Michael
 science_names: [Tobia MJ]
 image:
-alumni: false
+alumni: true
 
 # social
 cv:
