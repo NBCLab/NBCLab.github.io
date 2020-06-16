@@ -6,7 +6,7 @@ authors: "Flannery JS"
 year: "2020"
 conference: "College on Problems of Drug Dependence"
 image: /assets/images/talks/Flannery_cpdd_2020.png
-projects: []
+projects: [ace]
 tags: []
 
 # Content
@@ -14,7 +14,7 @@ slides:
 video: https://www.youtube.com/watch?v=-cOLufeebek
 
 # Links
-doi: https://www.youtube.com/watch?v=-cOLufeebek
+doi:
 
 # Data and code
 github:
