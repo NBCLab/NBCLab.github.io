@@ -4,7 +4,7 @@ title: "Multi-echo fMRI in practice"
 nickname: 2020-07-04-laird-ohbm-multi-echo
 authors: "Laird AR"
 year: "2020"
-conference: "OHBM"
+conference: "HBM"
 image: /assets/images/talks/2020-07-04-laird-ohbm-multi-echo.png
 projects: [diva]
 tags: []
