@@ -1,11 +1,11 @@
 ---
 layout: talk
 title: "Peer influences on adolescents’ intentions for future electronic nicotine delivery system use"
-nickname: 2020-6-16-flannery-cpdd-presentation
+nickname: 2020-06-16-flannery-cpdd-presentation
 authors: "Flannery JS"
 year: "2020"
 conference: "College on Problems of Drug Dependence"
-image: /assets/images/talks/Flannery_cpdd_2020.png
+image: /assets/images/talks/2020-06-16-flannery-cpdd-presentation.png
 projects: [ace]
 tags: []
 
