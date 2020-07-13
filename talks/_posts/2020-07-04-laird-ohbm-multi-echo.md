@@ -10,14 +10,14 @@ projects: [diva]
 tags: []
 
 # Content
-slides:
+slides: https://osf.io/dqha3/
 video:
 
 # Links
 doi:
 
 # Data and code
-github:
+github: ["https://github.com/ME-ICA/tedana-ohbm-2020"]
 neurovault:
 openneuro:
 figshare:
