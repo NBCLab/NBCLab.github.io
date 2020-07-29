@@ -4,7 +4,7 @@ title: "Meta-analysis and reproducibility"
 nickname: 2019-08-01-laird-neurohackademy
 authors: "Laird AR"
 year: "2019"
-conference: "Neurohackademy"
+conference: "NeuroHackademy"
 image: /assets/images/talks/2019-08-01-laird-neurohackademy.png
 projects:
 tags: []
@@ -27,4 +27,4 @@ f1000:
 ---
 {% include JB/setup %}
 
-As part of Neurohackademy in Seattle, WA, Dr. Laird presented this lecture on neuroimaging meta-analysis and reproducibility.
+As part of NeuroHackademy in Seattle, WA, Dr. Laird presented this lecture on neuroimaging meta-analysis and reproducibility.
