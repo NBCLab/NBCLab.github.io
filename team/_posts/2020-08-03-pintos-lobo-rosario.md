@@ -17,7 +17,7 @@ orcid:
 osf:
 publons:
 researchgate: Rosario_Pintos_Lobo
-scholar:
+scholar: https://scholar.google.com/citations?hl=en&user=gLjcvmkAAAAJ&view_op=list_works&gmla=AJsN-F4S_3SlZ0KhZYLg1M5DKE9LmTFNfUhCM3K_zXN3at0XBy5WVKmPw0RQgfikViKbWNCFH-EvF6zAxr6QcScCYuTV8H-SAQ
 site:
 twitter: rpintoslobo
 ---
