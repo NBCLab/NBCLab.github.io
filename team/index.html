@@ -138,10 +138,15 @@ Undergraduate research assistants (from left to right): Monica Melendez, Betsy A
 
 <table align="center"; width=1000px>
 	{% tablerow member in alumni cols:3 %}
+    {% if member.image %}
+      {% assign image = member.image %}
+    {% else %}
+      {% assign image = "/assets/images/placeholder-user.png" %}
+    {% endif %}
 		<div class="col-md-1.5 memberbox">
 			<div class="media" style="width:333px">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ member.image }}" style="width:100px; height:auto; border:1px solid #021a40;">
+						<img class="media-object member-photo" src="{{ image }}" style="width:100px; height:auto; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>

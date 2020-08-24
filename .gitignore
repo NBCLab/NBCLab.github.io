@@ -1,3 +1,4 @@
+*.nii.gz
 .ipynb_checkpoints/
 
 _site/*

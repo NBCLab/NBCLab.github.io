@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Impact of HIV and Cannabis on Brain Function"
-contributors: [msutherland, jflannery]
+contributors: [msutherland, jflannery, kcrooks, pvieraperez]
 handle: hiv_cannabis
 
 # Optional

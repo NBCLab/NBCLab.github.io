@@ -1,0 +1,26 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6
+    working_directory: /tmp/src/NBCLab.github.io
+    steps:
+      - checkout
+      - run:
+          name: Bundler Install
+          command: gem install bundler
+      - run:
+          name: Rsync Install
+          command: sudo apt install rsync
+      - run:
+          name: Install Dependencies
+          command: bundle install
+      - run:
+          name: Jekyll build
+          command: bundle exec jekyll build
+workflows:
+  version: 2.1
+  build:
+    jobs:
+      - build

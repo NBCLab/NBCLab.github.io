@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Antecedents and consequences of electronic nicotine delivery systems in underrepresented youth"
-contributors: [msutherland, jflannery, nhidmi, bmadan, bsutherland, omanresa]
+contributors: [msutherland, jflannery, kcrooks, pvieraperez, nhidmi, bmadan, bsutherland, omanresa]
 handle: ace
 
 # Optional
