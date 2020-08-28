@@ -3,9 +3,8 @@ Test that team pictures are the right shape
 """
 
 from glob import glob
+import matplotlib.pyplot as plt
 import os
-
-import cv2
 
 
 def test_team_image_sizes(testdata):
@@ -25,7 +24,7 @@ def test_team_image_sizes(testdata):
     failures = []
     for f in files:
         fname = os.path.basename(f)
-        img = cv2.imread(f)
+        img = plt.imread(f)
         if (img.shape[0] > target_dims[0]) or (img.shape[1] > target_dims[1]):
             failures.append(fname)
 
