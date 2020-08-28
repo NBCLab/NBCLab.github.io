@@ -8,7 +8,10 @@ import os
 import cv2
 
 
-def test_image_sizes(testdata):
+def test_team_image_sizes(testdata):
+    """
+    Test that team photos are the right size.
+    """
     photo_folder = os.path.join(testdata["assets"], "images", "team")
     target_dims = (200, 200)  # in pixels
     # Group photos should not have "-" in the filenames
