@@ -3,6 +3,7 @@ layout: project
 title: "Impact of HIV and Cannabis on Brain Function"
 contributors: [msutherland, jflannery, kcrooks, pvieraperez]
 handle: hiv_cannabis
+defunct: false
 
 # Optional
 website:

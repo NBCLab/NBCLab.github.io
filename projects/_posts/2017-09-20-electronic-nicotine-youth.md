@@ -3,6 +3,7 @@ layout: project
 title: "Antecedents and consequences of electronic nicotine delivery systems in underrepresented youth"
 contributors: [msutherland, jflannery, kcrooks, pvieraperez, nhidmi, bmadan, bsutherland, omanresa]
 handle: ace
+defunct: false
 
 # Optional
 website: https://rcmi.fiu.edu/ace-project/
