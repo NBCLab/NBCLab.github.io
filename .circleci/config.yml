@@ -10,7 +10,7 @@ jobs:
       - run:
           name: Set up environment
           command: |
-            conda create -n py36_env python=3.6 numpy pytest python-opencv -yq
+            conda create -n py36_env python=3.6 numpy pytest matplotlib -yq
             source activate py36_env
             pytest /tmp/src/NBCLab.github.io
 workflows:
