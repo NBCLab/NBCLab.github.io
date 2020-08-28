@@ -1,26 +1,20 @@
 version: 2.1
 
 jobs:
-  build:
+  run_pytest:
     docker:
-      - image: circleci/ruby:2.6
+      - image: continuumio/miniconda3
     working_directory: /tmp/src/NBCLab.github.io
     steps:
       - checkout
       - run:
-          name: Bundler Install
-          command: gem install bundler
-      - run:
-          name: Rsync Install
-          command: sudo apt install rsync
-      - run:
-          name: Install Dependencies
-          command: bundle install
-      - run:
-          name: Jekyll build
-          command: bundle exec jekyll build
+          name: Set up environment
+          command: |
+            conda create -n py36_env python=3.6 numpy pytest python-opencv -yq
+            source activate py36_env
+            pytest /tmp/src/NBCLab.github.io
 workflows:
   version: 2.1
   build:
     jobs:
-      - build
+      - run_pytest
