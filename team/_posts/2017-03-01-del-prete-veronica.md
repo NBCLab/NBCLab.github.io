@@ -7,7 +7,7 @@ handle: vdelprete
 nickname: Veronica
 science_names: [Del Prete V]
 image: /assets/images/team/veronica-del-prete.jpg
-alumni: false
+alumni: true
 
 # social
 cv:
