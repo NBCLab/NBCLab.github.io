@@ -1,8 +1,8 @@
 ---
 layout: member
 title: Ariel Gonzalez
-position: Research Assistant
-department:
+position: PhD Student
+department: Department of Psychology
 handle: agonzalez
 nickname: Ariel
 science_names: [Gonzalez AA]
