@@ -16,7 +16,7 @@ github:
 orcid: 0000-0003-1721-9554
 osf:
 publons:
-researchgate:https://www.researchgate.net/profile/Benjelene_Sutherland
+researchgate: Benjelene_Sutherland
 scholar:
 site:
 twitter:
