@@ -13,10 +13,10 @@ alumni: false
 cv:
 email: bsuth005@fiu.edu
 github:
-orcid: 0000-0003-1721-9554
+orcid:0000-0003-1721-9554
 osf:
 publons:
-researchgate: Benjelene_Sutherland
+researchgate:Benjelene_Sutherland
 scholar:
 site:
 twitter:
