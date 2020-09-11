@@ -13,7 +13,7 @@ alumni: false
 cv:
 email: bsuth005@fiu.edu
 github:
-orcid:https://orcid.org/0000-0003-1721-9554
+orcid: 0000-0003-1721-9554
 osf:
 publons:
 researchgate:https://www.researchgate.net/profile/Benjelene_Sutherland
