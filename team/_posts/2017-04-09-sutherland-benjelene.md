@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Benjelene Sutherland
-position: Research Assistant
+position: PhD Student
 department: Psychology
 handle: bsutherland
 nickname: Benji
@@ -13,12 +13,12 @@ alumni: false
 cv:
 email: bsuth005@fiu.edu
 github:
-orcid:
+orcid: 0000-0003-1721-9554
 osf:
 publons:
-researchgate:
+researchgate: Benjelene_Sutherland
 scholar:
 site:
 twitter:
 ---
-Benjelene Sutherland is pursuing a Bachelor's degree in Psychology with a double major in Philosophy of the Mind. Benjelene’s academic and career goals revolve around better understanding how drug use impacts the brain, and risk factors for substance use. She hopes to continue her education and obtain her Ph.D. in Neuroscience. Also, provide strategies for substance use prevention, and therapies for patients with certain neurological diseases and psychological disorders.
+Benjelene is a first-year graduate student in the Department of Psychology at Florida International University (FIU), specializing in Cognitive Neuroscience. She graduated from FIU with a B.A. in Psychology with double major in Philosophy of the Mind. Benjelene’s academic and career goals revolve around gaining a better understanding of how the use of substances can affect the brain and how brain differences may predict substance use by employing task-based and resting-state fMRI analyses. She is currently working on the Antecedents and Consequences of Electronic Nicotine Delivery Systems (ACE) Project, which examines the risk and protective factors leading to electronic nicotine delivery systems (ENDS) usage among teenagers, alongside the impact of ENDS usage on the developing brain.
