@@ -42,18 +42,95 @@ bundle exec jekyll serve
 Open a browser and go to `localhost:4000/`. Any changes you make to any of the repository's files, except `_config.yml`, will be reflected on the site after refreshing the page. If you edit `_config.yml`, you will need to quit the local server (`Ctrl+C`) and rebuild the site locally in order to see your changes.
 
 # How the site is set up
-The structure can be a little confusing, but I'll try to outline the basics. Just to be clear, I (TS) don't know much, and everything I do know is from playing with the site for a day and a half. Still, here is goes:
+The structure can be a little confusing, but I'll try to outline the basics.
+Still, here it goes:
 
-The different pages (e.g., News, Papers, Team) are organized in separate folders. Each folder contains a file for the page itself (`index.html`) and a folder containing markdown files with the different entries for the page (`_posts/`). Whether adding a new lab member, paper, poster, presentation, project, or piece of news, you will generally be creating one of these markdown files.
+## Framework and tools
 
-The markdown files have two sections, a header with metadata and the content below. How the post is formatted on the general page (e.g., how Taylor Salo's picture fits into the [Team webpage](https://nbclab.github.io/team/)) is determined by the `index.html` file mentioned above. How the post is formatted on its own page (e.g., [Taylor Salo's member page](https://nbclab.github.io/team/taylor-salo)) is determined by the theme for that post's category. Themes are saved as html files in `_includes/themes/lab/`. You can change these themes, but be aware that they will affect all other pages of the same type. For example, if you resize the photo field in the lab member theme file, then the photos of all lab members will be affected.
-- NOTE: You might assume that the themes or similar info are in the `_layouts` folder, but that appears to be a red herring. Those pages just call the files in the `themes` folder.
-- Ultimately, if it is possible, we would like simplify this structure.
+This website (and most GitHub Pages-based sites) uses [Jekyll](https://jekyllrb.com).
+Jekyll uses HTML, CSS, [Liquid](https://shopify.github.io/liquid/), and Markdown to produce [static](https://en.wikipedia.org/wiki/Static_web_page) websites.
+This website also uses the Bootstrap framework via [JekyllBootstrap](http://jekyllbootstrap.com) and SASS (a CSS preprocessing tool).
 
-Pictures, pdfs, etc. can be placed in `assets/`. However, because GitHub repositories are limited in terms of space, I would ultimately like to shift toward using a public Google Drive folder or something similar.
-- When adding pictures of posters or presentations, please export the pdf (assuming that's what you have) to png format, and then resample to a lower resolution. For posters, we use a width of 250 pixels with whatever height scales proportionally with that, and a resolution of 72 pixels per inch. For presentations, please save just the first slide for the page thumbnail, and use a width of 1000 pixels (again, with whatever height matches this) and a resolution of 150 pixels per inch.
+Okay, so what does this all mean to the layperson?
 
-The markdown files for the homepage, the "About the site" page, and the "Contact us" page are all located in `misc/_posts/`. I only mention this because it wasn't obvious to me when I went searching for those pages.
+HTML is the basic language for making websites.
+Everything is more or less built off of HTML, but HTML is ugly and writing raw HTML generally means a lot of duplication that is hard to maintain.
+
+Markdown is the simple markup language used throughout GitHub; Jekyll lets you specify content in Markdown files (easy to write) that is rendered into HTML files automatically, instead of having to work directly with HTML (harder to write).
+
+CSS and SASS provide style-sheets, which are sets of custom formatting commands that the HTML code can use.
+We currently only have a SASS style-sheet.
+
+Liquid is a "template language" that lets you write more standard code (e.g., working with variables) in your HTML and Markdown files.
+Liquid is essential, but frustratingly limited.
+
+Bootstrap is a CSS framework with CSS and Javascript design templates.
+
+JekyllBootstrap shares a number of shortcuts, including interfaces for social networking sites like Twitter.
+It is also what lets us switch between themes (more on that later), which we probably don't even want.
+
+## Organization
+
+The different pages (e.g., News, Papers, Team) are organized in separate folders.
+Each folder contains a file for the page itself (`index.html`) and a folder containing markdown files with the different entries for the page (`_posts/`).
+
+The markdown files for the homepage, the "About the site" page, and the "Contact us" page are all located in `misc/_posts/`.
+
+Whether adding a new lab member, paper, poster, presentation, project, or piece of news, you will generally be creating one of these markdown files in `[type]/_posts/` where `[type]` is the type of post.
+
+Each post (i.e., markdown file) is also rendered as its own page, with a link on the main page for the type.
+For example, an individual poster corresponds to one of the markdown files in `posters/_posts/`.
+That poster has its own page, and there is a link to that page on the main "Posters" page (which is generated from `posters/index.html`).
+
+The markdown files have two sections, a header with metadata and the content below.
+How the post is formatted on the general page (e.g., how Taylor Salo's picture fits into the [Team webpage](https://nbclab.github.io/team/)) is determined by the `index.html` file mentioned above.
+How the post is formatted on its own page (e.g., [Taylor Salo's member page](https://nbclab.github.io/team/taylor-salo)) is determined by the theme file for that post's category.
+
+## Themes
+
+This website is set up so that you can switch between "themes" (i.e., sets of HTML and CSS patterns).
+Files controlling the formatting of the different themes are located in `_includes/themes/[theme]/*.html` and `assets/themes[theme]/`.
+The default theme for the website is "lab", but we may add other ones in the future.
+
+Which theme is in use is controlled by the files in `_layouts`.
+The theme can be changed with commands in the Rakefile.
+The command to change the theme is `rake theme:switch name="[theme]"`, where `[theme]` is replaced with whatever the target theme is.
+**There is very little reason to play with the themes.
+Focus your formatting efforts on the `lab` theme.**
+
+To be honest, we should probably just remove the theme functionality completely, except that it's packaged as part of JekyllBootstrap.
+
+## Changing the formatting
+
+The basic HTML file template is `_includes/themes/lab/default.html`.
+The actual formatting for the different post types is going to be controlled by the files in `_includes/themes/lab`.
+The formatting for the different group pages (e.g., "Team") is primarily controlled by the `[type]/index.html` files.
+
+The files in `_layouts` should be left alone.
+They are just there to make it easier to switch themes.
+
+### Meta-formatting
+
+Edit the SASS file at `_includes/themes/lab/css/style.scss`.
+Don't bother messing with files in `_includes/themes/twitter`, because we don't use that theme.
+Don't bother messing with files in `_includes/themes/lab/bootstrap/`, because that is a prepackaged framework.
+
+## Assets
+
+Pictures, pdfs, etc. can be placed in `assets/`.
+Because GitHub repositories are limited in terms of space, we tend to use low-resolution images.
+Any important, high-resolution files that do not need to be directly rendered on the website should be stored elsewhere (e.g., Google Drive) and linked to on the website.
+
+In order to reduce the amount of data we use with images, we have rules for image sizes:
+
+| Category | Width (pixels) | Height (pixels) |
+|------------------|----------------|-----------------|
+| Lab member photo | 200 | 200 |
+| Journal cover    | 150 | variable |
+| Poster           | 250 | variable |
+| Talk             | 1000 | variable |
+| Project          | 1000 | variable |
+| News             | 1000 | variable |
 
 ## License
 
