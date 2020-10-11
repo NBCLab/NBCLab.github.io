@@ -49,7 +49,7 @@ Still, here it goes:
 
 This website (and most GitHub Pages-based sites) uses [Jekyll](https://jekyllrb.com).
 Jekyll uses HTML, CSS, [Liquid](https://shopify.github.io/liquid/), and Markdown to produce [static](https://en.wikipedia.org/wiki/Static_web_page) websites.
-This website also uses the Bootstrap framework via [JekyllBootstrap](http://jekyllbootstrap.com) and LESS (a simple extension to CSS).
+This website also uses the Bootstrap framework via [JekyllBootstrap](http://jekyllbootstrap.com) and SASS (a CSS preprocessing tool).
 
 Okay, so what does this all mean to the layperson?
 
@@ -58,7 +58,8 @@ Everything is more or less built off of HTML, but HTML is ugly and writing raw H
 
 Markdown is the simple markup language used throughout GitHub; Jekyll lets you specify content in Markdown files (easy to write) that is rendered into HTML files automatically, instead of having to work directly with HTML (harder to write).
 
-CSS and LESS provide style-sheets, which are sets of custom formatting commands that the HTML code can use.
+CSS and SASS provide style-sheets, which are sets of custom formatting commands that the HTML code can use.
+We currently only have a SASS style-sheet.
 
 Liquid is a "template language" that lets you write more standard code (e.g., working with variables) in your HTML and Markdown files.
 Liquid is essential, but frustratingly limited.
@@ -110,7 +111,7 @@ They are just there to make it easier to switch themes.
 
 ### Meta-formatting
 
-Edit the CSS and LESS files in `_includes/themes/lab/css/style.scss` and `_includes/themes/lab/less/style.less`.
+Edit the SASS file at `_includes/themes/lab/css/style.scss`.
 Don't bother messing with files in `_includes/themes/twitter`, because we don't use that theme.
 Don't bother messing with files in `_includes/themes/lab/bootstrap/`, because that is a prepackaged framework.
 
