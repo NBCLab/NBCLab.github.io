@@ -42,11 +42,25 @@ bundle exec jekyll serve
 Open a browser and go to `localhost:4000/`. Any changes you make to any of the repository's files, except `_config.yml`, will be reflected on the site after refreshing the page. If you edit `_config.yml`, you will need to quit the local server (`Ctrl+C`) and rebuild the site locally in order to see your changes.
 
 # How the site is set up
-The structure can be a little confusing, but I'll try to outline the basics. Just to be clear, I (TS) don't know much, and everything I do know is from playing with the site for a day and a half. Still, here is goes:
+The structure can be a little confusing, but I'll try to outline the basics.
+Just to be clear, I (TS) don't know much, and everything I do know is from playing with the site for a day and a half.
+Still, here it goes:
 
-The different pages (e.g., News, Papers, Team) are organized in separate folders. Each folder contains a file for the page itself (`index.html`) and a folder containing markdown files with the different entries for the page (`_posts/`). Whether adding a new lab member, paper, poster, presentation, project, or piece of news, you will generally be creating one of these markdown files.
+## Organization
 
-The markdown files have two sections, a header with metadata and the content below. How the post is formatted on the general page (e.g., how Taylor Salo's picture fits into the [Team webpage](https://nbclab.github.io/team/)) is determined by the `index.html` file mentioned above. How the post is formatted on its own page (e.g., [Taylor Salo's member page](https://nbclab.github.io/team/taylor-salo)) is determined by the theme for that post's category. Themes are saved as html files in `_includes/themes/lab/`. You can change these themes, but be aware that they will affect all other pages of the same type. For example, if you resize the photo field in the lab member theme file, then the photos of all lab members will be affected.
+The different pages (e.g., News, Papers, Team) are organized in separate folders.
+Each folder contains a file for the page itself (`index.html`) and a folder containing markdown files with the different entries for the page (`_posts/`).
+Whether adding a new lab member, paper, poster, presentation, project, or piece of news, you will generally be creating one of these markdown files.
+Each of those posts is also rendered as its own page, with a link on the main page for the type.
+For example, an individual poster corresponds to one of the markdown files in `posters/_posts/`.
+That poster has its own page, and there is a link to that page on the main "Posters" page (which is generated from `posters/index.html`).
+
+The markdown files have two sections, a header with metadata and the content below.
+How the post is formatted on the general page (e.g., how Taylor Salo's picture fits into the [Team webpage](https://nbclab.github.io/team/)) is determined by the `index.html` file mentioned above.
+How the post is formatted on its own page (e.g., [Taylor Salo's member page](https://nbclab.github.io/team/taylor-salo)) is determined by the theme for that post's category.
+Themes are saved as html files in `_includes/themes/lab/`.
+You can change these themes, but be aware that they will affect all other pages of the same type.
+For example, if you resize the photo field in the lab member theme file, then the photos of all lab members will be affected.
 - NOTE: You might assume that the themes or similar info are in the `_layouts` folder, but that appears to be a red herring. Those pages just call the files in the `themes` folder.
 - Ultimately, if it is possible, we would like simplify this structure.
 
