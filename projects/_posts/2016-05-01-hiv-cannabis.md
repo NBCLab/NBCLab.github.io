@@ -9,7 +9,7 @@ defunct: false
 website:
 grant: NIH-5K01DA037819-03
 grant_url: https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=5K01DA037819-03
-image: /assets/images/projects/hiv_cannabis/hiv_cannabis_logo.jpg
+image: /assets/images/projects/2016-05-01-hiv-cannabis.jpg
 tagline: How do cannabis use and HIV infection impact the brain?
 tags: [fmri]
 
@@ -27,4 +27,4 @@ Funded by the National Institute on Drug Abuse of the NIH, this project utilizes
 
 ## Participate
 
-You do not need to have HIV or use marijuana/cannabis to be in this study. This study includes people with and without HIV and people who use or don’t use marijuana. Recruitment for this project is coordinated through the Substance Use and HIV Neuropsychology (SUHN) Laboratory's Mind Matters study at FIU. [Click here to learn more about participating in this project](http://suhn.fiu.edu/participants).
+Data collection for this study is complete.
