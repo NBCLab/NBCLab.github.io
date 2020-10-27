@@ -40,7 +40,7 @@ navorder: 2
     {% if product.image %}
       {% assign image = product.image %}
     {% elsif product.tags contains "software" %}
-      {% assign image = "/assets/images/software/foss.png" %}
+      {% assign image = "/assets/images/placeholder-foss.png" %}
     {% else %}
       {% assign image = "/assets/images/placeholder.png" %}
     {% endif %}
@@ -80,7 +80,7 @@ navorder: 2
     {% if product.image %}
     {% assign image = product.image %}
     {% elsif product.tags contains "software" %}
-    {% assign image = "/assets/images/software/foss.png" %}
+    {% assign image = "/assets/images/placeholder-foss.png" %}
     {% else %}
     {% assign image = "/assets/images/placeholder.png" %}
     {% endif %}
