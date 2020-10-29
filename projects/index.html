@@ -12,14 +12,16 @@ navorder: 2
   {% endif %}
 {% endfor %}
 
-{% assign temp = site.categories.projects %}
 {% assign current = "" | split: "" %}
 {% assign defunct = "" | split: "" %}
-{% for item in temp %}
-    {% if item.defunct != true %}
+{% assign other = "" | split: "" %}
+{% for item in site.categories.projects %}
+    {% if item.status == "current" %}
         {% assign current = current | push: item %}
-    {% else %}
+    {% elsif item.status == "defunct" %}
         {% assign defunct = defunct | push: item %}
+    {% else %}
+        {% assign other = other | push: item %}
     {% endif %}
 {% endfor %}
 
@@ -36,7 +38,8 @@ navorder: 2
 <hr/>
 
 <table align="center"; width=1250px>
-  {% tablerow product in current cols:2 %}
+    {% assign border_color = "000000" %}
+    {% tablerow product in current cols:2 %}
     {% if product.image %}
       {% assign image = product.image %}
     {% elsif product.tags contains "software" %}
@@ -49,7 +52,7 @@ navorder: 2
       <div class="media" style="width:525px; height:150px">
         <div class="media">
             <a class="pull-left" href="{{ product.url }}">
-            <img width=100 class="media-object" src="{{ image }}" style="border:1px solid #021a40;">
+            <img width=100 class="media-object" src="{{ image }}" style="border:5px solid #{{ border_color }};">
             </a>
             <div class="media-body">
                 <div class="smallhead media-heading">

@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Exploring the Neural Mechanisms of Physics Learning
+title: "Physics Learning: Exploring the Neural Mechanisms of Physics Learning"
 contributors: [alaird, jbartley, agonzalez, jforeman, calvarez]
 handle: physics-learning
-defunct: true
+status: defunct
 
 # Optional
 website:
