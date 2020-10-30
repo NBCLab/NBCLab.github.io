@@ -3,7 +3,7 @@ layout: project
 title: "metaCurious"
 contributors: [kbottenhorn]
 handle: metacurious
-defunct: false
+status: current
 
 # Optional
 website: "https://metacurious.org"

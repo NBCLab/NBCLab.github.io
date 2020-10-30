@@ -3,7 +3,7 @@ layout: project
 title:
 contributors: []
 handle:
-defunct:
+status: defunct or current
 
 # Optional
 website:
