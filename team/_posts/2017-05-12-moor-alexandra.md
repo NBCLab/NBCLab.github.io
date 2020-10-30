@@ -7,7 +7,7 @@ handle: amoor
 nickname: Alex
 science_names: [Moor A]
 image: /assets/images/team/alexandra-moor.jpg
-alumni: false
+alumni: true
 
 # social
 cv:

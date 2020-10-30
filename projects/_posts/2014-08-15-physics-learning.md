@@ -3,12 +3,13 @@ layout: project
 title: Exploring the Neural Mechanisms of Physics Learning
 contributors: [alaird, jbartley, agonzalez, jforeman, calvarez]
 handle: physics-learning
+defunct: true
 
 # Optional
 website:
 grant: NSF-1420627
 grant_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1420627
-image: /assets/images/projects/physics_learning/physics_learning_logo.png
+image: /assets/images/projects/2014-08-15-physics-learning.png
 tagline: How does learning physics affect brains?
 tags: [fmri]
 

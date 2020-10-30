@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&subView=1&abs=4450"
-pdf:
+pdf: "https://drive.google.com/file/d/1GsdJYoK-uvY6d0H5iUJgt1WXi-P6Hjgt/view?usp=sharing"
 
 # Links
 doi:
@@ -31,7 +31,7 @@ f1000:
 
 ## Introduction
 
-Both recreational and medical cannabis use are prevalent among individuals living with HIV (1). Given that functional alterations in striatal-cortical circuitry have been separately linked with both HIV infection (2) and chronic cannabis use (3, 4), and that such neurocircuitry is implicated in decision-making, action selection and impulsivity (5-7), we examined the interactive effects of chronic cannabis (CB) use and HIV infection on striatal-centric resting-state functional connectivity (rsFC).
+Both medical and recreational cannabis use are prevalent among individuals living with HIV (1). Given that functional alterations in striatal-cortical circuitry have been separately linked with both HIV infection (2) and chronic cannabis use (3, 4), and that such neurocircuitry is implicated in decision-making, action selection and impulsivity (5-7), we examined the interactive effects of chronic cannabis (CB) use and HIV infection on striatal-centric resting-state functional connectivity (rsFC).
 
 ## Methods
 

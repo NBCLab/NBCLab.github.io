@@ -1,7 +1,7 @@
 {% if page.image %}
 	{% assign image = page.image %}
 {% elsif page.tags contains "software" %}
-	{% assign image = "/assets/images/software/foss.png" %}
+	{% assign image = "/assets/images/placeholder-foss.png" %}
 {% else %}
 	{% assign image = "/assets/images/placeholder.png" %}
 {% endif %}
@@ -72,11 +72,13 @@
 				{% endfor %}
 
 				{% assign n = page.figshare | size %}
-				{% for coll in (0..n-1) %}
-					<i class="ai ai-figshare ai-fw"></i>
-					<a class="off" href="{{ page.figshare[coll] }}">{{ page.figshare_names[coll] }}</a>
-					<div class="smallspacer"></div>
-				{% endfor %}
+				{% if n > 0 %}
+					{% for coll in (0..n-1) %}
+						<i class="ai ai-figshare ai-fw"></i>
+						<a class="off" href="{{ page.figshare[coll] }}">{{ page.figshare_names[coll] }}</a>
+						<div class="smallspacer"></div>
+					{% endfor %}
+				{% endif %}
 			</div>
 			<div class="bigspacer"></div>
 		{% endif %}

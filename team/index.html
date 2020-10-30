@@ -38,9 +38,9 @@ navorder: 1
       {% assign image = "/assets/images/placeholder-user.png" %}
     {% endif %}
 		<div class="col-md-1.25 memberbox">
-			<div class="media" style="width:500px; height:250px">
+			<div class="media" style="width:500px; height:200px">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ image }}" style="width:125px; height:auto; border:1px solid #021a40;">
+						<img class="media-object member-photo" src="{{ image }}" style="width:175px; height:175px; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
@@ -52,6 +52,12 @@ navorder: 1
                   <i class="fa fa-user fa-lg"></i>
                 </a>
           		{% endif %}
+
+              {% if member.cv %}
+                <a class="social cv" href="{{ member.cv }}">
+                  <i class="ai ai-cv-square ai-lg"></i>
+                </a>
+              {% endif %}
 
           		{% if member.github %}
           			<a class="social github" href="https://github.com/{{ member.github }}">
@@ -132,10 +138,15 @@ Undergraduate research assistants (from left to right): Monica Melendez, Betsy A
 
 <table align="center"; width=1000px>
 	{% tablerow member in alumni cols:3 %}
+    {% if member.image %}
+      {% assign image = member.image %}
+    {% else %}
+      {% assign image = "/assets/images/placeholder-user.png" %}
+    {% endif %}
 		<div class="col-md-1.5 memberbox">
-			<div class="media" style="width:333px">
+			<div class="media" style="width:333px; height:150px">
 					<a class="pull-left" href="{{ member.url }}">
-						<img class="media-object member-photo" src="{{ member.image }}" style="width:100px; height:auto; border:1px solid #021a40;">
+						<img class="media-object member-photo" src="{{ image }}" style="width:100px; height:auto; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
 						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
