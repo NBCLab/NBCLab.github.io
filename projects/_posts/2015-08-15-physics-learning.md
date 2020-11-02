@@ -10,7 +10,7 @@ type: dataset
 website:
 grant: NSF-1420627
 grant_url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1420627
-image: /assets/images/projects/2014-08-15-physics-learning.png
+image: /assets/images/projects/2015-08-15-physics-learning.png
 tagline: How does learning physics affect brains?
 tags: [fmri]
 

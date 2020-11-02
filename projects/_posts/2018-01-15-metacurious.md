@@ -10,7 +10,7 @@ type: software
 website: "https://metacurious.org"
 grant:
 grant_url:
-image: /assets/images/projects/2018-01-16-metacurious.png
+image: /assets/images/projects/2018-01-15-metacurious.png
 tagline: A new frontend for Brainspell and a resource to facilitate neuroimaging meta-analysis.
 tags: [neuroinformatics, software]
 
