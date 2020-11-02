@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Set up environment
+          name: Run tests
           command: |
             conda create -n py36_env python=3.6 numpy pytest matplotlib -yq
             source activate py36_env
