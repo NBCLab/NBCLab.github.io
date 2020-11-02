@@ -43,7 +43,7 @@ def test_project_image_sizes(testdata):
     photo_folder = os.path.join(testdata["assets"], "images", "projects")
     target_dims = (400, 400)  # in pixels
     target_ratio = 1  # width to height
-    # Group photos should not have "-" in the filenames
+    # Non-logo images should not have "-" in the filenames
     patterns = ["*-*.png", "*-*.jpg"]
     files = [glob(os.path.join(photo_folder, p)) for p in patterns]
     files = [item for sublist in files for item in sublist]
