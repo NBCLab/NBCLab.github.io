@@ -3,7 +3,8 @@ layout: project
 title: "Physics Learning: Exploring the Neural Mechanisms of Physics Learning"
 contributors: [alaird, jbartley, agonzalez, jforeman, calvarez]
 handle: physics-learning
-status: defunct
+status: analysis
+type: dataset
 
 # Optional
 website:
