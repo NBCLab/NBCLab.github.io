@@ -10,7 +10,7 @@ type: dataset
 website:
 grant: NIH-5K01DA037819-03
 grant_url: https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=5K01DA037819-03
-image: /assets/images/projects/2016-05-01-hiv-cannabis.jpg
+image: /assets/images/projects/2016-05-01-hiv-cannabis.png
 tagline: How do cannabis use and HIV infection impact the brain?
 tags: [fmri]
 
