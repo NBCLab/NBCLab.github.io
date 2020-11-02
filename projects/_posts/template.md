@@ -3,7 +3,8 @@ layout: project
 title:
 contributors: []
 handle:
-status: defunct or current
+status: collection, analysis, or complete
+type: dataset, pilot, or software
 
 # Optional
 website:
