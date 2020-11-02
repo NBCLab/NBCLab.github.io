@@ -10,18 +10,18 @@ projects:
 tags: []
 
 # Content
-slides:
-video:
+slides: "https://doi.org/10.6084/m9.figshare.13177244.v1"
+video: "https://doi.org/10.6084/m9.figshare.13177253.v1"
 
 # Links
-doi:
+doi: "10.6084/m9.figshare.13177244.v1"
 
 # Data and code
 github:
 neurovault:
 openneuro:
-figshare:
-figshare_names:
+figshare: ["https://doi.org/10.6084/m9.figshare.13177244.v1", "https://doi.org/10.6084/m9.figshare.13177253.v1"]
+figshare_names: ["BIDS for MRI: Structure and Conversion (slides)", "BIDS for MRI: Structure and Conversion (video)"]
 osf:
 f1000:
 ---
