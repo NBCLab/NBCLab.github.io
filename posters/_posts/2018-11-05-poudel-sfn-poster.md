@@ -6,7 +6,7 @@ authors: "Poudel R, Tobia MJ, Riedel MC, Laird AR, Ross TJ, Salmeron BJ, Stein E
 year: "2018"
 conference: "SfN"
 image: /assets/images/posters/2018-11-05-poudel-sfn-poster.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Content
