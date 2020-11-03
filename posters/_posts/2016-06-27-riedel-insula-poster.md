@@ -6,7 +6,7 @@ authors: "Riedel MC, Poudel R, Salo T, Eickhoff SB, Fox PT, Laird AR, Sutherland
 year: "2016"
 conference: "HBM"
 image: /assets/images/posters/2016-06-27-riedel-insula-poster.png
-projects: []
+projects: ["pace", "athena"]
 tags: [meta-analysis]
 
 # Content
