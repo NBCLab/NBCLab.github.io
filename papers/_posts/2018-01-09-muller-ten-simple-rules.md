@@ -10,7 +10,7 @@ issue:
 pages: 151-161
 is_published: true
 image: /assets/images/papers/neurosci-biobehav-rev.png
-projects: []
+projects: ["pace", "athena"]
 tags: []
 
 # Text
