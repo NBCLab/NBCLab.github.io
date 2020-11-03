@@ -10,7 +10,7 @@ issue:
 pages: 107884
 is_published: true
 image: /assets/images/papers/drug-alcohol-depend.png
-projects:
+projects: ["pace", "athena"]
 tags: [preprint]
 
 # Text
