@@ -6,7 +6,7 @@ authors: "Falcone KE, Poudel R, Laird AR, Sutherland MT"
 year: "2016"
 conference: "HBM"
 image: /assets/images/posters/2016-06-27-falcone-mindfulness-poster.png
-projects: []
+projects: ["pace"]
 tags: [meta-analysis]
 
 # Content
