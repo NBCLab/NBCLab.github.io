@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: true
 image: /assets/images/papers/res-synth-methods.png
-projects:
+projects: ["pace"]
 tags: []
 
 # Text
