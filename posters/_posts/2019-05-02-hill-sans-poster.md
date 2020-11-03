@@ -7,7 +7,7 @@ year: "2019"
 conference: "SANS Annual Meeting"
 image: /assets/images/posters/2019-05-02-hill-sans-poster.png
 projects:
-tags: pace
+tags: ["pace"]
 
 # Content
 fulltext:
