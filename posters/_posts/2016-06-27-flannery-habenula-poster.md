@@ -6,7 +6,7 @@ authors: "Flannery JS, Sutherland MT, Riedel MC, Laird AR, Salmeron BJ, Ross TJ,
 year: "2016"
 conference: "HBM"
 image: /assets/images/posters/2016-06-27-flannery-habenula-poster.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Content
