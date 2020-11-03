@@ -6,7 +6,7 @@ authors: "Boeving ER, Toma A, Riedel MC, Bartley JE, Bottenhorn KL, Bzdok D, Eic
 year: "2017"
 conference: "HBM"
 image: /assets/images/posters/2017-06-28-boeving-rdoc-poster.png
-projects: [physics-learning]
+projects: ["pace", "athena"]
 tags: [fmri]
 
 # Content
