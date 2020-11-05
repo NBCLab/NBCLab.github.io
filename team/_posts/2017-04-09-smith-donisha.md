@@ -5,7 +5,7 @@ position: PhD Student
 department: Department of Psychology
 handle: donishasmith
 nickname: 
-science_names: [D. D. Smith]
+science_names: [Smith DD]
 image: /assets/images/team/donisha-smith.jpg
 alumni: false
 
