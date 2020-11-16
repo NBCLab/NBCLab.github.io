@@ -6,7 +6,7 @@ department: Department of Psychology
 handle: tsalo
 nickname: Taylor
 science_names: [Salo T, Salo TP]
-image: /assets/images/team/taylor-salo.jpg
+image: /assets/images/team/taylor-salo.png
 alumni: false
 
 # social
