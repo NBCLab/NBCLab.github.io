@@ -9,6 +9,7 @@ alumni: true
 
 # social
 cv:
+nih_biosketch:
 email:
 github:
 orcid: 0000-0003-2271-2159

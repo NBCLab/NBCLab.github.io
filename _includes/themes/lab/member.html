@@ -48,6 +48,19 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+		{% if member.nih_biosketch %}
+			<div class="smallhead">
+				<i class="ai ai-cv"></i>
+				{% capture biosketch_url %}
+					{% include /functions/get_drive_url.html url=member.nih_biosketch %}
+				{% endcapture %}
+				<a class="social cv" href="{{ biosketch_url }}">
+					NIH Biosketch
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
 		{% if member.orcid %}
 			<div class="smallhead">
 				<i class="ai ai-orcid"></i>
