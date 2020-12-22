@@ -1,4 +1,9 @@
-{% assign temp = include.url | split: 'open?id=' %}
-{% assign temp2 = temp[1] %}
-{% assign out_url = 'https://drive.google.com/uc?export=&confirm=no_antivirus&id='| append: temp2 %}
+{% assign url = include.url %}
+{% if url contains 'open?id=' %}
+    {% assign temp = url | split: 'open?id=' %}
+    {% assign temp2 = temp[1] %}
+    {% assign out_url = 'https://drive.google.com/uc?export=&confirm=no_antivirus&id='| append: temp2 %}
+{% else %}
+    {% assign out_url = url %}
+{% endif %}
 {{ out_url }}
