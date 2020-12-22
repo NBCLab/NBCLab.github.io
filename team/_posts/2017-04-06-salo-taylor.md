@@ -10,7 +10,7 @@ image: /assets/images/team/taylor-salo.png
 alumni: false
 
 # social
-cv: "https://drive.google.com/open?id=0B543K-QXbp21OG5COUdTWTF0cGc"
+cv: "https://tsalo.github.io/assets/pdfs/salo_cv.pdf"
 nih_biosketch:
 email: tsalo006@fiu.edu
 github: tsalo
