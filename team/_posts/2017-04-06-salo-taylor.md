@@ -16,7 +16,7 @@ email: tsalo006@fiu.edu
 github: tsalo
 orcid: 0000-0001-9813-3167
 osf: iwpvm
-publons:
+publons: 625161
 researchgate:
 impactstory: 0000-0001-9813-3167
 scholar: YbH1akIAAAAJ
