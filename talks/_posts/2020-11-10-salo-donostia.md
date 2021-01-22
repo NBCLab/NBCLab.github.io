@@ -2,7 +2,7 @@
 layout: talk
 title: "How to Start an Open Science Project from Scratch: ICA-AROMA"
 nickname: 2020-11-10-salo-donostia
-authors: "Salo T & Uruñuela E"
+authors: "Salo T, Uruñuela E"
 year: "2020"
 conference: "BrainHack Donostia"
 image: /assets/images/talks/2020-11-10-salo-donostia.png
