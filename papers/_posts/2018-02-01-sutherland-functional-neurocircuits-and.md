@@ -10,7 +10,7 @@ issue: 2
 pages: 129-143
 is_published: true
 image: /assets/images/papers/trends-mol-med.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Text

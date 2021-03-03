@@ -12,7 +12,7 @@
 <div class="row">
 	<div class="col-md-3">
 		<div class="media">
-			<img class="pull-left pad-right big-member-photo" src="{{ image }}" style="width:250px; height:auto; padding:1px; border:1px solid #021a40;">
+			<img class="pull-left pad-right big-member-photo" src="{{ image }}">
 		</div>
 		<div class="bigspacer"></div>
 
@@ -48,10 +48,23 @@
 			<div class="bigspacer"></div>
 		{% endif %}
 
+		{% if member.nih_biosketch %}
+			<div class="smallhead">
+				<i class="fa fa-paragraph fa-fw"></i>
+				{% capture biosketch_url %}
+					{% include /functions/get_drive_url.html url=member.nih_biosketch %}
+				{% endcapture %}
+				<a class="social nih_biosketch" href="{{ biosketch_url }}">
+					NIH Biosketch
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		{% endif %}
+
 		{% if member.orcid %}
 			<div class="smallhead">
 				<i class="ai ai-orcid"></i>
-				<a class="social orcid" href="https://orcid.org/{{ member.orcid }}">
+				<a class="social orcid" href="https://orcid.org/{{ member.orcid }}" title="ORCID">
 					{{ member.orcid }}
 				</a>
 			</div>
@@ -61,7 +74,7 @@
 		{% if member.github %}
 			<div class="smallhead">
 				<i class="fa fa-github-alt fa-fw"></i>
-				<a class="social github" href="https://github.com/{{ member.github }}">
+				<a class="social github" href="https://github.com/{{ member.github }}" title="GitHub">
 					{{ member.github }}
 				</a>
 			</div>
@@ -71,7 +84,7 @@
 		{% if member.twitter %}
 			<div class="smallhead">
 				<i class="fa fa-twitter fa-fw"></i>
-				<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
+				<a class="social twitter" href="https://twitter.com/{{ member.twitter }}" title="Twitter">
 					@{{ member.twitter }}
 				</a>
 			</div>
@@ -203,8 +216,10 @@
 				{% for project in site.categories.projects %}
 					{% if project.contributors contains member.handle %}
 						  <div class="pad-left note"><p>
-							{% if project.tags contains "software" %}
-								<a href="{{ project.url }}" class="off">[SOFTWARE] {{ project.title }}</a>
+							{% if project.type == "software" %}
+                                <a href="{{ project.url }}" class="off">[SOFTWARE] {{ project.title }}</a>
+                            {% elsif project.type == "pilot" %}
+                                <a href="{{ project.url }}" class="off">[PILOT] {{ project.title }}</a>
 							{% else %}
 								<a href="{{ project.url }}" class="off">{{ project.title }}</a>
 							{% endif %}

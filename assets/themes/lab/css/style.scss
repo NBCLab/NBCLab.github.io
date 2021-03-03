@@ -65,6 +65,10 @@ a.cv:hover {
 	color:#00A08A;
 }
 
+a.nih_biosketch:hover {
+	color:#0fb000;
+}
+
 a.github:hover {
   color: #F2AD00;
 }
@@ -169,14 +173,18 @@ a.off {
 }
 
 .big-member-photo {
-	height: 400px;
-	width: 267;
-	// max-width: 300px;
+    border-radius: 50%;
+    width: 250px;
+    height:auto;
+    padding:1px;
+    border:1px solid #021a40;
 }
 
 .member-photo {
-	height: 150px;
-	width: 100px;
+    width: 175px;
+    height:175px;
+    border:1px solid #021a40;
+    border-radius: 50%;
 }
 
 .member-name {
