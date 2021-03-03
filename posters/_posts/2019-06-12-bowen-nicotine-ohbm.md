@@ -6,7 +6,7 @@ authors: "Hill-Bowen LD, Tobia MJ, Laird AR, Salmeron BJ, Ross TJ, Stein EA, Sut
 year: "2019"
 conference: "HBM"
 image: /assets/images/posters/2019-06-12-bowen-nicotine-ohbm.png
-projects:
+projects: ["pace"]
 tags: []
 
 # Content

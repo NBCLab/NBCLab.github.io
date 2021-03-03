@@ -11,6 +11,7 @@ alumni: false
 
 # social
 cv: https://drive.google.com/open?id=1K2dlxq0NqrNJ959JIEoYXmxTPF2cv8N7
+nih_biosketch:
 email: jflan008@fiu.edu
 github: Flanneryg3
 orcid: 0000-0003-3274-1578

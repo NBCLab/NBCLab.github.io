@@ -6,7 +6,7 @@ authors: "Sutherland MT, Flannery JS, Riedel MC, Laird AR, Ross TJ, Salmeron BJ,
 year: "2018"
 conference: "ACNP"
 image: /assets/images/posters/2018-12-13-sutherland-acnp-poster.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Content

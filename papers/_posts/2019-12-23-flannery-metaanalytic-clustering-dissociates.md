@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: true
 image: /assets/images/papers/cogn-affect-behav-neurosci.png
-projects:
+projects: ["pace", "athena"]
 tags: [preprint]
 
 # Text

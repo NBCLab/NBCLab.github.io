@@ -10,6 +10,7 @@ alumni: false
 
 # social
 cv:
+nih_biosketch: https://drive.google.com/open?id=1e8HXWbXFWPkIfLEI75_hhRNxWtHZpZWD
 email: alaird@fiu.edu
 github: angielaird
 orcid: 0000-0003-3379-8744

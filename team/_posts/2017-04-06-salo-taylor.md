@@ -6,16 +6,17 @@ department: Department of Psychology
 handle: tsalo
 nickname: Taylor
 science_names: [Salo T, Salo TP]
-image: /assets/images/team/taylor-salo.jpg
+image: /assets/images/team/taylor-salo.png
 alumni: false
 
 # social
-cv: "https://drive.google.com/open?id=0B543K-QXbp21OG5COUdTWTF0cGc"
+cv: "https://tsalo.github.io/assets/pdfs/salo_cv.pdf"
+nih_biosketch:
 email: tsalo006@fiu.edu
 github: tsalo
 orcid: 0000-0001-9813-3167
 osf: iwpvm
-publons:
+publons: 625161
 researchgate:
 impactstory: 0000-0001-9813-3167
 scholar: YbH1akIAAAAJ
@@ -23,6 +24,11 @@ site: "https://tsalo.github.io"
 twitter: taylor_salo
 ---
 
-I am a fourth-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience. I graduated from Cornell University (Ithaca, New York) with a B.A. in Psychology, before spending two years as a research assistant at the Translational Cognitive and Affective Neuroscience lab at University of California, Davis. I am mostly interested in neuroimaging meta-analysis and functional decoding, neuroinformatics tool development, data management for large neuroimaging datasets, and improving transparency and reproducibility in cognitive neuroscience.
+I am a sixth-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience.
+I graduated from Cornell University (Ithaca, New York) with a B.A. in Psychology, before spending two years as a research assistant at the Translational Cognitive and Affective Neuroscience lab at the University of California, Davis.
+I'm primarily interested in neuroinformatics (tool-building for cognitive neuroscience), reproducible neuroimaging research, and semi-advanced fMRI denoising.
 
-If you'd like to get in touch with me, feel free to email me or message me on the BrainHack Slack group (join at [brainhack-slack-invite.herokuapp.com](https://brainhack-slack-invite.herokuapp.com)).
+I am the project maintainer for [NiMARE](https://github.com/neurostuff/NiMARE), a Python package for neuroimaging meta-analyses, and a core contributor to [tedana](https://github.com/ME-ICA/tedana), a library for denoising multi-echo fMRI data.
+I also contribute to a number of neuroimaging-related Python tools, like [fMRIPrep](https://github.com/poldracklab/fmriprep), the [physiopy suite](https://github.com/physiopy), and [heudiconv](https://github.com/nipy/heudiconv).
+
+If you'd like to get in touch with me, feel free to email me or message me on the [BrainHack Mattermost](https://mattermost.brainhack.org/).

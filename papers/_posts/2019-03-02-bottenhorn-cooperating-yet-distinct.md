@@ -10,7 +10,7 @@ issue: 1
 pages: 27-48
 is_published: true
 image: /assets/images/papers/netw-neurosci.png
-projects:
+projects: ["pace", "athena"]
 tags: [preprint, meta-analysis]
 
 # Text

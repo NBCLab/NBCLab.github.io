@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: true
 image: /assets/images/papers/hum-brain-mapp.png
-projects: []
+projects: ["pace", "athena"]
 tags: [meta-analysis]
 
 # Text

@@ -10,7 +10,7 @@ issue:
 pages:
 is_published: true
 image: /assets/images/papers/exp-clin-psychopharmacol.png
-projects:
+projects: ["pace"]
 tags: []
 
 # Text

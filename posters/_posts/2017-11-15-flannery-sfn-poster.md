@@ -6,7 +6,7 @@ authors: "Flannery JS, Sutherland MT, Riedel MC, Laird AR, Salmeron BJ, Ross TJ,
 year: "2017"
 conference: "SfN"
 image: /assets/images/posters/2017-11-15-flannery-sfn-poster.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Content
