@@ -17,7 +17,7 @@ pdf: "https://drive.google.com/file/d/1GqSL5Ddo2r3AWf-gI0Fcdu_7-qb0rS1K/view?usp
 doi:
 
 # Data and code
-github: https://github.com/62442katieb/idconn-retrieval/tree/master/ohbm2019
+github: https://github.com/62442katieb/physics-learning-iq/tree/master/ohbm2019
 neurovault:
 openneuro:
 figshare:

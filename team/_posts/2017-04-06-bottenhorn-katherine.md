@@ -10,7 +10,7 @@ image: /assets/images/team/katherine-bottenhorn.jpg
 alumni: false
 
 # social
-cv: https://drive.google.com/open?id=0B543K-QXbp21SDIyM0dqemlBUFk
+cv: https://drive.google.com/open?id=1Xp1gN-ETq1H-8OeVYmY7yzVtBlhus1kA
 nih_biosketch:
 email: kbott006@fiu.edu
 github: 62442katieb
