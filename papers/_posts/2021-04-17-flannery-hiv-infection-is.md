@@ -9,7 +9,7 @@ volume:
 issue:
 pages:
 is_published: false
-image: /assets/images/papers/medRxiv.png
+image: /assets/images/papers/medrxiv.png
 projects: ["hiv_cannabis"]
 tags: [preprint]
 
