@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Hands-on tutorial with NiMARE"
+title: "Overview and history of neuroimaging meta-analyses"
 nickname: 2021-06-03-laird-ohbm-overview-meta-analysis
 authors: "Laird AR"
 year: "2021"
@@ -10,7 +10,7 @@ projects:
 tags: []
 
 # Content
-slides:
+slides: https://drive.google.com/file/d/1i087dCk8b0xS4AIR2w6TRUcNl6NSX0JM/view?usp=sharing
 video:
 
 # Links
