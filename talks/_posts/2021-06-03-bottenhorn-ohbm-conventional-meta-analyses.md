@@ -10,11 +10,11 @@ projects: []
 tags: []
 
 # Content
-slides:
+slides: https://zenodo.org/record/4898251
 video:
 
 # Links
-doi:
+doi: 10.5281/zenodo.4898251
 
 # Data and code
 github:
