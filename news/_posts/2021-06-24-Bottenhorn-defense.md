@@ -8,7 +8,7 @@ image: /assets/images/team/katherine-bottenhorn.jpg
 excerpt: Graduate student Katie Bottenhorn has successfully defended her dissertation
 ---
 
-[Katie Bottenhorn](/team/bottenhorn-katie) successfully defended her dissertation,
+[Katie Bottenhorn](/team/bottenhorn-katherine) successfully defended her dissertation,
 "Development and Deployment of Analytic Tools for Interrogating Large-scale Brain Networks", on June 24, 2021,
 and has now received her Ph.D. in Cognitive Neuroscience.
 
