@@ -9,6 +9,7 @@ highlighter: rouge
 markdown: kramdown
 
 repository: NBCLab/nbclab.github.io
+future: true
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
