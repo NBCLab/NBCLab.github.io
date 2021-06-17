@@ -10,8 +10,8 @@ projects: ["hiv_cannabis"]
 tags: []
 
 # Content
-fulltext:
-pdf:
+fulltext: "https://ww4.aievolution.com/hbm2101/index.cfm?do=abs.viewAbs&src=ext&abs=1594"
+pdf: "https://anyscreeninc.com/PF/OHBM/2021/OHBM-Educational-Courses/pdf_poster_files/Jessica_Flannery60785c7f8d2f4/Jessica_Flannery.pdf"
 
 # Links
 doi:
