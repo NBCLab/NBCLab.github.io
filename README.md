@@ -127,10 +127,12 @@ In order to reduce the amount of data we use with images, we have rules for imag
 |------------------|----------------|-----------------|
 | Lab member photo | 200 | 200 |
 | Journal cover    | 150 | variable |
-| Poster           | 250 | variable |
+| Poster           | <=375* | <=375* |
 | Talk             | 1000 | variable |
 | Project          | 1000 | variable |
 | News             | 1000 | variable |
+
+\* Either height or width must be 375 pixels, and the other must be less than or equal to 375 pixels.
 
 ## License
 
