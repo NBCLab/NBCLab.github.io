@@ -5,7 +5,7 @@ nickname: 2021-06-22-bottenhorn-ohbm-ossig
 authors: "Atay MS, Bottenhorn KL"
 year: "2021"
 conference: "HBM"
-image: /assets/images/talks/2021-06-03-salo-ohbm-nimare.png
+image: /assets/images/talks/2021-06-22-bottenhorn-ohbm-ossig.png
 projects: []
 tags: []
 
