@@ -14,11 +14,11 @@ projects:
 tags: []
 
 # Text
-fulltext:
+fulltext: https://www.sciencedirect.com/science/article/pii/S0896627321002312
 pdf:
 pdflink:
 pmcid:
-preprint:
+preprint: https://psyarxiv.com/rytjq/
 supplement:
 
 # Links
@@ -26,12 +26,12 @@ doi: "10.1016/j.neuron.2021.04.001"
 pmid: 33932337
 
 # Data and code
-github:
+github: ["https://github.com/brainhackorg/brainhack_jupyter_book"]
 neurovault:
 openneuro:
 figshare:
 figshare_names:
-osf:
+osf: https://osf.io/4szct/
 ---
 {% include JB/setup %}
 
