@@ -11,7 +11,7 @@ tags: []
 
 # Content
 fulltext:
-pdf:
+pdf: "https://drive.google.com/file/d/1eAgboP9wL3qSf0z16P6CgCY8uRSZBXG5/view?usp=sharing"
 
 # Links
 doi:
