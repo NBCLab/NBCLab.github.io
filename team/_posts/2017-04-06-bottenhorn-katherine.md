@@ -7,7 +7,7 @@ handle: kbottenhorn
 nickname: Katie
 science_names: [Bottenhorn KL]
 image: /assets/images/team/katherine-bottenhorn.jpg
-alumni: false
+alumni: true
 
 # social
 cv: https://drive.google.com/open?id=1Xp1gN-ETq1H-8OeVYmY7yzVtBlhus1kA
