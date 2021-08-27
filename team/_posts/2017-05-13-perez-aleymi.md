@@ -7,7 +7,7 @@ handle: aperez
 nickname: Aleymi
 science_names: [Perez AJ]
 image: /assets/images/team/aleymi-perez.jpg
-alumni: false
+alumni: true
 
 # social
 cv:
