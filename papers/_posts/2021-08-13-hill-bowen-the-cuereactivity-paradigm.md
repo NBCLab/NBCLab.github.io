@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "The cue-reactivity paradigm: An ensemble of networks driving attention and cognition when viewing drug-related and natural-reward stimuli"
-nickname: 2021-08-13-hill-the-cue-reactivity-paradigm
+nickname: 2021-08-13-hill-bowen-the-cuereactivity-paradigm
 authors: "Hill-Bowen LD, Riedel MC, Poudel R, Salo T, Flannery JS, Camilleri JA, Eickhoff SB, Laird AR, Sutherland MT"
 year: "2021"
 journal: "Neurosci Biobehav Rev"
@@ -23,7 +23,7 @@ supplement: https://www.biorxiv.org/content/10.1101/2020.02.26.966549v1.suppleme
 
 # Links
 doi: "10.1016/j.neubiorev.2021.08.010"
-pmid:
+pmid: 34400176
 
 # Data and code
 github:
