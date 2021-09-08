@@ -27,7 +27,7 @@ jobs:
 
   linkchecker:
 
-    runs-on: yarikoptic/linkchecker:9.4.0.anchorfix1-1
+    runs-on: ubuntu-latest
 
     steps:
       - name: Download build files
@@ -35,11 +35,9 @@ jobs:
         with:
           name: build_files
 
-      - name: Run linkchecker
-        run: |
-          linkchecker -t 1 ${{ github.workspace }}/_site
-
-          # check external separately by pointing to all *html so no
-          # failures for local file:/// -- yoh found no better way,
-          linkchecker -t 1 --check-extern \
-            ${{ github.workspace }}/_site/*html ${{ github.workspace }}/_site/*/*.html
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.8
+        with:
+          args: --verbose --no-progress ${{ github.workspace }}/_site/**/*.md ${{ github.workspace }}/_site/**/*.html
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
