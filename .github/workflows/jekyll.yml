@@ -12,9 +12,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+      - name: Build the site in the jekyll/builder container
+        uses: actions/checkout@v2
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+      - name: Archive build files
+          uses: actions/upload-artifact@v2
+          with:
+            name: build_files
+            path: ${{ github.workspace }}/_site/
+
+  linkchecker:
+
+    runs-on: yarikoptic/linkchecker:9.4.0.anchorfix1-1
+
+    steps:
+      - name: Download build files
+        uses: actions/download-artifact@v2
+        with:
+          name: build_files
+
+      - name: Run linkchecker
+        uses: actions/checkout@v2
+        run: |
+          linkchecker -t 1 ${{ github.workspace }}/_site
+
+          # check external separately by pointing to all *html so no
+          # failures for local file:/// -- yoh found no better way,
+          linkchecker -t 1 --check-extern \
+            ${{ github.workspace }}/_site/*html ${{ github.workspace }}/_site/*/*.html
