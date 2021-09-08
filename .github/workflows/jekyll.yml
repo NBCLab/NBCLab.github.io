@@ -26,12 +26,14 @@ jobs:
 
     steps:
 
+      - uses: actions/checkout@v2
+
       - name: Ruby
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
 
-      - name: Setup Rubygems, Bundler, jekyll
+      - name: Set up Rubygems, Bundler, jekyll
         run: |
           gem update --system --no-document
           gem update bundler --no-document
