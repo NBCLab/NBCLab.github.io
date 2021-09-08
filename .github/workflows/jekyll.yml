@@ -14,7 +14,6 @@ jobs:
     steps:
 
       - name: Build the site in the jekyll/builder container
-        uses: actions/checkout@v2
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
@@ -37,7 +36,6 @@ jobs:
           name: build_files
 
       - name: Run linkchecker
-        uses: actions/checkout@v2
         run: |
           linkchecker -t 1 ${{ github.workspace }}/_site
 
