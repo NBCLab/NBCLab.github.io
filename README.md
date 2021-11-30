@@ -23,6 +23,9 @@ rvm use ruby-2.4.1 --default
 gem install bundler
 ```
 
+For OSX users, Ruby comes pre-installed on your computer, but you may not be able to install Ruby packages due to permission issues.
+See https://stackoverflow.com/a/54873916/2589328 for some helpful information if you come up against this issue.
+
 ## 2. Install Jekyll and other dependencies from the GitHub Pages gem
 ```bash
 cd /location/of/repository/
