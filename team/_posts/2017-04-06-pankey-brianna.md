@@ -7,7 +7,7 @@ handle: bpankey
 nickname: Brianna
 science_names: [Pankey B]
 image: /assets/images/team/brianna-pankey.png
-alumni: false
+alumni: true
 
 # social
 cv: https://drive.google.com/open?id=1JtdGOkRAO4NktCgc1vbTCI5BrEqWRscG
