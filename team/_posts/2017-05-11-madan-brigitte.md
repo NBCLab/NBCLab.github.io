@@ -7,7 +7,7 @@ handle: bmadan
 nickname: Brigitte
 science_names: [Madan B]
 image: /assets/images/team/brigitte-madan.png
-alumni: false
+alumni: true
 
 # social
 cv:

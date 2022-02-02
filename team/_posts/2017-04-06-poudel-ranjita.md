@@ -7,7 +7,7 @@ handle: rpoudel
 nickname: Ranjita
 science_names: [Poudel R]
 image: /assets/images/team/ranjita-poudel.jpg
-alumni: false
+alumni: true
 
 # social
 cv: https://drive.google.com/open?id=0B543K-QXbp21dkhOcTVaQXF5VGc

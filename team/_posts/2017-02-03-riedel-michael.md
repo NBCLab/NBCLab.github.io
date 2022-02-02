@@ -7,7 +7,7 @@ handle: mriedel
 nickname: Cody
 science_names: [Riedel MC]
 image: /assets/images/team/michael-riedel.jpg
-alumni: false
+alumni: true
 
 # social
 cv:
