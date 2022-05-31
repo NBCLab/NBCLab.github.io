@@ -9,7 +9,7 @@ image: /assets/images/team/angela-laird.jpg
 alumni: false
 
 # social
-cv:
+cv: https://drive.google.com/file/d/16MklRxzRiPbzW5V2WHbcJcmUxL8p7o8K/view?usp=sharing
 nih_biosketch: https://drive.google.com/open?id=1e8HXWbXFWPkIfLEI75_hhRNxWtHZpZWD
 email: alaird@fiu.edu
 github: angielaird
