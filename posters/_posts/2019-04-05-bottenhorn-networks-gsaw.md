@@ -11,16 +11,16 @@ tags: []
 
 # Content
 fulltext:
-pdf: "https://drive.google.com/file/d/1GjEb9toPn5DY-1aXCCikonaKhrWdVUqa/view?usp=sharing"
+pdf: "https://figshare.com/articles/poster/Large-scale_brain_networks_underlying_domain-specific_memory_intelligence_and_academic_performance/19991561"
 
 # Links
-doi:
+doi: 10.6084/m9.figshare.19991561.v1
 
 # Data and code
 github: https://github.com/62442katieb/idconn-retrieval/tree/master/gsaw2019
 neurovault:
 openneuro:
-figshare:
+figshare: ["https://figshare.com/articles/poster/Large-scale_brain_networks_underlying_domain-specific_memory_intelligence_and_academic_performance/19991561"]
 figshare_names:
 osf:
 f1000:

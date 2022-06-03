@@ -10,17 +10,17 @@ projects: ["physics-learning"]
 tags: []
 
 # Content
-fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&abs=4423"
-pdf: "https://drive.google.com/file/d/1GqSL5Ddo2r3AWf-gI0Fcdu_7-qb0rS1K/view?usp=sharing"
+fulltext:
+pdf:
 
 # Links
-doi:
+doi: 10.6084/m9.figshare.19991558.v1
 
 # Data and code
 github: https://github.com/62442katieb/physics-learning-iq/tree/master/ohbm2019
 neurovault:
 openneuro:
-figshare:
+figshare: ["https://figshare.com/articles/poster/Large-scale_brain_networks_underlying_domain-specific_memory_intelligence_and_academic_performance/19991558"]
 figshare_names:
 osf:
 f1000:
