@@ -10,17 +10,17 @@ projects: ["physics-learning"]
 tags: []
 
 # Content
-fulltext: "https://ww5.aievolution.com/hbm1901/index.cfm?do=abs.viewAbs&abs=4684"
-pdf: "https://drive.google.com/file/d/1H0NqZu2FMBcnwOxF_XiR3vwbFeltGU02/view?usp=sharing"
+fulltext:
+pdf: https://figshare.com/articles/poster/Brain_Networks_Underlying_Sex_and_Pedagogy_Differences_in_Physics_Learning/19991519
 
 # Links
-doi:
+doi: 10.6084/m9.figshare.19991519.v1
 
 # Data and code
 github:
 neurovault:
 openneuro:
-figshare:
+figshare: ["https://figshare.com/articles/poster/Brain_Networks_Underlying_Sex_and_Pedagogy_Differences_in_Physics_Learning/19991519"]
 figshare_names:
 osf:
 f1000:
