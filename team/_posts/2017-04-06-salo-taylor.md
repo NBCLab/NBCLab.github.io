@@ -23,10 +23,9 @@ scholar: YbH1akIAAAAJ
 site: "https://tsalo.github.io"
 twitter: taylor_salo
 ---
-
-I am a sixth-year graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience.
+In my time at FIU, I was a graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience, with Dr. Angela Laird as my advisor.
 I graduated from Cornell University (Ithaca, New York) with a B.A. in Psychology, before spending two years as a research assistant at the Translational Cognitive and Affective Neuroscience lab at the University of California, Davis.
-I'm primarily interested in neuroinformatics (tool-building for cognitive neuroscience), reproducible neuroimaging research, and semi-advanced fMRI denoising.
+I'm primarily interested in neuroinformatics (tool-building for cognitive neuroscience), reproducible neuroimaging research, and advanced fMRI denoising.
 
 I am the project maintainer for [NiMARE](https://github.com/neurostuff/NiMARE), a Python package for neuroimaging meta-analyses, and a core contributor to [tedana](https://github.com/ME-ICA/tedana), a library for denoising multi-echo fMRI data.
 I also contribute to a number of neuroimaging-related Python tools, like [fMRIPrep](https://github.com/poldracklab/fmriprep), the [physiopy suite](https://github.com/physiopy), and [heudiconv](https://github.com/nipy/heudiconv).
