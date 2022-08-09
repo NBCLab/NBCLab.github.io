@@ -7,7 +7,7 @@ handle: tsalo
 nickname: Taylor
 science_names: [Salo T, Salo TP]
 image: /assets/images/team/taylor-salo.png
-alumni: false
+alumni: true
 
 # social
 cv: "https://tsalo.github.io/assets/pdfs/salo_cv.pdf"
@@ -24,6 +24,8 @@ site: "https://tsalo.github.io"
 twitter: taylor_salo
 ---
 In my time at FIU, I was a graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience, with Dr. Angela Laird as my advisor.
+After graduating in 2022, I started as a post-doc on the informatics team in Ted Satterthwaite's [Lifespan Informatics and Neuroimaging Center](https://www.pennlinc.io) at the University of Pennsylvania.
+
 I graduated from Cornell University (Ithaca, New York) with a B.A. in Psychology, before spending two years as a research assistant at the Translational Cognitive and Affective Neuroscience lab at the University of California, Davis.
 I'm primarily interested in neuroinformatics (tool-building for cognitive neuroscience), reproducible neuroimaging research, and advanced fMRI denoising.
 
