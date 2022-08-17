@@ -16,6 +16,7 @@ email: jflan008@fiu.edu
 github: Flanneryg3
 orcid: 0000-0003-3274-1578
 osf: fq7db
+figshare:
 publons: 3068075
 researchgate: Jessica_Flannery2
 impactstory:

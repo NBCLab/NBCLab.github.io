@@ -17,6 +17,7 @@ email: pvier002@fiu.edu
 github: PatoViera
 orcid: 0000-0001-7980-5001
 osf: pha2g
+figshare:
 publons:
 researchgate:
 impactstory:

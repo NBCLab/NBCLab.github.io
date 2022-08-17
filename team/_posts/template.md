@@ -16,6 +16,7 @@ email:
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

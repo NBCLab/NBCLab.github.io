@@ -16,6 +16,7 @@ email: bpank001@fiu.edu
 github: bpank
 orcid: 0000-0002-3325-5451
 osf: 54nt3
+figshare:
 publons:
 researchgate:
 scholar: 9GseXvoAAAAJ

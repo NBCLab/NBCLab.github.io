@@ -16,6 +16,7 @@ email: jpera054@fiu.edu
 github: JulioAPeraza
 orcid: 0000-0003-3816-5903
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

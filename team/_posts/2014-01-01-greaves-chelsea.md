@@ -16,6 +16,7 @@ email: cgreaves@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

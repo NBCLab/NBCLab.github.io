@@ -16,6 +16,7 @@ email: rpintosl@fiu.edu
 github: rpintosl
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Rosario_Pintos_Lobo
 scholar: gLjcvmkAAAAJ

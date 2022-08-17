@@ -16,6 +16,7 @@ email: vdelpret@fiu.edu
 github: veronicadelprete
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

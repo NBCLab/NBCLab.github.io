@@ -16,6 +16,7 @@ email: rpoud001@fiu.edu
 github: rpoudel1
 orcid: 0000-0003-4343-1153
 osf: v9uf3
+figshare:
 publons:
 researchgate: Ranjita_Poudel2
 scholar:

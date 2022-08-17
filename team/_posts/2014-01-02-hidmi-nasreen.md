@@ -16,6 +16,7 @@ email: nhidmi@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Nasreen_Hidmi
 scholar:

@@ -16,6 +16,7 @@ email:
 github:
 orcid: 0000-0002-6620-4351
 osf:
+figshare:
 publons:
 researchgate: Julio_Yanes
 scholar:

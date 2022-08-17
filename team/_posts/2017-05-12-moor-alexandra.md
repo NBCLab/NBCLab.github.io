@@ -16,6 +16,7 @@ email: amoor@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Alexandra_Moor
 scholar:

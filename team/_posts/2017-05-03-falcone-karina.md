@@ -14,6 +14,7 @@ email:
 github:
 orcid: 0000-0003-2271-2159
 osf:
+figshare:
 publons:
 researchgate: Karina_Falcone
 scholar:

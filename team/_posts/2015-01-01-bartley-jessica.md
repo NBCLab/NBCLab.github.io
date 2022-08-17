@@ -16,6 +16,7 @@ email: jbart047@fiu.edu
 github: jessicabartley
 orcid: 0000-0001-7269-9701
 osf: 8uh7g
+figshare:
 publons:
 researchgate: Jessica_Bartley
 scholar:
