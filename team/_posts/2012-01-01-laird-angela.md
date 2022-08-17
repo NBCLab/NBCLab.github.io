@@ -10,11 +10,12 @@ alumni: false
 
 # social
 cv: https://drive.google.com/file/d/16MklRxzRiPbzW5V2WHbcJcmUxL8p7o8K/view?usp=sharing
-nih_biosketch: 
+nih_biosketch:
 email: alaird@fiu.edu
 github: angielaird
 orcid: 0000-0003-3379-8744
 osf: bux4q
+figshare: https://figshare.com/authors/Angie_Laird/13123695
 publons:
 researchgate: Angela_Laird
 scholar: qgU89nQAAAAJ

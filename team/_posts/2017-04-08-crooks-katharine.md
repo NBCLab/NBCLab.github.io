@@ -16,6 +16,7 @@ email: kcroo010@fiu.edu
 github: kcrooks1006
 orcid: 0000-0001-5419-7281
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

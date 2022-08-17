@@ -16,6 +16,7 @@ email: dsmit216@fiu.edu
 github: donishasmith
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

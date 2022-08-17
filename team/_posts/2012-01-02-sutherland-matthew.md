@@ -15,6 +15,7 @@ email: masuther@fiu.edu
 github: masuther
 orcid: 0000-0002-6091-4037
 osf: xnuzb
+figshare:
 publons: 433968
 researchgate: Matthew_Sutherland2
 scholar: UbZp1KgAAAAJ

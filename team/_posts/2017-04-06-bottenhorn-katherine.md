@@ -16,6 +16,7 @@ email: kbott006@fiu.edu
 github: 62442katieb
 orcid: 0000-0002-7796-8795
 osf: fq7db
+figshare:
 publons: 2905860
 researchgate: Katherine_Bottenhorn
 scholar: ZXxr85IAAAAJ

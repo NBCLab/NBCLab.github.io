@@ -16,6 +16,7 @@ email: bmadan@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Brigitte_Madan
 scholar:

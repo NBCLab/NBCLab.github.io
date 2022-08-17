@@ -16,6 +16,7 @@ email: aleypere@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

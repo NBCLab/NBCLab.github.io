@@ -16,6 +16,7 @@ email:
 github: kimberlylray
 orcid: 0000-0003-1302-2834
 osf:
+figshare:
 publons:
 researchgate: Kimberly_Ray
 scholar: Qt6OuAkAAAAJ

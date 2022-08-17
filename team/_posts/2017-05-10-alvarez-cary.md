@@ -16,6 +16,7 @@ email:
 github: caryalvrz
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

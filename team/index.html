@@ -149,42 +149,48 @@ navorder: 1
             <p>
               {% if member.site %}
           			<a class="social site" href="{{ member.site }}">
-                  <i class="fa fa-user fa-lg"></i>
-                </a>
+                  		<i class="fa fa-user fa-lg"></i>
+                	</a>
           		{% endif %}
 
           		{% if member.cv %}
           			<a class="social cv" href="{{ member.cv }}">
-                  <i class="fa fa-file-text-o fa-lg"></i>
-                </a>
+                  		<i class="fa fa-file-text-o fa-lg"></i>
+                	</a>
           		{% endif %}
 
           		{% if member.github %}
           			<a class="social github" href="https://github.com/{{ member.github }}">
-                  <i class="fa fa-github-square fa-lg"></i>
-                </a>
+                 		<i class="fa fa-github-square fa-lg"></i>
+                	</a>
           		{% endif %}
 
           		{% if member.twitter %}
           			<a class="social twitter" href="https://twitter.com/{{ member.twitter }}">
-                  <i class="fa fa-twitter-square fa-lg"></i>
-                </a>
+                  		<i class="fa fa-twitter-square fa-lg"></i>
+                	</a>
           		{% endif %}
 
           		{% if member.scholar %}
-        				<a class="social scholar" href="http://scholar.google.com/citations?user={{ member.scholar }}">
-                  <i class="ai ai-google-scholar-square ai-lg"></i>
-                </a>
+        			<a class="social scholar" href="http://scholar.google.com/citations?user={{ member.scholar }}">
+                  		<i class="ai ai-google-scholar-square ai-lg"></i>
+                	</a>
           		{% endif %}
 
           		{% if member.osf %}
           			<a class="social osf" href="http://osf.io/{{ member.osf }}">
           				<i class="ai ai-osf-square ai-lg"></i>
-                </a>
+                	</a>
           		{% endif %}
 
+				{% if member.figshare %}
+					<a class="social figshare" href="{{ member.figshare }}">
+						<i class="ai ai-figshare-square ai-lg"></i>
+					</a>
+			  	{% endif %}
+
           		{% if member.researchgate %}
-                <a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
+                	<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}">
           				<i class="ai ai-researchgate-square ai-lg"></i>
           			</a>
           		{% endif %}
@@ -201,7 +207,7 @@ navorder: 1
           			</a>
           		{% endif %}
             </p>
-					</div>
+			</div>
 			</div>
 		</div>
 	{% endtablerow %}

@@ -16,6 +16,7 @@ email: tsalo006@fiu.edu
 github: tsalo
 orcid: 0000-0001-9813-3167
 osf: iwpvm
+figshare: https://figshare.com/authors/Taylor_Salo/792817
 publons: 625161
 researchgate:
 impactstory: 0000-0001-9813-3167

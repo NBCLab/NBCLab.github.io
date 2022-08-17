@@ -16,6 +16,7 @@ email: lucros@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

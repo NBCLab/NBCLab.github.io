@@ -16,6 +16,7 @@ email: lhill045@fiu.edu
 github: ldhill
 orcid: 0000-0002-9817-7757
 osf:
+figshare:
 publons:
 researchgate:
 scholar:
