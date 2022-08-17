@@ -95,6 +95,12 @@ navorder: 1
                 	</a>
           		{% endif %}
 
+				{% if member.figshare %}
+					<a class="social figshare" href="{{ member.figshare }}" title="FigShare">
+						<i class="ai ai-figshare-square ai-lg"></i>
+					</a>
+				{% endif %}
+
           		{% if member.researchgate %}
                 	<a class="social researchgate" href="https://www.researchgate.net/profile/{{ member.researchgate }}" title="ResearchGate">
           				<i class="ai ai-researchgate-square ai-lg"></i>
@@ -143,10 +149,10 @@ navorder: 1
 						<img class="media-object member-photo" src="{{ image }}" style="width:100px; height:auto; border:1px solid #021a40;">
 					</a>
 				<div class="media-body">
-						<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-						<p class="note">{{ member.position }}</p>
-						<p class="note">{{ member.department }}</p>
-            <p>
+					<div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+					<p class="note">{{ member.position }}</p>
+					<p class="note">{{ member.department }}</p>
+            		<p>
               {% if member.site %}
           			<a class="social site" href="{{ member.site }}">
                   <i class="fa fa-user fa-lg"></i>
