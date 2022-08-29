@@ -4,12 +4,12 @@ title: "Extended functional connectivity of convergent structural alterations am
 nickname: 2022-04-07-pankey-extended-functional-connectivity
 authors: "Pankey B, Riedel MC, Cowan I, Bartley JE, Pintos Lobo R, Hill-Bowen LD, Salo T, Musser ED, Sutherland MT, Laird AR"
 year: "2022"
-journal: "bioRxiv"
+journal: "Behav Brain Functions"
 volume:
 issue:
 pages:
-is_published: false
-image: /assets/images/papers/biorxiv.png
+is_published: true
+image: /assets/images/papers/behav-brain-functions.png
 projects: ["nimare"]
 tags: ["preprint", "meta-analysis"]
 
