@@ -5,7 +5,7 @@ position: PhD Student
 department: Psychology
 handle: bsutherland
 nickname: Benji
-science_names: [Sutherland B]
+science_names: [Sutherland B, Sutherland BD]
 image: /assets/images/team/benjelene-sutherland.jpg
 alumni: false
 
