@@ -12,7 +12,7 @@ alumni: true
 # social
 cv: "https://tsalo.github.io/assets/pdfs/salo_cv.pdf"
 nih_biosketch:
-email: tsalo006@fiu.edu
+email: salot@pennmedicine.upenn.edu
 github: tsalo
 orcid: 0000-0001-9813-3167
 osf: iwpvm
@@ -20,9 +20,9 @@ figshare: https://figshare.com/authors/Taylor_Salo/792817
 publons: 625161
 researchgate:
 impactstory: 0000-0001-9813-3167
-scholar: YbH1akIAAAAJ
+scholar: IPacJoAAAAAJ
 site: "https://tsalo.github.io"
-twitter: taylor_salo
+twitter:
 ---
 In my time at FIU, I was a graduate student in the Department of Psychology at Florida International University, specializing in Cognitive Neuroscience, with Dr. Angela Laird as my advisor.
 After graduating in 2022, I started as a post-doc on the informatics team in Ted Satterthwaite's [Lifespan Informatics and Neuroimaging Center](https://www.pennlinc.io) at the University of Pennsylvania.
