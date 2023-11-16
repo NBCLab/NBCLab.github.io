@@ -1,8 +1,10 @@
-# The NBC Lab website
+# The Zeller Lab website
+
+The code for this site was forked from [the Neuroinformatics and Brain Connectivity (NBC) Laboratory website](https://nbclab.github.io/), in turn forked from Dr. Allan Drummond’s lab website, which in turn took a great deal of inspiration from [Dr. Travis Bedford’s lab website](http://bedford.io/). The code is openly shared on GitHub under the MIT license, feel free to adapt it for your own purposes. 
 
 # TODOS
 
-See Issues on [the site](https://github.com/NBCLab/nbclab.github.io).
+See Issues on [the site](https://github.com/zellerlab/ZellerLab.github.io).
 
 # How to add content
 
@@ -141,7 +143,7 @@ In order to reduce the amount of data we use with images, we have rules for imag
 
 The [code for this site][0] was forked from Dr. Allan Drummond's lab website, which in turn took a great deal of inspiration from Dr. Travis Bedford's [lab website][1]. We have modified a lot of the code and added some fun features, but the core codebase is still largely taken from the Drummond lab's original repository. The code was openly shared on [GitHub][2] under the MIT license, so please feel free to adapt it for your own purposes. However, if you do use any of the code, please remember to cite the code to Dr. Drummond and to link back to his [site][3].
 
-[0]: https://github.com/NBCLab/NBCLab.github.io
+[0]: https://github.com/zellerlab/ZellerLab.github.io
 [1]: http://bedford.io
 [2]: https://github.com/drummondlab/drummondlab.github.io
 [3]: http://drummondlab.org/about.html
