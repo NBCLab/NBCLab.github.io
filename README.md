@@ -15,17 +15,18 @@ In order to contribute, you must have a GitHub account and you must set up Jekyl
 Essentially, follow the instructions [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler). Namely, do the **Requirements**, **Step 2.5**, and **Step 4**. The rest of the steps are extraneous, I think (as long as you have your fork cloned locally).
 
 ## 1. Download Ruby and install bundler
+
 ```bash
 # Install Ruby, if you don't have it
 \curl -sSL https://get.rvm.io | bash -s stable
-rvm install ruby-2.4.1
-rvm use ruby-2.4.1 --default
+rvm install ruby-3.4.0
+rvm use ruby-3.4.0 --default
 
 # Install bundler
 gem install bundler
 ```
 
-For OSX users, Ruby comes pre-installed on your computer, but you may not be able to install Ruby packages due to permission issues.
+Note: **For OSX users**, Ruby comes pre-installed on your computer, but you may not be able to install Ruby packages due to permission issues.
 See https://stackoverflow.com/a/54873916/2589328 for some helpful information if you come up against this issue.
 
 ## 2. Install Jekyll and other dependencies from the GitHub Pages gem
@@ -42,6 +43,8 @@ Just edit the files to make the changes you want.
 cd /location/of/repository/
 bundle exec jekyll serve
 ```
+
+Note: **For OSX users**, if `bundle exec jekyll serve` please check [here](https://stackoverflow.com/questions/69890412/bundler-failed-to-load-command-jekyll).
 
 ## 5. Open the local site and check your changes
 Open a browser and go to `localhost:4000/`. Any changes you make to any of the repository's files, except `_config.yml`, will be reflected on the site after refreshing the page. If you edit `_config.yml`, you will need to quit the local server (`Ctrl+C`) and rebuild the site locally in order to see your changes.

@@ -10,7 +10,7 @@ issue:
 pages: 107458
 is_published: true
 image: /assets/images/papers/addict-behav.png
-projects:
+projects: []
 tags: []
 
 # Text
