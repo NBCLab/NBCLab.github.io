@@ -2,7 +2,7 @@
 layout: member
 title: Quinten Ducarmon
 position: Postdoctoral Researcher
-handle: []
+handle: [qrducarmon]
 nickname: []
 science_names: [Ducarmon QR]
 image: /assets/images/team/quinten-ducarmon.jpg
