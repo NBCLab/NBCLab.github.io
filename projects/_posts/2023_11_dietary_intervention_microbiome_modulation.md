@@ -2,7 +2,7 @@
 layout: project
 title: "Dietary interventions and microbiome modulation"
 contributors: [qrducarmon]
-handle: dietary_microbiome
+handle: dietarymicrobiome
 status: collection
 type: dataset
 
@@ -11,7 +11,7 @@ website: ""
 grant:
 grant_url:
 image: /assets/images/projects/2016-09-25-abcd.png
-tagline: 'How can the microbiome be modulated to improve human health?'
+tagline: How can the microbiome be modulated to improve human health?
 tags: [fmri]
 
 # Data and code
