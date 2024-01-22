@@ -9,7 +9,8 @@ volume:
 issue:
 pages:
 is_published: false
-image:
+preprints: true
+image: /assets/images/papers/biorxiv.png
 projects:
 tags: []
 

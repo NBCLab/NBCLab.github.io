@@ -9,6 +9,8 @@ image: ko-nahyung.jpg
 
 # social
 email: nahyungko.lee@gmail.com
+twitter: Nana6797
+linkedin: nahyung-ko-435405227
 ---
 
-Nahyung is a master's student majoring in molecular and cell biology at Heidelberg University (Heidelberg, Germany). She has joined our group as an intern since June 2023 and is currently writing her master's thesis on the topic of spatial imaging of microbiome in tumor tissues.
+Nahyung is a master's student who joined the Zeller lab at EMBL Heidelberg in June 2023 as a research intern and is currently working on her Master's thesis, involved in a project on the spatial imaging of the microbiome in tumor tissues. After obtaining her BSc degree in biological science at Chung-Ang University in South Korea, she is pursuing her MSc degree in molecular and cellular biology at Heidelberg University in Germany.
