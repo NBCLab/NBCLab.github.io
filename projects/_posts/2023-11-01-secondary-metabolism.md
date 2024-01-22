@@ -1,7 +1,7 @@
 ---
 layout: project
-title: "Gut dysbiosis / disease associations"
-contributors: [lmcarroll]
+title: "Gut microbial secondary metabolism"
+contributors: [lmcarroll, mlarralde]
 handle: spatial
 status: collection
 type: dataset

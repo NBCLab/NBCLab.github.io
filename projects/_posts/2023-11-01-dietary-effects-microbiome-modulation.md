@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Gut dysbiosis / disease associations"
+title: "Dietary effects and microbiome modulation"
 contributors: [qrducarmon]
 handle: spatial
 status: collection
