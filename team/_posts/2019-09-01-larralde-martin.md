@@ -2,7 +2,7 @@
 layout: member
 title: Martin Larralde
 position: PhD student
-handle: larralde
+handle: mlarralde
 science_names: [Larralde M]
 image: larralde-martin.jpg
 alumni: false
