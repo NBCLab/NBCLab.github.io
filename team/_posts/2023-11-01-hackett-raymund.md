@@ -2,8 +2,7 @@
 layout: member
 title: Raymund Hackett
 position: PhD Student
-handle: [rehackett]
-nickname: []
+handle: rehackett
 science_names: [Hackett RE] 
 image: hackett-raymund.jpg
 alumni: false

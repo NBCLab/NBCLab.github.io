@@ -2,7 +2,7 @@
 layout: member
 title: Shraddha Shitut
 position: Postdoctoral Researcher
-handle: [shitut]
+handle: shitut
 science_names: [Shitut S]
 image: shitut-shraddha.jpg
 alumni: false

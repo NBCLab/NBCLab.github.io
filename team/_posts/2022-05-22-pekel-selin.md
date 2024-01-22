@@ -2,8 +2,7 @@
 layout: member
 title: Selin Pekel
 position: PhD Student
-handle: [spekel]
-nickname: []
+handle: spekel
 science_names: [Pekel S]
 image: pekel-selin.jpg
 alumni: false

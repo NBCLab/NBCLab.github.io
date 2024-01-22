@@ -2,7 +2,7 @@
 layout: member
 title: Georg Zeller
 position: Group Leader
-handle: [zeller]
+handle: zeller
 science_names: [Zeller G]
 image: zeller-georg.jpg
 alumni: false

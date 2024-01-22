@@ -2,8 +2,7 @@
 layout: member
 title: Fabian Springer
 position: PhD student
-handle: [fspringer]
-nickname: []
+handle: fspringer
 science_names: [Springer F]
 image: springer-fabian.jpg
 alumni: false

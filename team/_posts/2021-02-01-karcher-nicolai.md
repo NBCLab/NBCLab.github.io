@@ -2,7 +2,7 @@
 layout: member
 title: Nicolai Karcher
 position: Postdoctoral Researcher
-handle: [nkarcher]
+handle: nkarcher
 nickname: Nic
 image: karcher-nicolai.jpg
 science_names: [Karcher N]

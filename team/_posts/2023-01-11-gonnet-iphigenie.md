@@ -2,8 +2,7 @@
 layout: member
 title: Iphigenie Gonnet
 position: PhD Student
-handle: [ihmgonnet]
-nickname: []
+handle: ihmgonnet
 science_names: [Gonnet I]
 image: gonnet-iphigenie.jpg
 alumni: false

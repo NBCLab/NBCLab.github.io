@@ -2,8 +2,7 @@
 layout: member
 title: Nahyung Ko
 position: Master’s Student
-handle: [nko]
-nickname: []
+handle: nko
 science_names: [Ko NH]
 alumni: false
 image: ko-nahyung.jpg

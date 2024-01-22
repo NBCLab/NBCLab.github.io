@@ -2,8 +2,7 @@
 layout: member
 title: Patrick Wörz
 position: PhD student
-handle: [pwoerz]
-nickname: []
+handle: pwoerz
 science_names: [Wörz P]
 image: woerz-patrick.jpg
 alumni: false
