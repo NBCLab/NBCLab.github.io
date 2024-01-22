@@ -60,8 +60,7 @@ if args.email is None:
         print("Failed to detect email")
         sys.exit(1)
 
-
-# Only grab papers from after the lab PIs came to FIU.
+# Grab paper from the PI
 searches = [
     # '"Laird AR"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
     # '"Sutherland MT"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
@@ -72,6 +71,9 @@ searches = [
 other_pmids = []
 pmid_search = "[PMID] OR ".join(other_pmids) + "[PMID]"
 searches.append(pmid_search)
+
+# Add PMIDs of papers that should be ignored
+skip_pmids = []
 
 # Extract all publications matching term.
 rows = []
@@ -162,14 +164,10 @@ df = df.sort_values(by=["pmid"])
 df = df.fillna("")
 
 # Grab our markdown file template
-with args.template.open("r") as fo:
-    template = fo.read()
+with args.template.open("r") as src:
+    template = src.read()
 
-old_papers = sorted(glob("papers/_posts/20*.md"))
-
-# One paper is by another MT Sutherland.
-# Something to do with mouse teeth.
-skip_pmids = ["28650075"]
+old_papers = sorted(args.output.glob("20*.md"))
 
 # Add papers we already have pages for.
 old_pmids = skip_pmids
