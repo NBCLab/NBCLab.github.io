@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Statistical modelling and Meta analysis"
+title: "Statistical modelling and meta-analyses"
 contributors: [nkarcher, fspringer, ihmgonnet]
 handle: spatial
 status: collection
