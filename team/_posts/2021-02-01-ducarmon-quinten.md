@@ -5,7 +5,7 @@ position: Postdoctoral Researcher
 handle: [qrducarmon]
 nickname: []
 science_names: [Ducarmon QR]
-image: quinten-ducarmon.jpg
+image: ducarmon-quinten.jpg
 alumni: false
 
 # social
