@@ -18,7 +18,7 @@ fulltext:
 pdf:
 pdflink:
 pmcid:
-preprint: true
+preprint: "https://www.biorxiv.org/content/10.1101/2024.01.08.574624v1"
 supplement:
 
 # Links
