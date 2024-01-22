@@ -2,9 +2,9 @@
 {% assign member = page %}
 
 {% if member.image %}
-	{% assign image = member.image %}
+	{% assign image = "/assets/images/team/" + member.image %}
 {% else %}
-	{% assign image = "/assets/images/placeholder-user.png" %}
+	{% assign image = "/assets/images/team/placeholder.png" %}
 {% endif %}
 
 <div class="bigspacer"></div>

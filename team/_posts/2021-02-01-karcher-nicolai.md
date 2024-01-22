@@ -5,7 +5,7 @@ position: Postdoctoral Researcher
 handle: [nkarcher]
 nickname: [Nic]
 science_names: [Karcher N]
-image: /assets/images/team/quinten-ducarmon.jpg
+image:
 alumni: false
 
 # social
