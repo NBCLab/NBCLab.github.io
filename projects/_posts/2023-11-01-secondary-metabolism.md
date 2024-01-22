@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Gut microbial secondary metabolism"
-contributors: [lmcarroll, mlarralde]
+contributors: [lmcarroll, mlarralde, mbaghai, nkarcher]
 handle: spatial
 status: collection
 type: dataset
