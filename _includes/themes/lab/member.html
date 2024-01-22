@@ -2,7 +2,7 @@
 {% assign member = page %}
 
 {% if member.image %}
-	{% assign image = "/assets/images/team/" + member.image %}
+	{% assign image = "/assets/images/team/" | append: member.image %}
 {% else %}
 	{% assign image = "/assets/images/team/placeholder.png" %}
 {% endif %}

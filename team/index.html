@@ -33,7 +33,7 @@ navorder: 1
 <table align="center"; width=1000px>
 	{% tablerow member in current cols:2 %}
     {% if member.image %}
-      {% assign image = member.image %}
+      {% assign image = "/assets/images/team/" | append: member.image %}
     {% else %}
       {% assign image = "/assets/images/placeholder-user.png" %}
     {% endif %}
