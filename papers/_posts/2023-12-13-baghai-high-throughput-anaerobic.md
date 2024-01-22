@@ -3,7 +3,7 @@ layout: paper
 title: “High-throughput anaerobic screening for identifying compounds acting against gut bacteria in monocultures or communities”
 nickname: []
 authors: "Müller P, de la Cuesta-Zuluaga J, Kuhn M, Baghai Arassi M, Treis T, Blasche S, Zimmermann M, Bork P, Patil KR, Typas A, Garcia-Santamarina S, Maier L"
-year: 2023
+year: "2023"
 journal: "Nature Protocols"
 volume: 
 issue: 
