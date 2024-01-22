@@ -44,20 +44,13 @@ import pandas
 import dateutil.parser
 from Bio import Entrez, Medline
 
+PROJECT_FOLDER = pathlib.Path(__file__).absolute().parent.parent
 
 parser = argparse.ArgumentParser()
-parser.add_argument(
-    "-o", 
-    "--output", 
-    type=pathlib.Path, 
-    default=pathlib.Path(__file__).absolute().parent.joinpath("papers", "_posts")
-)
-parser.add_argument(
-    "--email",
-    default=None
-)
+parser.add_argument("-o",  "--output", type=pathlib.Path, default=PROJECT_FOLDER.joinpath("papers", "_posts"))
+parser.add_argument("--template", type=pathlib.Path, default=PROJECT_FOLDER.joinpath("papers", "_posts", "template.md.in"))
+parser.add_argument("--email", default=None)
 args = parser.parse_args()
-
 
 if args.email is None:
     config = subprocess.run(["git", "config", "user.email"], stdout=subprocess.PIPE)
@@ -169,7 +162,7 @@ df = df.sort_values(by=["pmid"])
 df = df.fillna("")
 
 # Grab our markdown file template
-with open("papers/_posts/template_with_stuff.md", "r") as fo:
+with args.template.open("r") as fo:
     template = fo.read()
 
 old_papers = sorted(glob("papers/_posts/20*.md"))
