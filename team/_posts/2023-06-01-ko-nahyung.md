@@ -9,7 +9,7 @@ image: ko-nahyung.jpg
 
 # social
 email: nahyungko.lee@gmail.com
-twitter: @Nana6797
+twitter: Nana6797
 linkedin: nahyung-ko-435405227
 ---
 
