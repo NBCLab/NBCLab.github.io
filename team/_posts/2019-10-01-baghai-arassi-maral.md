@@ -4,7 +4,7 @@ title: Maral Baghai Arassi
 position: Physician Scientist
 handle: [mbaghai]
 science_names: [Baghai Arassi M]
-image: maral-baghai.jpg
+image: baghai-arassi-maral.jpg
 alumni: false
 
 # social
