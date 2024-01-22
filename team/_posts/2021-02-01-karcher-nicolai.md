@@ -3,7 +3,7 @@ layout: member
 title: Nicolai Karcher
 position: Postdoctoral Researcher
 handle: [nkarcher]
-nickname: [Nic]
+nickname: Nic
 science_names: [Karcher N]
 alumni: false
 
