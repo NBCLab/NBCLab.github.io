@@ -34,32 +34,54 @@ Steps
 4.  Push changes to the notebook and affected files to GitHub.
 5.  Open a pull request to NBCLab/NBCLab.github.io.
 """
+import argparse
 import re
+import subprocess
+import pathlib
 from glob import glob
 
-import pandas as pd
+import pandas
+import dateutil.parser
 from Bio import Entrez, Medline
-from dateutil import parser
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-o", 
+    "--output", 
+    type=pathlib.Path, 
+    default=pathlib.Path(__file__).absolute().parent.joinpath("papers", "_posts")
+)
+parser.add_argument(
+    "--email",
+    default=None
+)
+args = parser.parse_args()
+
+
+if args.email is None:
+    config = subprocess.run(["git", "config", "user.email"], stdout=subprocess.PIPE)
+    if config.returncode == 0:
+        Entrez.email = config.stdout.decode().strip()
+    else:
+        print("Failed to detect email")
+        sys.exit(1)
+
 
 # Only grab papers from after the lab PIs came to FIU.
 searches = [
-    '"Laird AR"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
-    '"Sutherland MT"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
+    # '"Laird AR"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
+    # '"Sutherland MT"[AUTH] AND ("2012/01/01"[PDAT] : "3000/12/31"[PDAT])',
+    '"Zeller Georg"[AUTH]',
 ]
 
 # Papers indexed on PubMed, but not captured by the searches.
-other_pmids = [
-    "33749724",
-    "33932337",
-]
+other_pmids = []
 pmid_search = "[PMID] OR ".join(other_pmids) + "[PMID]"
 searches.append(pmid_search)
 
 # Extract all publications matching term.
-Entrez.email = "tsalo006@fiu.edu"
-
 rows = []
-
 for TERM in searches:
     h = Entrez.esearch(db="pubmed", retmax="2", term=TERM)
     result = Entrez.read(h)
@@ -77,7 +99,7 @@ for TERM in searches:
         "introductory journal article",
     ]
     for record in records:
-        if any([type_.lower() in acceptable_formats for type_ in record.get("PT")]):
+        if any([type_.lower() in acceptable_formats for type_ in record.get("PT", ())]):
             pmid = record.get("PMID")
             pmcid = record.get("PMC", "")
 
@@ -90,10 +112,14 @@ for TERM in searches:
             title = record.get("TI").rstrip(".")
             authors = record.get("AU")
 
-            pub_date = parser.parse(record.get("DP"))
-            year = pub_date.year
-            month = pub_date.month
-            day = pub_date.day
+            try:
+                pub_date = dateutil.parser.parse(record.get("DP"))
+                year = pub_date.year
+                month = pub_date.month
+                day = pub_date.day
+            except dateutil.parser.ParserError:
+                print(f"Failed to get year for paper {pmid}")
+                continue
 
             journal = record.get("TA")
             volume = record.get("VI", "")
@@ -120,7 +146,7 @@ for TERM in searches:
             rows += [row]
 
 # Save all relevant info from articles to a csv.
-df = pd.DataFrame(
+df = pandas.DataFrame(
     columns=[
         "pmid",
         "pmcid",
@@ -139,7 +165,7 @@ df = pd.DataFrame(
     data=rows,
 )
 df = df.sort_values(by=["pmid"])
-df.to_csv("articles.tsv", sep="\t", line_terminator="\n", index=False)
+# df.to_csv("articles.tsv", sep="\t", lineterminator="\n", index=False)
 df = df.fillna("")
 
 # Grab our markdown file template
@@ -202,7 +228,7 @@ for _, row in df.iterrows():
             pmid=row["pmid"],
             abstract=row["abstract"],
         )
-        with open(f"papers/_posts/{nickname}.md", "w") as fo:
-            fo.write(completed)
+        with args.output.joinpath(f"{nickname}.md").open("w") as dst:
+            dst.write(completed)
 
         print(f"New file created for {pmid}")
