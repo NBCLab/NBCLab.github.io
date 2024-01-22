@@ -1,9 +1,10 @@
+---
 layout: paper
 title: “Association of intraindividual tacrolimus variability with de novo donor-specific HLA antibody development and allograft rejection in pediatric kidney transplant recipients with low immunological risk”
 nickname: []
 authors: "Baghai Arassi M, Gauche L, Schmidt J, Höcker B, Rieger S, Süsal C, Tönshoff B, Fichtner A"
-year: 2022
-journal: Pediatric Nephrology
+year: "2022"
+journal: "Pediatric Nephrology"
 volume: 37
 issue: 10
 pages: "2503-2514"
@@ -11,16 +12,19 @@ is_published: true
 image: []
 projects:
 tags: []
+
 # Text
 fulltext:
 pdf:
 pdflink:
-pmcid: "PMC9395307"
+pmcid: PMC9395307
 preprint:
 supplement:
+
 # Links
 doi: “10.1007/s00467-022-05426-3”
 pmid: 35166920
+
 # Data and code
 github:
 neurovault:
@@ -30,6 +34,7 @@ figshare_names:
 osf:
 ---
 {% include JB/setup %}
+
 # Abstract
 Background Tacrolimus (Tac) intraindividual variability (TacIPV) in pediatric kidney transplant patients is only poorly understood. We investigated the impact of TacIPV on de novo donor-specific HLA antibodies (dnDSA) development and allograft rejection in Caucasian pediatric recipients of a living or deceased donor kidney with low immunological risk.
 Methods This was a single-center retrospective study including 48 pediatric kidney transplant recipients. TacIPV was cal- culated based on coefficient of variation (CV%) 6–12 months posttransplant. TacIPV cutoff was set at the median (25%). Outcome parameters were dnDSA development and rejection episodes.
