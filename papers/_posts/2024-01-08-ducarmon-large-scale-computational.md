@@ -11,7 +11,7 @@ pages:
 is_published: false
 image: /assets/images/papers/biorxiv.png
 projects:
-tags: []
+tags: ["preprint"]
 
 # Text
 fulltext:
