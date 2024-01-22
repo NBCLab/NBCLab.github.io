@@ -9,7 +9,6 @@ volume:
 issue:
 pages:
 is_published: false
-preprints: true
 image: /assets/images/papers/biorxiv.png
 projects:
 tags: []
@@ -19,7 +18,7 @@ fulltext:
 pdf:
 pdflink:
 pmcid:
-preprint:
+preprint: true
 supplement:
 
 # Links
