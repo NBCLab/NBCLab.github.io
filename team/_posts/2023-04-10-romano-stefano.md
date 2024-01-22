@@ -5,7 +5,7 @@ position: Postdoctoral Researcher
 handle: [sromano]
 nickname: []
 science_names: [Romano S]
-image: romano-stefano.png
+image: romano-stefano.jpg
 alumni: false
 
 # social
