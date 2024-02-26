@@ -4,7 +4,7 @@ jobs:
   run_pytest:
     docker:
       - image: continuumio/miniconda3
-    working_directory: /tmp/src/NBCLab.github.io
+    working_directory: https://lipkalab.github.io/
     steps:
       - checkout
       - run:
@@ -12,7 +12,7 @@ jobs:
           command: |
             conda create -n py36_env python=3.6 numpy pytest matplotlib -yq
             source activate py36_env
-            pytest /tmp/src/NBCLab.github.io
+            pytest https://lipkalab.github.io/
 workflows:
   version: 2.1
   build:
