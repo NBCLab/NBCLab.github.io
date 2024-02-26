@@ -1,4 +1,4 @@
-# The NBC Lab website
+# The Lipka Lab website
 
 # TODOS
 
