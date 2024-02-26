@@ -23,9 +23,8 @@ department:
   url: 
   name: 
 author :
-  name : Taylor Salo
-  email : tsalo006@fiu.edu
-  github : tsalo
+  name : 
+  email : 
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -93,7 +92,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : https-nbclab-github-io
+      short_name : https://lipkalab.github.io/
     livefyre :
       site_id :
     intensedebate :
