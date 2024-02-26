@@ -8,20 +8,20 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: NBCLab/nbclab.github.io
+repository: LIpkaLab/LIpkaLab.github.io
 future: true
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : NBC Lab
-tagline: Neuroinformatics and brain connectivity
+title : The Lipka Lab
+tagline: 
 institution:
-  url: http://fiu.edu
-  name: Florida International University
+  url: https://cropsciences.illinois.edu/
+  name: University of Illinois Urbana Champaign
 department:
-  url: http://cn.fiu.edu
-  name: Cognitive Neuroscience
+  url: 
+  name: 
 author :
   name : Taylor Salo
   email : tsalo006@fiu.edu
