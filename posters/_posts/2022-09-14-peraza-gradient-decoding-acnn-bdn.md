@@ -5,7 +5,7 @@ nickname: 2022-09-14-peraza-gradient-decoding-acnn-bdn
 authors: "Peraza JA, Salo T, Riedel MC, Bottenhorn KL, Poline J-B, Dockès J, Kent JD, de la Vega A, Laird AR"
 year: "2022"
 conference: "ACNN-BDN"
-image: 2022-09-14-peraza-gradient-decoding-acnn-bdn.png
+image: /assets/images/posters/2022-09-14-peraza-gradient-decoding-acnn-bdn.png
 projects: ["mmmm"]
 tags: []
 
