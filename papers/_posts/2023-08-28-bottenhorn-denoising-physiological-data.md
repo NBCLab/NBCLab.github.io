@@ -1,17 +1,17 @@
 ---
 layout: paper
 title: "Denoising physiological data collected during multi-band, multi-echo EPI sequences"
-nickname: 2021-04-03-bottenhorn-denoising-physiological-data
+nickname: 2023-08-28-bottenhorn-denoising-physiological-data
 authors: "Bottenhorn KL, Salo T, Riedel MC, Sutherland MT, Robinson JL, Musser ED, Laird AR"
-year: "2021"
-journal: "bioRxiv"
-volume:
+year: "2023"
+journal: "Aperture Neuro"
+volume: 3
 issue:
-pages:
-is_published: false
-image: /assets/images/papers/biorxiv.png
+pages: 1-10
+is_published: true
+image: /assets/images/papers/aperture-neuro.png
 projects: ["diva"]
-tags: [preprint]
+tags:
 
 # Text
 fulltext: https://www.biorxiv.org/content/10.1101/2021.04.01.437293v1.full
@@ -33,6 +33,7 @@ figshare:
 figshare_names:
 osf:
 ---
+
 {% include JB/setup %}
 
 # Abstract
