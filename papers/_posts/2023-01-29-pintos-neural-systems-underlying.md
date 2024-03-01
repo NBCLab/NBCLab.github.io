@@ -6,11 +6,11 @@ authors: "Pintos Lobo R, Bottenhorn KL, Riedel MC, Toma AI, Hare MM, Smith DD, M
 year: "2023"
 journal: "Neurosci Biobehav Rev"
 volume: 144
-issue: 
+issue:
 pages: 104971
 is_published: true
 image: /assets/images/papers/neurosci-biobehav-rev.png
-projects:
+projects: ["nimare"]
 tags: []
 
 # Text
@@ -33,6 +33,7 @@ figshare:
 figshare_names:
 osf:
 ---
+
 {% include JB/setup %}
 
 # Abstract
