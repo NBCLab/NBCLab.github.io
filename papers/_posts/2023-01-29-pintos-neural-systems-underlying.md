@@ -11,7 +11,7 @@ pages: 104971
 is_published: true
 image: /assets/images/papers/neurosci-biobehav-rev.png
 projects: ["nimare"]
-tags: []
+tags: ["meta-analysis"]
 
 # Text
 fulltext:
