@@ -7,7 +7,7 @@ handle: lhill
 nickname: Lauren
 science_names: [Hill LD, Hill-Bowen LD, Bowen LD]
 image: /assets/images/team/lauren-bowen.png
-alumni: false
+alumni: true
 
 # social
 cv: https://drive.google.com/open?id=1GU4MCdmiE4LoR-gvu8DGpB7mbS-O8jS2

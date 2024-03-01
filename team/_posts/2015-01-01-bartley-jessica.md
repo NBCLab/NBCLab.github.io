@@ -7,7 +7,7 @@ handle: jbartley
 nickname: JB
 science_names: [Bartley JE]
 image: /assets/images/team/jessica-bartley.jpg
-alumni: false
+alumni: true
 
 # social
 cv:
