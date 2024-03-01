@@ -1,17 +1,17 @@
 ---
 layout: paper
 title: "NiMARE: Neuroimaging Meta-Analysis Research Environment"
-nickname: 2022-06-13-salo-nimare-paper
+nickname: 2023-08-31-salo-nimare-paper
 authors: "Salo T, Yarkoni T, Nichols TE, Poline JB, Bilgel M, Bottenhorn KL, Jarecka D, Kent JD, Kimbler A, Nielson DM, Oudyk KM, Peraza JA, Pérez A, Reeders PC, Yanes JA, Laird AR"
-year: "2022"
-journal: "NeuroLibre"
-volume:
+year: "2023"
+journal: "Aperture Neuro"
+volume: 3
 issue:
-pages:
-is_published: false
-image: /assets/images/papers/neurolibre.png
+pages: 1-32
+is_published: true
+image: /assets/images/papers/aperture-neuro.png
 projects: ["nimare"]
-tags: ["preprint"]
+tags: []
 
 # Text
 fulltext:
@@ -22,7 +22,7 @@ preprint: "https://neurolibre.org/papers/10.55458/neurolibre.00007"
 supplement:
 
 # Links
-doi: "10.55458/neurolibre.00007"
+doi: "10.52294/001c.87681"
 pmid:
 
 # Data and code
@@ -33,6 +33,7 @@ figshare:
 figshare_names:
 osf:
 ---
+
 {% include JB/setup %}
 
 # Abstract
