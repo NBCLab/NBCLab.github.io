@@ -4,7 +4,7 @@ title: Lita Sabates
 position: Research Assistant
 department: Psychology
 handle:
-nickname: 
+nickname:
 science_names: [Sabates L]
 image: /assets/images/team/sabates-lita.png
 alumni: false
@@ -13,10 +13,11 @@ alumni: false
 cv:
 nih_biosketch:
 email: lisabate@fiu.edu
-github: 
-orcid:  osf:
+github:
+orcid:
+osf:
 figshare:
-publons: 
+publons:
 researchgate:
 impactstory:
 scholar:
