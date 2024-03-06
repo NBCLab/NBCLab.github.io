@@ -7,7 +7,7 @@ handle:
 nickname: 
 science_names: [Sabates L]
 image: /assets/images/team/sabates-lita.png
-alumni:
+alumni: false
 
 # social
 cv:
