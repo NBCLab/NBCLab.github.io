@@ -1,6 +1,6 @@
 ---
 layout: poster
-title: "Task-based attention & default mode connectivity linked to STEM anxiety in university students"
+title: "Task-based attention & default mode connectivity linked to STEM anxiety in university students."
 nickname: 2023-07-24-smith-physics-learning-ohbm
 authors: "Donisha D. Smith, Alan Meca, Katherine L. Bottenhorn, Jessica E. Bartley, Michael C. Riedel, Taylor Salo, Julio A. Peraza, Robert W. Laird, Shannon M. Pruden, Matthew T. Sutherland, Eric Brewe, Angela R. Laird"
 year: "2023"
