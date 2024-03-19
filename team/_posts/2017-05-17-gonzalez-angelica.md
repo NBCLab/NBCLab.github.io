@@ -25,4 +25,4 @@ site:
 twitter:
 ---
 
-A paragraph or more about the lab member: Angelica is a Research Assistant at the Adolescent Brain Cognitive Development Study at Florida International University. She has been with ABCD for over a year and her role is to administer the MRI portion of the protocol. In addition, she is currently pursuing a B.A in Psychology and Natural and Applied Sciences. Her goals are to attend medical school and become a psychiatrist.
+Angelica is a Research Assistant at the Adolescent Brain Cognitive Development Study at Florida International University. She has been with ABCD for over a year and her role is to administer the MRI portion of the protocol. In addition, she is currently pursuing a B.A in Psychology and Natural and Applied Sciences. Her goals are to attend medical school and become a psychiatrist.
