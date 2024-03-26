@@ -1,12 +1,12 @@
 ---
 layout: member
 title: Laura Ucros
-position: Research Assistant
+position: Research Specialist
 department:
 handle: lucros
 nickname: Laura
 science_names: [Ucros L]
-image: /assets/images/team/laura-ucros.jpg
+image: /assets/images/team/laura-ucros.png
 alumni: false
 
 # social
@@ -24,4 +24,4 @@ site:
 twitter:
 ---
 
-Laura is a Research Assistant at the Adolescent Brain Cognitive Development Study at Florida International University. She graduated with a B.S. in Psychology from FIU. Laura has worked with several research labs in the Department of Psychology and her primary interests are in cognitive development ranging from childhood to adolescence. Her future academic endeavors include continuing her studies in graduate school by pursuing a Master’s Degree in Psychology.
+Laura is the Neuroimaging Research Coordinator for the Adolescent Brain Cognitive Development (ABCD) study. She began working with the study as a Research Assistant in 2017. During this time, she obtained a Master of Public Health and a Master of Social Work from Florida International University. She received her B.S in Psychology from Florida International University. She has strong interest in the public health sector pertaining to health disparities particularly among the LGBTQ+ community. She is also passionate about advocating for marginalized groups and hopes to obtain her clinical license in social work in the future.
