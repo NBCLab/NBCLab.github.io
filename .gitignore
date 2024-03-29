@@ -1,3 +1,4 @@
+vendor/
 *.nii.gz
 .ipynb_checkpoints/
 

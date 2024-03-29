@@ -7,14 +7,16 @@ handle: bmadan
 nickname: Brigitte
 science_names: [Madan B]
 image: /assets/images/team/brigitte-madan.png
-alumni: false
+alumni: true
 
 # social
 cv:
+nih_biosketch:
 email: bmadan@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Brigitte_Madan
 scholar:

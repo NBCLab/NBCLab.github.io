@@ -7,14 +7,16 @@ handle: bpankey
 nickname: Brianna
 science_names: [Pankey B]
 image: /assets/images/team/brianna-pankey.png
-alumni: false
+alumni: true
 
 # social
 cv: https://drive.google.com/open?id=1JtdGOkRAO4NktCgc1vbTCI5BrEqWRscG
+nih_biosketch:
 email: bpank001@fiu.edu
 github: bpank
 orcid: 0000-0002-3325-5451
 osf: 54nt3
+figshare:
 publons:
 researchgate:
 scholar: 9GseXvoAAAAJ

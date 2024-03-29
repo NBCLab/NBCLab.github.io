@@ -11,10 +11,12 @@ alumni: false
 
 # social
 cv: https://julioaperaza.github.io/cv/
+nih_biosketch:
 email: jpera054@fiu.edu
 github: JulioAPeraza
 orcid: 0000-0003-3816-5903
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

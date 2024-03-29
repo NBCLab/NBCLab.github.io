@@ -6,7 +6,7 @@ authors: "Bottenhorn KL, Robinson JL, Flannery JS, Boeving ER, Salo T, Riedel MC
 year: "2017"
 conference: "HBM"
 image: /assets/images/posters/2017-06-26-bottenhorn-habenula-poster.png
-projects: []
+projects: ["pace"]
 tags: []
 
 # Content

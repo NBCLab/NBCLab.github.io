@@ -7,14 +7,16 @@ handle: darencibia
 nickname: Diamela
 science_names: [Arenacibia D]
 image: /assets/images/team/diamela-arencibia.png
-alumni: false
+alumni: true
 
 # social
 cv:
+nih_biosketch:
 email: Darencib@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

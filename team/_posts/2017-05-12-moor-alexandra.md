@@ -11,10 +11,12 @@ alumni: true
 
 # social
 cv:
+nih_biosketch:
 email: amoor@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate: Alexandra_Moor
 scholar:

@@ -6,8 +6,8 @@ authors: "Hill LD, Tobia MJ, Laird AR, Salmeron BJ, Ross TJ, Stein EA, Sutherlan
 year: "2019"
 conference: "SANS Annual Meeting"
 image: /assets/images/posters/2019-05-02-hill-sans-poster.png
-projects:
-tags: []
+projects: ["pace"]
+tags: 
 
 # Content
 fulltext:

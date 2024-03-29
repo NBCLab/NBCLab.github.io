@@ -6,7 +6,7 @@ authors: "Flannery JS, Riedel MC, Poudel R, Salo T, Bottenhorn KL, Hill LD, Lair
 year: "2017"
 conference: "HBM"
 image: /assets/images/posters/2017-06-26-flannery-reward-processing-poster.png
-projects: []
+projects: ["pace", "athena"]
 tags: [meta-analysis]
 
 # Content

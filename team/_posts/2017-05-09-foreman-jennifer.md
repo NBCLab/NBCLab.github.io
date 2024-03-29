@@ -11,10 +11,12 @@ alumni: true
 
 # social
 cv:
+nih_biosketch:
 email: jforeman@fiu.edu
 github: jennforeman
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 scholar:

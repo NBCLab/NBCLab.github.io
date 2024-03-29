@@ -10,7 +10,7 @@ issue: 3
 pages: 283-295
 is_published: true
 image: /assets/images/papers/j-psychopharmacol.png
-projects: []
+projects: ["pace"]
 tags: [meta-analysis]
 
 # Text

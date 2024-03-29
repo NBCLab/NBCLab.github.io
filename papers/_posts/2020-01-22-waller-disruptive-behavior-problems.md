@@ -10,7 +10,7 @@ issue:
 pages: 
 is_published: true
 image: /assets/images/papers/biol-psychiatry-cogn-neurosci-neuroimaging.png
-projects:
+projects: [abcd]
 tags: []
 
 # Text

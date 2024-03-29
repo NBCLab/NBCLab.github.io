@@ -7,14 +7,16 @@ handle: aperez
 nickname: Aleymi
 science_names: [Perez AJ]
 image: /assets/images/team/aleymi-perez.jpg
-alumni: false
+alumni: true
 
 # social
 cv:
+nih_biosketch:
 email: aleypere@fiu.edu
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

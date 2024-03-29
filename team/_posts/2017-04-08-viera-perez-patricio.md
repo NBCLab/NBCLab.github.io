@@ -12,10 +12,12 @@ alumni: false
 
 # social
 cv: https://drive.google.com/open?id=1AP7Eob5iH0oBAP-kGSgkO5_-vqFJpepa
+nih_biosketch:
 email: pvier002@fiu.edu
 github: PatoViera
 orcid: 0000-0001-7980-5001
 osf: pha2g
+figshare:
 publons:
 researchgate:
 impactstory:

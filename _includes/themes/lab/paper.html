@@ -19,7 +19,7 @@ with gratitude.
 		<div class="bigspacer"></div>
 
 		<div class="glyphbox note">
-			{% if page.pdf or page.pdflink or page.fulltext or page.preprint or page.supplement %}
+			{% if page.pdflink or page.pdf or page.fulltext or page.pmcid or page.supplement or page.preprint %}
 				<div class="smallhead subtle">
 					Full text
 				</div>
@@ -115,7 +115,7 @@ with gratitude.
 
 					{% for coll in page.neurovault %}
 						<i class="fa fa-database fa-fw"></i>
-						<a class="off" href="https://neurovault.org/collections/{{ coll }}">NeuroVault: {{ coll }}</a>
+						<a class="off" href="https://identifiers.org/neurovault.collection:{{ coll }}">NeuroVault: {{ coll }}</a>
 						<div class="smallspacer"></div>
 					{% endfor %}
 

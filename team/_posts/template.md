@@ -11,10 +11,12 @@ alumni:
 
 # social
 cv:
+nih_biosketch:
 email:
 github:
 orcid:
 osf:
+figshare:
 publons:
 researchgate:
 impactstory:

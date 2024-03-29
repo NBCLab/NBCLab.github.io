@@ -10,17 +10,17 @@ projects: [athena]
 tags: [meta-analysis]
 
 # Content
-fulltext: https://ww5.aievolution.com/hbm1701/index.cfm?do=abs.viewAbs&abs=3219
-pdf: https://files.aievolution.com/hbm1701/abstracts/36156/1674_Salo.pdf
+fulltext: https://doi.org/10.6084/m9.figshare.20102948.v1
+pdf:
 
 # Links
-doi:
+doi: "10.6084/m9.figshare.20102948.v1"
 
 # Data and code
 github: ["https://github.com/NBCLab/neurosynth-annotation-hbm2017"]
 neurovault:
 openneuro:
-figshare:
+figshare: ["https://doi.org/10.6084/m9.figshare.20102948.v1"]
 figshare_names:
 osf:
 f1000:

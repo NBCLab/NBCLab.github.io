@@ -6,7 +6,7 @@ authors: "Poudel R, Riedel MC, Salo T, Flannery JS, Hill LD, Laird AR, Sutherlan
 year: "2019"
 conference: "SANS Annual Meeting"
 image: /assets/images/posters/2019-05-02-poudel-sans-poster.png
-projects:
+projects: ["pace"]
 tags: []
 
 # Content

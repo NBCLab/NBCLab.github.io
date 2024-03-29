@@ -10,7 +10,7 @@ issue: 10
 pages: eaax2084
 is_published: true
 image: /assets/images/papers/sci-adv.png
-projects:
+projects: ["pace"]
 tags: [preprint]
 
 # Text
