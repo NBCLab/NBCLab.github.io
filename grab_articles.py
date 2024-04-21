@@ -139,7 +139,7 @@ df = pd.DataFrame(
     data=rows,
 )
 df = df.sort_values(by=["pmid"])
-df.to_csv("articles.tsv", sep="\t", line_terminator="\n", index=False)
+df.to_csv("articles.tsv", sep="\t", lineterminator="\n", index=False)
 df = df.fillna("")
 
 # Grab our markdown file template
