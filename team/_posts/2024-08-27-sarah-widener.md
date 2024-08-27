@@ -5,7 +5,7 @@ position: Ph.D. Candidate Research Scientist
 department: Crop Sciences
 handle: SWidener
 nickname: Sarah
-science_names: [Widener SW]
+science_names: [Widener SJ]
 image: /"C:\Users\sarahjw2\Downloads\HannnahGraceOct21-2.jpg"
 alumni: False
 
