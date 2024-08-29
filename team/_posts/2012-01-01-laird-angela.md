@@ -1,26 +1,29 @@
 ---
 layout: member
-title: Angela Laird
-position: Lab Director
-handle: alaird
-nickname: Angie
-science_names: [Laird AR]
-image: /assets/images/team/angela-laird.jpg
-alumni: false
+title: Sarah Widener
+position: Ph.D. Candidate Research Scientist
+department: Crop Sciences
+handle: SWidener
+nickname: Sarah
+science_names: [Widener SW]
+image: /"C:\Users\sarahjw2\Downloads\HannnahGraceOct21-2.jpg"
+alumni: False
 
 # social
-cv: https://drive.google.com/file/d/16MklRxzRiPbzW5V2WHbcJcmUxL8p7o8K/view?usp=sharing
+cv:
 nih_biosketch:
-email: alaird@fiu.edu
-github: angielaird
-orcid: 0000-0003-3379-8744
-osf: bux4q
-figshare: https://figshare.com/authors/Angie_Laird/13123695
+email: sarahjw2@illinois.edu
+github: 
+orcid: https://orcid.org/0009-0002-1215-3269
+osf: 
+figshare:
 publons:
-researchgate: Angela_Laird
-scholar: qgU89nQAAAAJ
+researchgate: Sarah-Widener
+scholar: Jp6Wgo0AAAAJ
 site:
-twitter: phyzang
+twitter:
 ---
 
-Dr. Laird was trained as an imaging physicist, but has evolved into a cognitive neuroscientist who aims to understand the functional organization of the human brain. She develops novel data analysis algorithms, neuroscience informatics tools, and neuroimaging ontologies to yield analytic strategies for improving investigations into functional brain networks of healthy individuals, as well as in populations with psychiatric and neurologic diseases and disorders. Dr. Laird received her B.S. in Physics from Florida State University in 1998, and her Ph.D. in Physics/Medical Physics from the University of Wisconsin-Madison in 2002. She was a faculty member at the Research Imaging Institute of the University of Texas Health Science Center San Antonio (UTHSCSA) from 2004-2012, and is currently an Associate Professor in the Department of Physics at FIU. Dr. Laird was recognized as a “Rising STAR” by the University of Texas System in 2010 and as a “Top Scholar” by FIU in 2013. Her research is currently funded by awards from the National Institutes of Health and the National Science Foundation.
+Sarah Widener is a Ph.D. candidate whose research is focused on gene-environment interactions within perennial Sorghum. She is interested in genetics and statistics and has a passion for working with arid crops. After graduation, she hopes to work in regions of famine in the Middle East to improve food security.
+
+Widener received her Bachelor of Science in Plant and Soil Science from Illinois State University and a Master of Crop Science from the University of Illinois. She has work experience focused on agronomy and technology with Evergreen FS, Sunrise FS, and Bayer.
