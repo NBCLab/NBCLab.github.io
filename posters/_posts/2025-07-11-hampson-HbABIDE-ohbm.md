@@ -5,8 +5,9 @@ nickname: 2025-07-11-hampson-HbABIDE-ohbm
 authors: "Hampson CL, Peraza JA, Guerrero LM, Bottenhorn KL, Riedel MC, Almuquin F, Smith DD, Schmarder KM, Musser ED, Dai Y, Agarwal R, Saeed F, Sutherland MT, Laird AR"
 year: "2025"
 conference: "OHBM"
-image: /assets/images/posters/2025-07-11-hampson-HbABIDE-ohbm.png
-projects: ["mmmm"]
+image: /assets/images/posters/2025-07-11-hampson-HbABIDE-ohbm.pdf
+projects: ["raise"]
+
 tags: []
 
 # Content
