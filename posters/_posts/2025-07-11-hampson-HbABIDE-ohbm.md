@@ -7,7 +7,6 @@ year: "2025"
 conference: "OHBM"
 image: /assets/images/posters/2025-07-11-hampson-HbABIDE-ohbm.png
 projects: ["raise"]
-
 tags: []
 
 # Content
