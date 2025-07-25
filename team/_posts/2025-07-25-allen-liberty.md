@@ -6,7 +6,7 @@ department: Department of Psychology
 handle:
 nickname: Allen LA
 science_names:
-image: /assets/images/team/allen-liberty.jpg
+image: /assets/images/team/liberty-allen.jpg
 alumni: false
 
 # social
