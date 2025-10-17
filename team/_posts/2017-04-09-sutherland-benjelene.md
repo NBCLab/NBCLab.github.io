@@ -2,7 +2,7 @@
 layout: member
 title: Benjelene Sutherland
 position: PhD Student
-department: Psychology
+department: Department of Psychology
 handle: bsutherland
 nickname: Benji
 science_names: [Sutherland B, Sutherland BD]
