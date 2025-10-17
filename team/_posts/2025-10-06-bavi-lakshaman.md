@@ -2,7 +2,7 @@
 layout: member
 title: Bavithra Lakshmanasamy
 position: PhD student
-department: Cognitive Neuroscience
+department: Department of Psychology
 handle:
 nickname: Bavi
 science_names:

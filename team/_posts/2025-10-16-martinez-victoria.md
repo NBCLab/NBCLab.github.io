@@ -2,7 +2,7 @@
 layout: member
 title: Victoria Martinez
 position: Research Assistant
-department: Psychology
+department: Department of Psychology
 handle:
 nickname:
 science_names:

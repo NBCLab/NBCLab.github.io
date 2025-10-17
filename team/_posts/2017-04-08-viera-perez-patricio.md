@@ -8,7 +8,7 @@ handle: pvieraperez
 nickname: Patricio
 science_names: [Viera Perez PM]
 image: /assets/images/team/patricio-viera-perez.jpg
-alumni: true
+alumni: false
 
 # social
 cv: https://fiudit-my.sharepoint.com/:w:/g/personal/pvier002_fiu_edu/Ebi0K1WqyuFDiQ2LdQX4L88BjE2R0Vqo6p7iVtPgf0WPdg?e=ToSQ3U
